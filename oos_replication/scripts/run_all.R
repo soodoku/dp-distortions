@@ -3,14 +3,8 @@ source("oos_replication/scripts/metrics.R")
 dir.create("oos_replication/data", showWarnings = FALSE)
 dir.create("oos_replication/tabs", showWarnings = FALSE)
 
-files <- readr::read_csv("oos_replication/files.csv", show_col_types = FALSE)
-for (i in seq_len(nrow(files))) {
-  path <- file.path("oos_replication/data", files$file[i])
-  if (!file.exists(path)) {
-    download.file(files$url[i], path, mode = "wb", quiet = TRUE)
-  }
-  stopifnot(identical(digest::digest(file = path, algo = "sha256"), files$sha256[i]))
-}
+files <- oos_source_manifest()
+walk(files$file, oos_source_path)
 
 source("oos_replication/scripts/prepare_a1r.R")
 source("oos_replication/scripts/prepare_oboe.R")

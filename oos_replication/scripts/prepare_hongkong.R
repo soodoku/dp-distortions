@@ -1,4 +1,4 @@
-raw_hongkong <- haven::read_sav("oos_replication/data/hongkong.sav")
+raw_hongkong <- haven::read_sav(oos_source_path("hongkong.sav"))
 stopifnot(
   nrow(raw_hongkong) == 12L, !anyDuplicated(raw_hongkong$ID),
   all(table(raw_hongkong$Group) == 6L)

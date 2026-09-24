@@ -1,4 +1,4 @@
-raw_climate <- readr::read_tsv("oos_replication/data/climate.tab", show_col_types = FALSE,
+raw_climate <- readr::read_tsv(oos_source_path("climate.tab"), show_col_types = FALSE,
   col_types = readr::cols(.default = readr::col_character())
 )
 climate_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>

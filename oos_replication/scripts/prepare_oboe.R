@@ -1,4 +1,4 @@
-raw_oboe <- readr::read_tsv("oos_replication/data/oboe.tab", show_col_types = FALSE)
+raw_oboe <- readr::read_tsv(oos_source_path("oboe.tab"), show_col_types = FALSE)
 stopifnot(nrow(raw_oboe) == 2793L, !anyDuplicated(raw_oboe$oboe_w1id))
 oboe_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>
   filter(event_id == "oboe")

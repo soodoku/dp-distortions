@@ -1,7 +1,9 @@
 # Changelog
 
-## v1.2.0 - 2026-09-12
+## v1.2.0 - 2026-09-23
 
+- Read unchanged historical and OOS inputs from checksum-pinned dp-data sources;
+  retain numerical results and stop on missing or changed source files.
 - Consolidate the current analysis in `scripts/`, `tabs/`, and `figs/`.
   Preserve the historical replication under `paper-2022`.
 - Add an R out-of-sample analysis and standalone working paper with parallel
@@ -14,7 +16,7 @@
 - Document source availability and eligibility, including the public São Tomé
   replication files, whose survey responses lack discussion-group linkage.
 - Retain the original study's numerical results from v1.1.0. Validate both
-  analyses locally; no hosted CI service is required.
+  analyses locally and through GitHub Actions.
 
 ## v1.1.0 - 2026-09-10
 

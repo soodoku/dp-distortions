@@ -1,4 +1,4 @@
-raw_shizuoka <- readr::read_tsv("oos_replication/data/shizuoka.tsv", show_col_types = FALSE)
+raw_shizuoka <- readr::read_tsv(oos_source_path("shizuoka.tsv"), show_col_types = FALSE)
 shizuoka_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>
   filter(event_id == "shizuoka_2019")
 stopifnot(

@@ -1,5 +1,5 @@
-raw_consensus_1 <- haven::read_sav("oos_replication/data/consensus1.sav")
-raw_consensus_2 <- haven::read_sav("oos_replication/data/consensus2.sav")
+raw_consensus_1 <- haven::read_sav(oos_source_path("consensus1.sav"))
+raw_consensus_2 <- haven::read_sav(oos_source_path("consensus2.sav"))
 stopifnot(
   nrow(raw_consensus_1) == 116L, !anyDuplicated(raw_consensus_1$id),
   n_distinct(raw_consensus_1$group) == 28L,

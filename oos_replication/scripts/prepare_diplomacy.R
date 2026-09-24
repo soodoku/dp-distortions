@@ -1,4 +1,4 @@
-raw_diplomacy <- haven::read_sav("oos_replication/data/diplomacy3.sav")
+raw_diplomacy <- haven::read_sav(oos_source_path("diplomacy3.sav"))
 diplomacy_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>
   filter(event_id == "diplomacy")
 stopifnot(

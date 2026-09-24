@@ -1,5 +1,5 @@
 raw <- readr::read_tsv(
-  "oos_replication/data/a1r.tab", show_col_types = FALSE,
+  oos_source_path("a1r.tab"), show_col_types = FALSE,
   col_types = readr::cols(.default = readr::col_double())
 )
 stopifnot(nrow(raw) == 3842L, ncol(raw) == 150L)

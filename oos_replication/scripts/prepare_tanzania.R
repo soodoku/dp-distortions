@@ -1,5 +1,5 @@
-panel <- haven::read_dta("oos_replication/data/tanzania.dta")
-assignments <- readr::read_tsv("oos_replication/data/tanzania_groups.tab", show_col_types = FALSE)
+panel <- haven::read_dta(oos_source_path("tanzania.dta"))
+assignments <- readr::read_tsv(oos_source_path("tanzania_groups.tab"), show_col_types = FALSE)
 stopifnot(
   nrow(assignments) == 371L, !anyDuplicated(assignments$HHID),
   !anyDuplicated(panel$HHID), !anyNA(assignments),

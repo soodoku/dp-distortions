@@ -1,4 +1,4 @@
-raw_cross_party <- readRDS("oos_replication/data/cross_party.rds")
+raw_cross_party <- readRDS(oos_source_path("cross_party.rds"))
 cross_party_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>
   filter(event_id == "cross_party_2021")
 cross_party_participants <- raw_cross_party |>

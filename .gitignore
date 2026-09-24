@@ -16,3 +16,5 @@ oos_replication/*.fls
 oos_replication/*.log
 oos_replication/*.out
 oos_replication/*.synctex.gz
+
+/upstream/

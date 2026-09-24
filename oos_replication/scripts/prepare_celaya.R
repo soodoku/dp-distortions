@@ -1,4 +1,4 @@
-raw_celaya <- readr::read_csv("oos_replication/data/celaya.csv", show_col_types = FALSE,
+raw_celaya <- readr::read_csv(oos_source_path("celaya.csv"), show_col_types = FALSE,
   name_repair = "minimal", col_types = readr::cols(.default = readr::col_character())
 )
 celaya_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>

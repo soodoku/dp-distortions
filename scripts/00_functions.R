@@ -147,3 +147,13 @@ load_dp_data <- function() {
     analysis_n = nrow(dpdat)
   )
 }
+
+oos_source_manifest <- function() {
+  manifest <- read.csv(file.path(dp_project_root(), "oos_replication", "files.csv"))
+  manifest$source <- manifest$file
+  manifest
+}
+
+oos_source_path <- function(name) {
+  dp_source_path(name, manifest = oos_source_manifest())
+}

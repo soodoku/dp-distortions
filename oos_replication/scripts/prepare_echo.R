@@ -1,4 +1,4 @@
-raw_echo <- haven::read_sav("oos_replication/data/echo.sav")
+raw_echo <- haven::read_sav(oos_source_path("echo.sav"))
 echo_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>
   filter(event_id == "echo_2021")
 echo_participants <- raw_echo |>

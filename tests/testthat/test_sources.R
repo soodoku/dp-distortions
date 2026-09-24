@@ -28,3 +28,18 @@ test_that("upstream verification rejects changed, missing and ambiguous sources"
   unlink(path)
   expect_error(dp_source_path("example", root, manifest), "Missing upstream")
 })
+
+
+test_that("all OOS inputs resolve upstream and match the central catalog", {
+  manifest <- oos_source_manifest()
+  expect_equal(nrow(manifest), 24L)
+  expect_equal(anyDuplicated(manifest$file), 0L)
+  paths <- vapply(manifest$file, oos_source_path, character(1))
+  expect_true(all(file.exists(paths)))
+  root <- Sys.getenv("DP_DATA_ROOT", unset = file.path(dp_project_root(), "..", "dp-data"))
+  catalog <- read.csv(file.path(root, "metadata", "oos_sources.csv"))
+  position <- match(manifest$file, catalog$file)
+  expect_false(anyNA(position))
+  expect_identical(manifest$path, catalog$path[position])
+  expect_identical(manifest$sha256, catalog$sha256[position])
+})

@@ -1,5 +1,5 @@
 whatsapp_data <- new.env()
-load("oos_replication/data/whatsapp.RData", envir = whatsapp_data)
+load(oos_source_path("whatsapp.RData"), envir = whatsapp_data)
 raw_whatsapp <- whatsapp_data$d
 whatsapp_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE) |>
   filter(event_id == "whatsapp")

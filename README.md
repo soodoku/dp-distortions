@@ -34,7 +34,7 @@ Dependencies are declared in [DESCRIPTION](DESCRIPTION) and pinned in
 [renv.lock](renv.lock) for R 4.6.0. From the repository root:
 
 ```sh
-git clone --branch v0.2.2 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
+git clone --branch v0.2.3 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
 make restore
 make ci
 ```
@@ -47,7 +47,7 @@ values and current analysis rules; reconstructed respondent measures are not yet
 substituted.
 
 `make ci` runs local linting, the analysis, audit checks, and tests.
-It does not require a hosted CI service. To regenerate only the analysis, run
+GitHub Actions runs these checks and the OOS manuscript build. To regenerate only the analysis, run
 `make analysis` or `Rscript scripts/run_all.R`.
 
 To check the audit comparisons against the saved outputs:
@@ -73,7 +73,7 @@ previously unused Deliberative Polls and other discussion formats. Its
 The [standalone OOS study](oos_replication/paper.pdf) provides parallel tables and
 figures and a separate write-up comparing Deliberative Polls with other discussion
 designs. Run `make oos-paper` to build it; this also requires `latexmk` and LaTeX.
-Run `make oos-check` after `make restore` to download the public sources and
+Run `make oos-check` after `make restore` to read the pinned dp-data sources and
 reproduce and validate those estimates. The
 [source register](oos_replication/source_register.csv) records included studies,
 exclusions, access gaps, and candidates still being screened.

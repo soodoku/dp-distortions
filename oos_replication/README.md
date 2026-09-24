@@ -23,12 +23,15 @@ weighted identity is exact. Interpretation remains an author-review draft.
 From the repository root:
 
 ```sh
+git clone --branch v0.2.3 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
 make restore
 make oos-check
 ```
 
-This downloads the files in [files.csv](files.csv), checks their SHA-256 hashes,
-and runs the R analysis, manuscript build, numerical checks and linting. The
+This reads the upstream files pinned in [files.csv](files.csv), checks their SHA-256 hashes,
+and runs the R analysis, manuscript build, numerical checks and linting. Set
+`DP_DATA_ROOT` if dp-data is elsewhere; a source archive works too. Original
+URLs and access dates remain in the manifest and upstream source catalog. The
 manuscript requires `latexmk` and a LaTeX installation. `make oos` regenerates
 only the existing numerical results; `make oos-paper` also builds the parallel
 artifacts and PDF. A changed source file stops the run; inspect and document the
@@ -38,9 +41,9 @@ in the repository's `renv.lock`.
 `scripts/run_all.R` is the entry point. Small `prepare_*.R` files contain the
 explicit source mappings; `metrics.R` aggregates them using the original
 analysis's movement definitions. `summarize.R` produces CSVs and a `knitr::kable`
-report. Downloads and respondent/group-level intermediate RDS files stay in the
-ignored `data/` cache. Only metadata, code and compact aggregate outputs are
-versioned. Reruns overwrite `tabs/`; Git preserves earlier versions.
+report. Raw data and supporting documents live under dp-data’s `data/<study>/` paths.
+Respondent/group-level intermediate RDS files stay in the ignored local `data/`
+cache. Only metadata, code and compact aggregate outputs are versioned here. Reruns overwrite `tabs/`; Git preserves earlier versions.
 
 `paper_tables.R` adds the subgroup components by calling the original shared
 movement function, verifies every whole-group D against the existing OOS output,
@@ -380,7 +383,7 @@ One R entry point obtains version-checked sources, prepares eligible data,
 calculates outcomes, and writes tables. Source-specific transformations remain
 small, explicit R scripts; shared metric definitions stay in the original helper
 file. The source register and item dictionary document joins, codes, exclusions,
-and unresolved definitions. Downloaded files are cached, not duplicated in Git.
+and unresolved definitions. Raw files are stored once upstream and verified against downstream pins.
 
 Validate source sample counts, unique keys, documented bounds and missing codes,
 join cardinality, genuine group identity, overlap, row-order invariance, and
