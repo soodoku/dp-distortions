@@ -1,0 +1,262 @@
+panel_label,construct,x,y,pairs,correlation
+A1R 2019,policy,h,p,1854,0.38436643795187625
+A1R 2019,policy,h,d_gender,1853,0.08377085203033643
+A1R 2019,policy,h,d_education,0,NA
+A1R 2019,policy,h,d_income,0,NA
+A1R 2019,policy,h,d_combined,0,NA
+A1R 2019,policy,p,d_gender,1830,-0.023890238773528256
+A1R 2019,policy,p,d_education,0,NA
+A1R 2019,policy,p,d_income,0,NA
+A1R 2019,policy,p,d_combined,0,NA
+A1R Climate,climate_belief,h,p,418,0.5685601348388376
+A1R Climate,climate_belief,h,d_gender,404,0.1977216942836242
+A1R Climate,climate_belief,h,d_education,376,0.17649785658947928
+A1R Climate,climate_belief,h,d_income,396,0.07412347560020136
+A1R Climate,climate_belief,h,d_combined,230,0.16635937254003758
+A1R Climate,climate_belief,p,d_gender,403,0.2390161145075414
+A1R Climate,climate_belief,p,d_education,375,0.3483956145515776
+A1R Climate,climate_belief,p,d_income,395,-0.0010403412496703041
+A1R Climate,climate_belief,p,d_combined,230,0.21209998909395086
+A1R Climate,environmental_concern,h,p,310,0.33464216325383384
+A1R Climate,environmental_concern,h,d_gender,310,-0.08430141391832054
+A1R Climate,environmental_concern,h,d_education,280,-0.02744425725043627
+A1R Climate,environmental_concern,h,d_income,296,0.22992734599817316
+A1R Climate,environmental_concern,h,d_combined,175,-0.009579670866617058
+A1R Climate,environmental_concern,p,d_gender,305,0.12271820573929679
+A1R Climate,environmental_concern,p,d_education,278,0.0026409682591616236
+A1R Climate,environmental_concern,p,d_income,292,0.17279538730933972
+A1R Climate,environmental_concern,p,d_combined,174,-0.023199379858948994
+A1R Climate,policy,h,p,6686,0.421564100165529
+A1R Climate,policy,h,d_gender,6502,0.013241211510519369
+A1R Climate,policy,h,d_education,5913,0.08768734003122239
+A1R Climate,policy,h,d_income,6379,0.045087367225361996
+A1R Climate,policy,h,d_combined,3659,0.0576270296783345
+A1R Climate,policy,p,d_gender,6424,0.07156749123773924
+A1R Climate,policy,p,d_education,5848,0.08991474842057666
+A1R Climate,policy,p,d_income,6301,0.003212993880646588
+A1R Climate,policy,p,d_combined,3622,-0.011742184547892758
+Celaya,policy,h,p,53,0.18313196578143165
+Celaya,policy,h,d_gender,54,0.019252977198335502
+Celaya,policy,h,d_education,52,-0.06398984878092243
+Celaya,policy,h,d_income,53,0.044958957805648014
+Celaya,policy,h,d_combined,30,-0.10632661907090626
+Celaya,policy,p,d_gender,52,-0.12152615582974402
+Celaya,policy,p,d_education,49,0.012410664205298362
+Celaya,policy,p,d_income,50,0.21574618574405094
+Celaya,policy,p,d_combined,29,-0.18240023761484392
+Consensus: pupils,policy,h,p,0,NA
+Consensus: pupils,policy,h,d_gender,41,-0.15512528039870457
+Consensus: pupils,policy,h,d_education,0,NA
+Consensus: pupils,policy,h,d_income,0,NA
+Consensus: pupils,policy,h,d_combined,0,NA
+Consensus: pupils,policy,p,d_gender,0,NA
+Consensus: pupils,policy,p,d_education,0,NA
+Consensus: pupils,policy,p,d_income,0,NA
+Consensus: pupils,policy,p,d_combined,0,NA
+Consensus: students,policy,h,p,74,0.13195063743868382
+Consensus: students,policy,h,d_gender,24,-0.07112011688273251
+Consensus: students,policy,h,d_education,0,NA
+Consensus: students,policy,h,d_income,0,NA
+Consensus: students,policy,h,d_combined,0,NA
+Consensus: students,policy,p,d_gender,21,-0.08183107571060161
+Consensus: students,policy,p,d_education,0,NA
+Consensus: students,policy,p,d_income,0,NA
+Consensus: students,policy,p,d_combined,0,NA
+Corrected original,policy,h,p,2434,0.41826918779175104
+Corrected original,policy,h,d_gender,2433,-0.04478943953184765
+Corrected original,policy,h,d_education,2383,0.06204997594550201
+Corrected original,policy,h,d_income,1135,-0.04167633323453826
+Corrected original,policy,h,d_combined,972,0.10339833359695086
+Corrected original,policy,p,d_gender,2396,-0.09419784711966894
+Corrected original,policy,p,d_education,2351,-0.03244739751024686
+Corrected original,policy,p,d_income,1114,-0.07372546580389663
+Corrected original,policy,p,d_combined,959,-0.03746676088788245
+Diplomacy: structured,policy,h,p,22,0.09923998756450943
+Diplomacy: structured,policy,h,d_gender,17,0.14727063679067684
+Diplomacy: structured,policy,h,d_education,0,NA
+Diplomacy: structured,policy,h,d_income,0,NA
+Diplomacy: structured,policy,h,d_combined,0,NA
+Diplomacy: structured,policy,p,d_gender,13,0.4075949367088609
+Diplomacy: structured,policy,p,d_education,0,NA
+Diplomacy: structured,policy,p,d_income,0,NA
+Diplomacy: structured,policy,p,d_combined,0,NA
+Diplomacy: structured,social_judgment,h,p,5,0.008385285952366662
+Diplomacy: structured,social_judgment,h,d_gender,5,-0.9530405756678129
+Diplomacy: structured,social_judgment,h,d_education,0,NA
+Diplomacy: structured,social_judgment,h,d_income,0,NA
+Diplomacy: structured,social_judgment,h,d_combined,0,NA
+Diplomacy: structured,social_judgment,p,d_gender,2,NA
+Diplomacy: structured,social_judgment,p,d_education,0,NA
+Diplomacy: structured,social_judgment,p,d_income,0,NA
+Diplomacy: structured,social_judgment,p,d_combined,0,NA
+Diplomacy: unstructured,policy,h,p,22,0.6863042151965361
+Diplomacy: unstructured,policy,h,d_gender,17,-0.6932971706078597
+Diplomacy: unstructured,policy,h,d_education,0,NA
+Diplomacy: unstructured,policy,h,d_income,0,NA
+Diplomacy: unstructured,policy,h,d_combined,0,NA
+Diplomacy: unstructured,policy,p,d_gender,14,-0.8343519944775742
+Diplomacy: unstructured,policy,p,d_education,0,NA
+Diplomacy: unstructured,policy,p,d_income,0,NA
+Diplomacy: unstructured,policy,p,d_combined,0,NA
+Diplomacy: unstructured,social_judgment,h,p,4,0.6324555320336757
+Diplomacy: unstructured,social_judgment,h,d_gender,3,-0.8718270746454585
+Diplomacy: unstructured,social_judgment,h,d_education,0,NA
+Diplomacy: unstructured,social_judgment,h,d_income,0,NA
+Diplomacy: unstructured,social_judgment,h,d_combined,0,NA
+Diplomacy: unstructured,social_judgment,p,d_gender,2,NA
+Diplomacy: unstructured,social_judgment,p,d_education,0,NA
+Diplomacy: unstructured,social_judgment,p,d_income,0,NA
+Diplomacy: unstructured,social_judgment,p,d_combined,0,NA
+Hong Kong: casual,policy,h,p,0,NA
+Hong Kong: casual,policy,h,d_gender,0,NA
+Hong Kong: casual,policy,h,d_education,0,NA
+Hong Kong: casual,policy,h,d_income,0,NA
+Hong Kong: casual,policy,h,d_combined,0,NA
+Hong Kong: casual,policy,p,d_gender,0,NA
+Hong Kong: casual,policy,p,d_education,0,NA
+Hong Kong: casual,policy,p,d_income,0,NA
+Hong Kong: casual,policy,p,d_combined,0,NA
+Hong Kong: facilitated,policy,h,p,1,NA
+Hong Kong: facilitated,policy,h,d_gender,0,NA
+Hong Kong: facilitated,policy,h,d_education,0,NA
+Hong Kong: facilitated,policy,h,d_income,0,NA
+Hong Kong: facilitated,policy,h,d_combined,0,NA
+Hong Kong: facilitated,policy,p,d_gender,0,NA
+Hong Kong: facilitated,policy,p,d_education,0,NA
+Hong Kong: facilitated,policy,p,d_income,0,NA
+Hong Kong: facilitated,policy,p,d_combined,0,NA
+"Our Budget, Our Economy",policy,h,p,1780,0.48612399106319165
+"Our Budget, Our Economy",policy,h,d_gender,969,-0.002336996428876688
+"Our Budget, Our Economy",policy,h,d_education,1493,0.07854010999283022
+"Our Budget, Our Economy",policy,h,d_income,1486,0.013623821279765629
+"Our Budget, Our Economy",policy,h,d_combined,397,0.0550842856720363
+"Our Budget, Our Economy",policy,p,d_gender,898,-0.07939324154911824
+"Our Budget, Our Economy",policy,p,d_education,1397,0.12577330113160123
+"Our Budget, Our Economy",policy,p,d_income,1375,-0.013623567040929808
+"Our Budget, Our Economy",policy,p,d_combined,369,0.11803716492221898
+Shizuoka,belief,h,p,7,0.39381688554290545
+Shizuoka,belief,h,d_gender,5,-0.8789880979231915
+Shizuoka,belief,h,d_education,8,-0.6100852329569345
+Shizuoka,belief,h,d_income,0,NA
+Shizuoka,belief,h,d_combined,0,NA
+Shizuoka,belief,p,d_gender,5,-0.40408052168465775
+Shizuoka,belief,p,d_education,7,-0.8479747503734792
+Shizuoka,belief,p,d_income,0,NA
+Shizuoka,belief,p,d_combined,0,NA
+Shizuoka,policy,h,p,78,0.5860758975119094
+Shizuoka,policy,h,d_gender,57,-0.11359592892897677
+Shizuoka,policy,h,d_education,75,-0.011936156575949465
+Shizuoka,policy,h,d_income,0,NA
+Shizuoka,policy,h,d_combined,0,NA
+Shizuoka,policy,p,d_gender,56,-0.1112473285389971
+Shizuoka,policy,p,d_education,73,0.008555880544683947
+Shizuoka,policy,p,d_income,0,NA
+Shizuoka,policy,p,d_combined,0,NA
+Tanzania,policy,h,p,520,0.494485442845094
+Tanzania,policy,h,d_gender,517,0.07313432942972363
+Tanzania,policy,h,d_education,0,NA
+Tanzania,policy,h,d_income,0,NA
+Tanzania,policy,h,d_combined,0,NA
+Tanzania,policy,p,d_gender,512,0.11350684941214453
+Tanzania,policy,p,d_education,0,NA
+Tanzania,policy,p,d_income,0,NA
+Tanzania,policy,p,d_combined,0,NA
+UK: mixed-party,policy,h,p,149,0.25692382984130924
+UK: mixed-party,policy,h,d_gender,156,0.08415151180087918
+UK: mixed-party,policy,h,d_education,0,NA
+UK: mixed-party,policy,h,d_income,0,NA
+UK: mixed-party,policy,h,d_combined,0,NA
+UK: mixed-party,policy,p,d_gender,145,-0.06644155562490746
+UK: mixed-party,policy,p,d_education,0,NA
+UK: mixed-party,policy,p,d_income,0,NA
+UK: mixed-party,policy,p,d_combined,0,NA
+UK: same-party,policy,h,p,188,0.6509518700229276
+UK: same-party,policy,h,d_gender,162,-0.14551180768279842
+UK: same-party,policy,h,d_education,0,NA
+UK: same-party,policy,h,d_income,0,NA
+UK: same-party,policy,h,d_combined,0,NA
+UK: same-party,policy,p,d_gender,162,-0.3511777679669607
+UK: same-party,policy,p,d_education,0,NA
+UK: same-party,policy,p,d_income,0,NA
+UK: same-party,policy,p,d_combined,0,NA
+US cross-party conversation,affect,h,p,1248,0.09402156014835485
+US cross-party conversation,affect,h,d_gender,624,-0.040316403986419405
+US cross-party conversation,affect,h,d_education,0,NA
+US cross-party conversation,affect,h,d_income,0,NA
+US cross-party conversation,affect,h,d_combined,0,NA
+US cross-party conversation,affect,p,d_gender,595,-0.1108964770291954
+US cross-party conversation,affect,p,d_education,0,NA
+US cross-party conversation,affect,p,d_income,0,NA
+US cross-party conversation,affect,p,d_combined,0,NA
+WhatsApp: gen_HH,affect,h,p,695,0.09380953920348754
+WhatsApp: gen_HH,affect,h,d_gender,0,NA
+WhatsApp: gen_HH,affect,h,d_education,201,0.08340157491726398
+WhatsApp: gen_HH,affect,h,d_income,362,0.19751700527611213
+WhatsApp: gen_HH,affect,h,d_combined,94,-0.0733760356937094
+WhatsApp: gen_HH,affect,p,d_gender,0,NA
+WhatsApp: gen_HH,affect,p,d_education,169,0.28329519340691556
+WhatsApp: gen_HH,affect,p,d_income,324,-0.025700270266573254
+WhatsApp: gen_HH,affect,p,d_combined,76,0.28210161686462065
+WhatsApp: gen_HH,stereotype_judgment,h,p,0,NA
+WhatsApp: gen_HH,stereotype_judgment,h,d_gender,0,NA
+WhatsApp: gen_HH,stereotype_judgment,h,d_education,158,0.05107722034436474
+WhatsApp: gen_HH,stereotype_judgment,h,d_income,295,0.010343469696997079
+WhatsApp: gen_HH,stereotype_judgment,h,d_combined,68,-0.2383365579529409
+WhatsApp: gen_HH,stereotype_judgment,p,d_gender,0,NA
+WhatsApp: gen_HH,stereotype_judgment,p,d_education,0,NA
+WhatsApp: gen_HH,stereotype_judgment,p,d_income,0,NA
+WhatsApp: gen_HH,stereotype_judgment,p,d_combined,0,NA
+WhatsApp: gen_HM,affect,h,p,575,0.13444181709171035
+WhatsApp: gen_HM,affect,h,d_gender,0,NA
+WhatsApp: gen_HM,affect,h,d_education,146,0.15641594595530012
+WhatsApp: gen_HM,affect,h,d_income,303,0.12470044871012047
+WhatsApp: gen_HM,affect,h,d_combined,97,0.17321460854114076
+WhatsApp: gen_HM,affect,p,d_gender,0,NA
+WhatsApp: gen_HM,affect,p,d_education,121,0.1691014711981852
+WhatsApp: gen_HM,affect,p,d_income,269,-0.19733410263344175
+WhatsApp: gen_HM,affect,p,d_combined,91,-0.19810216966962554
+WhatsApp: gen_HM,stereotype_judgment,h,p,0,NA
+WhatsApp: gen_HM,stereotype_judgment,h,d_gender,0,NA
+WhatsApp: gen_HM,stereotype_judgment,h,d_education,129,0.06334163415171305
+WhatsApp: gen_HM,stereotype_judgment,h,d_income,251,0.08128306836178031
+WhatsApp: gen_HM,stereotype_judgment,h,d_combined,99,-0.12876118058935176
+WhatsApp: gen_HM,stereotype_judgment,p,d_gender,0,NA
+WhatsApp: gen_HM,stereotype_judgment,p,d_education,0,NA
+WhatsApp: gen_HM,stereotype_judgment,p,d_income,0,NA
+WhatsApp: gen_HM,stereotype_judgment,p,d_combined,0,NA
+WhatsApp: igr_HH,affect,h,p,649,0.16001993085376684
+WhatsApp: igr_HH,affect,h,d_gender,0,NA
+WhatsApp: igr_HH,affect,h,d_education,89,0.02637454451365824
+WhatsApp: igr_HH,affect,h,d_income,281,0.1402168398411882
+WhatsApp: igr_HH,affect,h,d_combined,16,-0.057573434864345616
+WhatsApp: igr_HH,affect,p,d_gender,0,NA
+WhatsApp: igr_HH,affect,p,d_education,81,-0.2564845520624756
+WhatsApp: igr_HH,affect,p,d_income,238,0.37528228316338147
+WhatsApp: igr_HH,affect,p,d_combined,16,0.7517848542577159
+WhatsApp: igr_HH,stereotype_judgment,h,p,0,NA
+WhatsApp: igr_HH,stereotype_judgment,h,d_gender,0,NA
+WhatsApp: igr_HH,stereotype_judgment,h,d_education,71,-0.1844783532936128
+WhatsApp: igr_HH,stereotype_judgment,h,d_income,235,-0.1718462232785681
+WhatsApp: igr_HH,stereotype_judgment,h,d_combined,12,-0.05581455721859473
+WhatsApp: igr_HH,stereotype_judgment,p,d_gender,0,NA
+WhatsApp: igr_HH,stereotype_judgment,p,d_education,0,NA
+WhatsApp: igr_HH,stereotype_judgment,p,d_income,0,NA
+WhatsApp: igr_HH,stereotype_judgment,p,d_combined,0,NA
+WhatsApp: igr_HM,affect,h,p,590,0.19906571493476688
+WhatsApp: igr_HM,affect,h,d_gender,0,NA
+WhatsApp: igr_HM,affect,h,d_education,144,0.1504256884057099
+WhatsApp: igr_HM,affect,h,d_income,240,0.07708074363542367
+WhatsApp: igr_HM,affect,h,d_combined,52,0.10127370973218147
+WhatsApp: igr_HM,affect,p,d_gender,0,NA
+WhatsApp: igr_HM,affect,p,d_education,120,-0.07239332670508389
+WhatsApp: igr_HM,affect,p,d_income,204,-0.11665203948293265
+WhatsApp: igr_HM,affect,p,d_combined,43,-0.28346538192744586
+WhatsApp: igr_HM,stereotype_judgment,h,p,0,NA
+WhatsApp: igr_HM,stereotype_judgment,h,d_gender,0,NA
+WhatsApp: igr_HM,stereotype_judgment,h,d_education,126,0.12293000797027229
+WhatsApp: igr_HM,stereotype_judgment,h,d_income,184,-0.07508274202448081
+WhatsApp: igr_HM,stereotype_judgment,h,d_combined,47,0.14033877140886108
+WhatsApp: igr_HM,stereotype_judgment,p,d_gender,0,NA
+WhatsApp: igr_HM,stereotype_judgment,p,d_education,0,NA
+WhatsApp: igr_HM,stereotype_judgment,p,d_income,0,NA
+WhatsApp: igr_HM,stereotype_judgment,p,d_combined,0,NA

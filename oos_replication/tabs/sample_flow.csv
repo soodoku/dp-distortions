@@ -1,0 +1,45 @@
+event_id,starting_rows,eligible_participants,groups,items,note
+a1r_2019,3842,523,40,47,"523 delegates with POST=1 and GROUP observed; 3 other GROUP-assigned rows lack POST completion. Participant ID is a source row identifier, not a cross-study ID."
+oboe_1,93,87,10,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_24,44,43,7,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_16,193,185,26,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_20,334,330,40,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_10,60,60,7,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_5,376,371,38,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_21,309,304,37,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_6,58,58,9,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_11,64,62,8,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_17,21,21,4,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_13,48,48,7,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_8,90,89,10,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_14,57,56,7,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_7,81,81,9,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_19,294,291,41,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_18,402,398,50,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_15,107,106,10,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_22,75,74,10,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+oboe_27,87,87,9,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
+hongkong_deliberation,6,6,1,1,Study 1 actual discussion groups; study 2 video viewers excluded.
+hongkong_discussion,6,6,1,1,Study 1 actual discussion groups; study 2 video viewers excluded.
+tanzania_2015,2225,371,50,21,"371 released group assignments: 370 flagged zdelib=1; one flag missing. 31 further zdelib=1 citizens lack group assignments and cannot enter. 25 groups per round, same people reassigned; 50 group-episodes, one family. H26 omitted: appendix says seven categories, released labels specify five."
+a1r_climate_2021,8814,962,105,72,ROOM crossed with schedule option; 139 attendees also participated in A1R2019. 65 policy items plus 3 concern and 4 belief items in separate outcome strata.
+celaya_2,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+celaya_4,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+celaya_5,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+celaya_7,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+celaya_10,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+celaya_12,14,14,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+celaya_13,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
+echo_mixed,311,308,40,4,"Exclude 3 missing keys, 1 inconsistent key/date and 1 contradictory control-size flag across discussion arms; retain valid two-person group. Source row IDs."
+echo_con,127,127,18,4,"Exclude 3 missing keys, 1 inconsistent key/date and 1 contradictory control-size flag across discussion arms; retain valid two-person group. Source row IDs."
+echo_lab,220,218,29,4,"Exclude 3 missing keys, 1 inconsistent key/date and 1 contradictory control-size flag across discussion arms; retain valid two-person group. Source row IDs."
+whatsapp_gen_HH,200,200,100,18,Political/intergroup prompts: 712 of 1070 conversation completers; exclude 358 nonpolitical-prompt participants. Retain missing post ratings.
+whatsapp_igr_HH,186,186,93,18,Political/intergroup prompts: 712 of 1070 conversation completers; exclude 358 nonpolitical-prompt participants. Retain missing post ratings.
+whatsapp_gen_HM,160,160,80,18,Political/intergroup prompts: 712 of 1070 conversation completers; exclude 358 nonpolitical-prompt participants. Retain missing post ratings.
+whatsapp_igr_HM,166,166,83,18,Political/intergroup prompts: 712 of 1070 conversation completers; exclude 358 nonpolitical-prompt participants. Retain missing post ratings.
+cross_party_2021,3483,294,147,9,516 discussion-assigned; 294 participants in 147 partnerships where both completed the chat (author full_cluster flag). Missing transcripts do not trigger exclusion.
+consensus_1,116,116,28,2,Study1 uses unique id rather than nonunique ppnr; released sample already excludes four non-native-Dutch-containing groups. Study2 uses group crossed with ppnr.
+consensus_2,136,136,41,2,Study1 uses unique id rather than nonunique ppnr; released sample already excludes four non-native-Dutch-containing groups. Study2 uses group crossed with ppnr.
+diplomacy_control,105,105,35,10,The same 105 people in 35 triads discuss two selected topics under opposite condition orders. Policy and social judgments are separate constructs.
+diplomacy_experimental,105,105,35,10,The same 105 people in 35 triads discuss two selected topics under opposite condition orders. Policy and social judgments are separate constructs.
+shizuoka_2019,65,65,8,11,Released face-to-face sample; source-row IDs; T2 before and T3 after discussion.

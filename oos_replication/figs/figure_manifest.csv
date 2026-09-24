@@ -1,0 +1,201 @@
+study_label,panel_label,metric,pairs,figure,split_label
+A1R 2019,A1R 2019,Homogenization,1880,dp_distributions.pdf,NA
+A1R 2019,A1R 2019,Directional polarization,1857,dp_distributions.pdf,NA
+A1R 2019,A1R 2019,Domination: gender,1858,dp_distributions.pdf,NA
+A1R Climate,A1R Climate,Homogenization,6786,dp_distributions.pdf,NA
+A1R Climate,A1R Climate,Directional polarization,6730,dp_distributions.pdf,NA
+A1R Climate,A1R Climate,Domination: gender,6531,dp_distributions.pdf,NA
+A1R Climate,A1R Climate,Domination: education,5950,dp_distributions.pdf,NA
+A1R Climate,A1R Climate,Domination: income,6405,dp_distributions.pdf,NA
+A1R Climate,A1R Climate,Domination: combined,3682,dp_distributions.pdf,NA
+Tanzania,Tanzania,Homogenization,525,dp_distributions.pdf,NA
+Tanzania,Tanzania,Directional polarization,519,dp_distributions.pdf,NA
+Tanzania,Tanzania,Domination: gender,517,dp_distributions.pdf,NA
+Celaya,Celaya,Homogenization,56,extension_distributions.pdf,NA
+Celaya,Celaya,Directional polarization,53,extension_distributions.pdf,NA
+Celaya,Celaya,Domination: gender,54,extension_distributions.pdf,NA
+Celaya,Celaya,Domination: education,52,extension_distributions.pdf,NA
+Celaya,Celaya,Domination: income,53,extension_distributions.pdf,NA
+Celaya,Celaya,Domination: combined,30,extension_distributions.pdf,NA
+Consensus: pupils,Consensus: pupils,Homogenization,56,extension_distributions.pdf,NA
+Consensus: pupils,Consensus: pupils,Domination: gender,41,extension_distributions.pdf,NA
+Consensus: students,Consensus: students,Homogenization,82,extension_distributions.pdf,NA
+Consensus: students,Consensus: students,Directional polarization,74,extension_distributions.pdf,NA
+Consensus: students,Consensus: students,Domination: gender,24,extension_distributions.pdf,NA
+Diplomacy lab,Diplomacy: structured,Homogenization,27,extension_distributions.pdf,NA
+Diplomacy lab,Diplomacy: structured,Directional polarization,22,extension_distributions.pdf,NA
+Diplomacy lab,Diplomacy: structured,Domination: gender,17,extension_distributions.pdf,NA
+Diplomacy lab,Diplomacy: unstructured,Homogenization,28,extension_distributions.pdf,NA
+Diplomacy lab,Diplomacy: unstructured,Directional polarization,22,extension_distributions.pdf,NA
+Diplomacy lab,Diplomacy: unstructured,Domination: gender,17,extension_distributions.pdf,NA
+Hong Kong,Hong Kong: casual,Homogenization,1,extension_distributions.pdf,NA
+Hong Kong,Hong Kong: facilitated,Homogenization,1,extension_distributions.pdf,NA
+Hong Kong,Hong Kong: facilitated,Directional polarization,1,extension_distributions.pdf,NA
+"Our Budget, Our Economy","Our Budget, Our Economy",Homogenization,1937,extension_distributions.pdf,NA
+"Our Budget, Our Economy","Our Budget, Our Economy",Directional polarization,1827,extension_distributions.pdf,NA
+"Our Budget, Our Economy","Our Budget, Our Economy",Domination: gender,969,extension_distributions.pdf,NA
+"Our Budget, Our Economy","Our Budget, Our Economy",Domination: education,1493,extension_distributions.pdf,NA
+"Our Budget, Our Economy","Our Budget, Our Economy",Domination: income,1486,extension_distributions.pdf,NA
+"Our Budget, Our Economy","Our Budget, Our Economy",Domination: combined,397,extension_distributions.pdf,NA
+Shizuoka,Shizuoka,Homogenization,80,extension_distributions.pdf,NA
+Shizuoka,Shizuoka,Directional polarization,78,extension_distributions.pdf,NA
+Shizuoka,Shizuoka,Domination: gender,57,extension_distributions.pdf,NA
+Shizuoka,Shizuoka,Domination: education,75,extension_distributions.pdf,NA
+UK partisan discussion,UK: mixed-party,Homogenization,160,extension_distributions.pdf,NA
+UK partisan discussion,UK: mixed-party,Directional polarization,149,extension_distributions.pdf,NA
+UK partisan discussion,UK: mixed-party,Domination: gender,156,extension_distributions.pdf,NA
+UK partisan discussion,UK: same-party,Homogenization,188,extension_distributions.pdf,NA
+UK partisan discussion,UK: same-party,Directional polarization,188,extension_distributions.pdf,NA
+UK partisan discussion,UK: same-party,Domination: gender,162,extension_distributions.pdf,NA
+NA,Corrected original,Homogenization,2480,means_policy.pdf,NA
+NA,Corrected original,Directional polarization,2434,means_policy.pdf,NA
+NA,Corrected original,Domination: gender,2433,means_policy.pdf,NA
+NA,Corrected original,Domination: education,2383,means_policy.pdf,NA
+NA,Corrected original,Domination: income,1135,means_policy.pdf,NA
+NA,Corrected original,Domination: combined,972,means_policy.pdf,NA
+NA,"Our Budget, Our Economy",Homogenization,1937,means_policy.pdf,NA
+NA,"Our Budget, Our Economy",Directional polarization,1827,means_policy.pdf,NA
+NA,"Our Budget, Our Economy",Domination: gender,969,means_policy.pdf,NA
+NA,"Our Budget, Our Economy",Domination: education,1493,means_policy.pdf,NA
+NA,"Our Budget, Our Economy",Domination: income,1486,means_policy.pdf,NA
+NA,"Our Budget, Our Economy",Domination: combined,397,means_policy.pdf,NA
+NA,Hong Kong: facilitated,Homogenization,1,means_policy.pdf,NA
+NA,Hong Kong: facilitated,Directional polarization,1,means_policy.pdf,NA
+NA,Hong Kong: casual,Homogenization,1,means_policy.pdf,NA
+NA,Celaya,Homogenization,56,means_policy.pdf,NA
+NA,Celaya,Directional polarization,53,means_policy.pdf,NA
+NA,Celaya,Domination: gender,54,means_policy.pdf,NA
+NA,Celaya,Domination: education,52,means_policy.pdf,NA
+NA,Celaya,Domination: income,53,means_policy.pdf,NA
+NA,Celaya,Domination: combined,30,means_policy.pdf,NA
+NA,UK: same-party,Homogenization,188,means_policy.pdf,NA
+NA,UK: same-party,Directional polarization,188,means_policy.pdf,NA
+NA,UK: same-party,Domination: gender,162,means_policy.pdf,NA
+NA,UK: mixed-party,Homogenization,160,means_policy.pdf,NA
+NA,UK: mixed-party,Directional polarization,149,means_policy.pdf,NA
+NA,UK: mixed-party,Domination: gender,156,means_policy.pdf,NA
+NA,Consensus: pupils,Homogenization,56,means_policy.pdf,NA
+NA,Consensus: pupils,Domination: gender,41,means_policy.pdf,NA
+NA,Consensus: students,Homogenization,82,means_policy.pdf,NA
+NA,Consensus: students,Directional polarization,74,means_policy.pdf,NA
+NA,Consensus: students,Domination: gender,24,means_policy.pdf,NA
+NA,Diplomacy: structured,Homogenization,27,means_policy.pdf,NA
+NA,Diplomacy: structured,Directional polarization,22,means_policy.pdf,NA
+NA,Diplomacy: structured,Domination: gender,17,means_policy.pdf,NA
+NA,Diplomacy: unstructured,Homogenization,28,means_policy.pdf,NA
+NA,Diplomacy: unstructured,Directional polarization,22,means_policy.pdf,NA
+NA,Diplomacy: unstructured,Domination: gender,17,means_policy.pdf,NA
+NA,Shizuoka,Homogenization,80,means_policy.pdf,NA
+NA,Shizuoka,Directional polarization,78,means_policy.pdf,NA
+NA,Shizuoka,Domination: gender,57,means_policy.pdf,NA
+NA,Shizuoka,Domination: education,75,means_policy.pdf,NA
+NA,A1R Climate,Homogenization,419,means_climate_belief.pdf,NA
+NA,A1R Climate,Directional polarization,419,means_climate_belief.pdf,NA
+NA,A1R Climate,Domination: gender,404,means_climate_belief.pdf,NA
+NA,A1R Climate,Domination: education,376,means_climate_belief.pdf,NA
+NA,A1R Climate,Domination: income,396,means_climate_belief.pdf,NA
+NA,A1R Climate,Domination: combined,230,means_climate_belief.pdf,NA
+NA,A1R Climate,Homogenization,315,means_environmental_concern.pdf,NA
+NA,A1R Climate,Directional polarization,310,means_environmental_concern.pdf,NA
+NA,A1R Climate,Domination: gender,310,means_environmental_concern.pdf,NA
+NA,A1R Climate,Domination: education,280,means_environmental_concern.pdf,NA
+NA,A1R Climate,Domination: income,296,means_environmental_concern.pdf,NA
+NA,A1R Climate,Domination: combined,175,means_environmental_concern.pdf,NA
+NA,WhatsApp: gen_HH,Homogenization,940,means_affect.pdf,NA
+NA,WhatsApp: gen_HH,Directional polarization,714,means_affect.pdf,NA
+NA,WhatsApp: gen_HH,Domination: education,201,means_affect.pdf,NA
+NA,WhatsApp: gen_HH,Domination: income,362,means_affect.pdf,NA
+NA,WhatsApp: gen_HH,Domination: combined,94,means_affect.pdf,NA
+NA,WhatsApp: gen_HM,Homogenization,740,means_affect.pdf,NA
+NA,WhatsApp: gen_HM,Directional polarization,619,means_affect.pdf,NA
+NA,WhatsApp: gen_HM,Domination: education,146,means_affect.pdf,NA
+NA,WhatsApp: gen_HM,Domination: income,303,means_affect.pdf,NA
+NA,WhatsApp: gen_HM,Domination: combined,97,means_affect.pdf,NA
+NA,WhatsApp: igr_HH,Homogenization,870,means_affect.pdf,NA
+NA,WhatsApp: igr_HH,Directional polarization,680,means_affect.pdf,NA
+NA,WhatsApp: igr_HH,Domination: education,89,means_affect.pdf,NA
+NA,WhatsApp: igr_HH,Domination: income,281,means_affect.pdf,NA
+NA,WhatsApp: igr_HH,Domination: combined,16,means_affect.pdf,NA
+NA,WhatsApp: igr_HM,Homogenization,750,means_affect.pdf,NA
+NA,WhatsApp: igr_HM,Directional polarization,640,means_affect.pdf,NA
+NA,WhatsApp: igr_HM,Domination: education,144,means_affect.pdf,NA
+NA,WhatsApp: igr_HM,Domination: income,240,means_affect.pdf,NA
+NA,WhatsApp: igr_HM,Domination: combined,52,means_affect.pdf,NA
+NA,US cross-party conversation,Homogenization,1323,means_affect.pdf,NA
+NA,US cross-party conversation,Directional polarization,1248,means_affect.pdf,NA
+NA,US cross-party conversation,Domination: gender,624,means_affect.pdf,NA
+NA,WhatsApp: gen_HH,Homogenization,760,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HH,Domination: education,158,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HH,Domination: income,295,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HH,Domination: combined,68,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HM,Homogenization,600,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HM,Domination: education,129,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HM,Domination: income,251,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: gen_HM,Domination: combined,99,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HH,Homogenization,696,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HH,Domination: education,71,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HH,Domination: income,235,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HH,Domination: combined,12,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HM,Homogenization,600,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HM,Domination: education,126,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HM,Domination: income,184,means_stereotype_judgment.pdf,NA
+NA,WhatsApp: igr_HM,Domination: combined,47,means_stereotype_judgment.pdf,NA
+NA,Diplomacy: structured,Homogenization,8,means_social_judgment.pdf,NA
+NA,Diplomacy: structured,Directional polarization,5,means_social_judgment.pdf,NA
+NA,Diplomacy: structured,Domination: gender,5,means_social_judgment.pdf,NA
+NA,Diplomacy: unstructured,Homogenization,7,means_social_judgment.pdf,NA
+NA,Diplomacy: unstructured,Directional polarization,4,means_social_judgment.pdf,NA
+NA,Diplomacy: unstructured,Domination: gender,3,means_social_judgment.pdf,NA
+NA,Shizuoka,Homogenization,8,means_belief.pdf,NA
+NA,Shizuoka,Directional polarization,7,means_belief.pdf,NA
+NA,Shizuoka,Domination: gender,5,means_belief.pdf,NA
+NA,Shizuoka,Domination: education,8,means_belief.pdf,NA
+NA,Corrected original,p,2434,polarization_definitions.pdf,NA
+NA,Corrected original,p_absolute,2480,polarization_definitions.pdf,NA
+NA,A1R 2019,p,1854,polarization_definitions.pdf,NA
+NA,A1R 2019,p_absolute,1880,polarization_definitions.pdf,NA
+NA,"Our Budget, Our Economy",p,1827,polarization_definitions.pdf,NA
+NA,"Our Budget, Our Economy",p_absolute,1986,polarization_definitions.pdf,NA
+NA,Hong Kong: facilitated,p,1,polarization_definitions.pdf,NA
+NA,Hong Kong: facilitated,p_absolute,1,polarization_definitions.pdf,NA
+NA,Hong Kong: casual,p_absolute,1,polarization_definitions.pdf,NA
+NA,Tanzania,p,520,polarization_definitions.pdf,NA
+NA,Tanzania,p_absolute,525,polarization_definitions.pdf,NA
+NA,A1R Climate,p,6726,polarization_definitions.pdf,NA
+NA,A1R Climate,p_absolute,6825,polarization_definitions.pdf,NA
+NA,Celaya,p,53,polarization_definitions.pdf,NA
+NA,Celaya,p_absolute,56,polarization_definitions.pdf,NA
+NA,UK: same-party,p,188,polarization_definitions.pdf,NA
+NA,UK: same-party,p_absolute,188,polarization_definitions.pdf,NA
+NA,UK: mixed-party,p,149,polarization_definitions.pdf,NA
+NA,UK: mixed-party,p_absolute,160,polarization_definitions.pdf,NA
+NA,Consensus: students,p,74,polarization_definitions.pdf,NA
+NA,Consensus: students,p_absolute,82,polarization_definitions.pdf,NA
+NA,Diplomacy: structured,p,22,polarization_definitions.pdf,NA
+NA,Diplomacy: structured,p_absolute,27,polarization_definitions.pdf,NA
+NA,Diplomacy: unstructured,p,22,polarization_definitions.pdf,NA
+NA,Diplomacy: unstructured,p_absolute,28,polarization_definitions.pdf,NA
+NA,Shizuoka,p,78,polarization_definitions.pdf,NA
+NA,Shizuoka,p_absolute,80,polarization_definitions.pdf,NA
+NA,NA,Homogenization,4673,distributions_mode.pdf,Face-to-face
+NA,NA,Directional polarization,4451,distributions_mode.pdf,Face-to-face
+NA,NA,Domination: gender,3549,distributions_mode.pdf,Face-to-face
+NA,NA,Domination: education,1620,distributions_mode.pdf,Face-to-face
+NA,NA,Domination: income,1539,distributions_mode.pdf,Face-to-face
+NA,NA,Domination: combined,427,distributions_mode.pdf,Face-to-face
+NA,NA,Homogenization,7132,distributions_mode.pdf,Online
+NA,NA,Directional polarization,7063,distributions_mode.pdf,Online
+NA,NA,Domination: gender,6820,distributions_mode.pdf,Online
+NA,NA,Domination: education,5913,distributions_mode.pdf,Online
+NA,NA,Domination: income,6379,distributions_mode.pdf,Online
+NA,NA,Domination: combined,3659,distributions_mode.pdf,Online
+NA,NA,Homogenization,800,distributions_region.pdf,Other countries
+NA,NA,Directional polarization,717,distributions_region.pdf,Other countries
+NA,NA,Domination: gender,673,distributions_region.pdf,Other countries
+NA,NA,Domination: education,75,distributions_region.pdf,Other countries
+NA,NA,Homogenization,11005,distributions_region.pdf,US / UK
+NA,NA,Directional polarization,10797,distributions_region.pdf,US / UK
+NA,NA,Domination: gender,9696,distributions_region.pdf,US / UK
+NA,NA,Domination: education,7458,distributions_region.pdf,US / UK
+NA,NA,Domination: income,7918,distributions_region.pdf,US / UK
+NA,NA,Domination: combined,4086,distributions_region.pdf,US / UK

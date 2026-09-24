@@ -1,98 +1,92 @@
 ## Replication Data and Scripts for Deliberative Distortions
 
-Paper: https://doi.org/10.1017/S0007123421000168 (BJPS 52(3): 1205-1225); [preprint](http://gsood.com/research/papers/DeliberativeDistortions.pdf)
+Paper: [BJPS article](https://doi.org/10.1017/S0007123421000168);
+[preprint](http://gsood.com/research/papers/DeliberativeDistortions.pdf).
 
-### Correction note
+### Versions
 
-The published domination results do not implement Equation 3 consistently.
-The analysis also uses stale policy-index counts as weights, conflates an
-undefined domination direction with zero movement, duplicates 217 participant
-records, and reports an uncertainty procedure that the code does not run.
+The [`paper-2022` tag](https://github.com/soodoku/distortions/tree/paper-2022)
+preserves the historical replication at commit `497d2ae`. Its scripts, tables,
+figures, and data are identical to the original files preserved through v1.1.0.
+The audit documents discrepancies between those files and some published statements.
 
-The revised pipeline in [clean/](clean/) fixes these defects at their shared
-sources. It analyzes 5,867 retained participant records, 397 groups, 129 policy
-indices, and 2,480 group-index pairs. [AUDIT.md](AUDIT.md) explains numerical
-corrections, interpretation, and alternative sample and weighting choices. Claim, value, and
-artifact ledgers are in [provenance/](provenance/).
+The working tree contains the current analysis: `scripts/` writes tables to
+`tabs/` and figures to `figs/`. Earlier versions remain available through Git;
+there is one set of current scripts and outputs.
 
-Poll-clustered CR2 with Satterthwaite inference is primary; the wild cluster
-bootstrap is a sensitivity analysis. Available responses at each wave remain
-the primary sample. The [paired-response comparison](tabs_clean/09_paired_response_sensitivity.csv),
-[frequency comparisons](tabs_clean/09_frequency_comparison.csv), and
-[attitude-change weights](tabs_clean/05_attitude_change_weighting.csv) show the
-effects of alternative choices without replacing the primary results.
+### Analysis
 
-The original `scripts/`, `tabs/`, and `figs/` remain unchanged. They preserve
-the provenance of the journal results and are not the source for corrected
-estimates.
+The current analysis implements Equation 3 consistently, uses valid group-issue
+pairs in aggregation, and removes 217 duplicated participant records. It analyzes
+5,867 retained records, 397 groups, 129 policy indices, and 2,480 group-issue pairs.
+[AUDIT.md](AUDIT.md) reports numerical changes, their interpretation, and the
+consequences of alternative sample and weighting choices.
 
-### Reproducibility
+Poll-clustered CR2 with Satterthwaite inference is primary. Available responses at
+each wave remain the primary sample. The
+[paired-response comparison](tabs/09_paired_response_sensitivity.csv),
+[frequency comparisons](tabs/09_frequency_comparison.csv), and
+[attitude-change weights](tabs/05_attitude_change_weighting.csv) report alternatives.
 
-Direct dependencies are declared in [DESCRIPTION](DESCRIPTION), and resolved
-versions are pinned in [renv.lock](renv.lock) for R 4.6.0. From the repository
-root:
+### Reproduction
+
+Dependencies are declared in [DESCRIPTION](DESCRIPTION) and pinned in
+[renv.lock](renv.lock) for R 4.6.0. From the repository root:
 
 ```sh
+git clone --branch v0.2.3 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
 make restore
 make ci
 ```
 
-Run `make restore` once to install the locked dependencies. The R commands load
-the project library through `.Rprofile`; running them with `--vanilla` would
-bypass it. `make ci` is a local validation command, not a hosted CI requirement.
+The two historical inputs now come from dp-data. A release archive extracted to
+`../dp-data` also works; set `DP_DATA_ROOT` for another location.
+[data/sources.csv](data/sources.csv) pins their commit and SHA-256 checksums.
+Missing or changed inputs stop the build. This migration preserves the historical
+values and current analysis rules; reconstructed respondent measures are not yet
+substituted.
 
-`make analysis` regenerates the corrected tables, figures, validation results,
-and provenance ledgers. `make test` runs the analysis and test suite. Unused
-normalized H/P/D outputs are no longer produced; the paper's original scales
-are retained.
+`make ci` runs local linting, the analysis, audit checks, and tests.
+GitHub Actions runs these checks and the OOS manuscript build. To regenerate only the analysis, run
+`make analysis` or `Rscript scripts/run_all.R`.
 
-The SessionInfo below records the original published run and is retained only
-for historical reproduction.
+To check the audit comparisons against the saved outputs:
 
-### Data
+```sh
+Rscript scripts/checks.R
+```
 
-* [Data](data/polardata.csv)
-* [Metadata on Polls](data/poll_indices.csv)
+This single audit script verifies the main published-versus-current comparison
+and provenance coverage, then computes the missing-mean, reference-tie,
+duplicate-record, aggregation, and combined-predictor comparisons. It reuses the
+analysis definitions and reads historical poll summaries from `paper-2022` using
+Git. Run `git fetch --tags` first if that tag is missing from your clone.
 
-### Scripts and Outputs
+The R commands use the project library through `.Rprofile`. Run `make restore`
+once to install the locked dependencies; `--vanilla` bypasses that library.
 
-1. [DP Summary](scripts/01_summary_dp_data_table_1.R)
-    * Produces [Table 1](tabs/01_table_1_dp_summary.csv)
+### Files
 
-2. [Homogenization and Polarization by Poll and Aggregate](scripts/02_hom_pol_table_2_3.R)
-    * [s.e.](scripts/05a_hp_se.R)
-    * Produces [Table 2 Rows](tabs/02_table_2_hom_pol.csv)
+The [out-of-sample replication and extension](oos_replication/README.md) studies
+previously unused Deliberative Polls and other discussion formats. Its
+[results](oos_replication/tabs/results.md) are separate from the article's tables.
+The [standalone OOS study](oos_replication/paper.pdf) provides parallel tables and
+figures and a separate write-up comparing Deliberative Polls with other discussion
+designs. Run `make oos-paper` to build it; this also requires `latexmk` and LaTeX.
+Run `make oos-check` after `make restore` to read the pinned dp-data sources and
+reproduce and validate those estimates. The
+[source register](oos_replication/source_register.csv) records included studies,
+exclusions, access gaps, and candidates still being screened.
 
-3. Domination
-    - [Education](scripts/03a_dom_educ.R)
-    - [Gender](scripts/03b_dom_gender.R)
-    - [Income](scripts/03c_dom_income.R)
-    - [Education, Income, and Gender Combined](scripts/03d_dom_men_income_ed.R)
-    * Produces Table 3 Rows
-        * Underlying tables: 
-            * [Female](tabs/04_table_4a_toward_female.csv)
-            * [Male](tabs/04_table_4a_toward_male.csv)
-            * [Lower Education](tabs/04_table_4b_toward_lowed.csv)
-            * [Higher Education](tabs/04_table_4b_toward_highed.csv)
-            * [Lower Income](tabs/04_table_4c_toward_lowinc.csv)
-            * [Higher Income](tabs/04_table_4c_toward_highinc.csv)
-            * [Triple Disadv.](tabs/04_table_4d_toward_triple.csv)
-            * [Triple Adv.](tabs/04_table_4d_toward_triple_disadv.csv)
-    * [s.e.](scripts/05b_dom_se.R)
+- [scripts/run_all.R](scripts/run_all.R): analysis entry point.
+- [scripts/checks.R](scripts/checks.R): audit entry point.
+- [tabs/02_table_2.csv](tabs/02_table_2.csv) and
+  [tabs/03_table_3.csv](tabs/03_table_3.csv): current main results.
+- [figs/figure_manifest.csv](figs/figure_manifest.csv): figure sources and outputs.
+- [data/sources.csv](data/sources.csv): upstream historical responses and index dictionary pins.
+- [provenance/](provenance/): claims, numerical values, sources, and checks.
 
-4. [Correlation Between HPD](scripts/04_corr_hpd.R)
-    * Produces [tabs/05_corr_hom_pol.csv](tabs/05_corr_hom_pol.csv)
-
-5. [Figures](scripts/06_figs.R)
-    - Uses output tables from steps 1, 2, and 3 to produce all the figures except those produced in step 7. 
-
-6. [Parsing Domination](scripts/07_parsing_domination.R) produces in-text numbers for the section on parsing domination.
-
-7. [Description of Groups](scripts/08_appendix_sample_description.R) produces exploratory figures that are not in the paper.
-
-8. [Attitude Change](scripts/09_attitude_change.R) produces poll-level pre and post attitude means and standard deviations. The corrected producer for the net and gross change discussed on pp. 1220-1221 is [clean/05_attitude_change.R](clean/05_attitude_change.R).
-
-9. [Run All Original Scripts](scripts/10_run_all.R)
+The session information below records the historical published run.
 
 ### SessionInfo
 

@@ -1,0 +1,365 @@
+comparison,construct,membership,metric,family_id,mean,positive_fraction,pairs,studies
+New DPs,policy,paired,d_gender,a1r,0.004103222169032152,0.4884098097260289,8355,2
+New DPs,policy,paired,h,a1r,0.032159264141085595,0.6686976239462064,8664,2
+New DPs,policy,paired,p,a1r,0.019220831530223192,0.5956588305825724,8580,2
+New DPs,policy,paired,p_absolute,a1r,0.04321033034844125,0.6630215883407373,8705,2
+New DPs,policy,paired,d_combined,a1r,0.006010000769075889,0.4911177917463788,3659,1
+New DPs,policy,paired,d_education,a1r,0.00912152330878268,0.5147979029257568,5913,1
+New DPs,policy,paired,d_income,a1r,0.0049809711521855374,0.48832105345665466,6379,1
+Other group discussions,policy,paired,d_education,celaya_2018,-0.018612637362637362,0.3269230769230769,52,1
+Other group discussions,policy,paired,d_gender,celaya_2018,-0.010802469135802469,0.4074074074074074,54,1
+Other group discussions,policy,paired,d_income,celaya_2018,-0.01680143755615453,0.3584905660377358,53,1
+Other group discussions,policy,paired,h,celaya_2018,-0.015039695306280335,0.3392857142857143,56,1
+Other group discussions,policy,paired,p,celaya_2018,-0.030592991913746634,0.2830188679245283,53,1
+Other group discussions,policy,paired,p_absolute,celaya_2018,-0.013095238095238096,0.375,56,1
+Other group discussions,policy,paired,d_combined,celaya_2018,-0.014444444444444442,0.36666666666666664,30,1
+Other group discussions,policy,paired,d_gender,consensus,-0.01698424796747966,0.33739837398373984,65,2
+Other group discussions,policy,paired,h,consensus,0.018042926656092473,0.4170296167247387,138,2
+Other group discussions,policy,paired,p,consensus,-0.005630630630630633,0.22972972972972974,74,1
+Other group discussions,policy,paired,p_absolute,consensus,0.024136178861788617,0.34146341463414637,82,1
+Other group discussions,affect,paired,h,cross_party_2021,0.018540842206622322,0.48677248677248675,1323,1
+Other group discussions,affect,paired,p,cross_party_2021,-0.015200320512820498,0.42788461538461536,1248,1
+Other group discussions,affect,paired,p_absolute,cross_party_2021,0.01060090702947846,0.5003779289493575,1323,1
+Other group discussions,affect,paired,d_gender,cross_party_2021,-0.002724358974358953,0.42948717948717946,624,1
+Other group discussions,policy,paired,h,diplomacy_2020,0.09586914506708956,0.6545454545454545,55,1
+Other group discussions,policy,paired,p,diplomacy_2020,0.017045454545454534,0.36363636363636365,44,1
+Other group discussions,policy,paired,p_absolute,diplomacy_2020,0.06666666666666667,0.509090909090909,55,1
+Other group discussions,policy,paired,d_gender,diplomacy_2020,-0.026960784313725474,0.2647058823529412,34,1
+Other group discussions,policy,paired,d_gender,echo_2021,-0.012783767595088348,0.42452830188679247,318,1
+Other group discussions,policy,paired,h,echo_2021,0.030563999599633192,0.6522988505747126,348,1
+Other group discussions,policy,paired,p,echo_2021,0.027994913098770672,0.6023738872403561,337,1
+Other group discussions,policy,paired,p_absolute,echo_2021,0.039562465790914075,0.6551724137931034,348,1
+Other group discussions,policy,paired,h,hongkong_2020,-0.09247614723523742,0,2,1
+Other group discussions,policy,paired,p,hongkong_2020,0,0,1,1
+Other group discussions,policy,paired,p_absolute,hongkong_2020,0.016666666666666663,0.5,2,1
+Other group discussions,policy,paired,d_combined,oboe_2010,-0.0044265523169805246,0.4332493702770781,397,1
+Other group discussions,policy,paired,d_education,oboe_2010,0.0025259411645881737,0.44608171466845276,1493,1
+Other group discussions,policy,paired,d_gender,oboe_2010,0.005135694628728641,0.4324045407636739,969,1
+Other group discussions,policy,paired,h,oboe_2010,0.008476485300053646,0.4434692823954569,1937,1
+Other group discussions,policy,paired,p,oboe_2010,-0.019434724720028523,0.39299397920087575,1827,1
+Other group discussions,policy,paired,p_absolute,oboe_2010,0.027521170015505362,0.4874118831822759,1986,1
+Other group discussions,policy,paired,d_income,oboe_2010,0.005872601956888649,0.4407806191117093,1486,1
+Other group discussions,policy,paired,d_education,shizuoka_2019,0.027089947089947095,0.52,75,1
+Other group discussions,policy,paired,d_gender,shizuoka_2019,-0.0046383319409635144,0.40350877192982454,57,1
+Other group discussions,policy,paired,h,shizuoka_2019,0.007736137684510636,0.4875,80,1
+Other group discussions,policy,paired,p,shizuoka_2019,-0.014448514448514442,0.41025641025641024,78,1
+Other group discussions,policy,paired,p_absolute,shizuoka_2019,0.009188988095238111,0.4375,80,1
+New DPs,policy,paired,d_gender,tanzania_2015,-0.005371478403393306,0.46034816247582205,517,1
+New DPs,policy,paired,h,tanzania_2015,-0.005110639111677843,0.4780952380952381,525,1
+New DPs,policy,paired,p,tanzania_2015,-0.03830942401615479,0.37115384615384617,520,1
+New DPs,policy,paired,p_absolute,tanzania_2015,-0.007626856212570503,0.43047619047619046,525,1
+Other group discussions,affect,paired,d_combined,whatsapp,0.0178571428571429,0.3861003861003861,259,1
+Other group discussions,affect,paired,d_education,whatsapp,-0.0032327586206897067,0.3413793103448276,580,1
+Other group discussions,affect,paired,h,whatsapp,0.01339217388610886,0.3306060606060606,3300,1
+Other group discussions,affect,paired,p,whatsapp,-0.08014511873350902,0.17979645684131174,2653,1
+Other group discussions,affect,paired,p_absolute,whatsapp,0.0014124293785310175,0.3112994350282486,3540,1
+Other group discussions,affect,paired,d_income,whatsapp,0.015598650927487391,0.3760539629005059,1186,1
+New DPs,policy,available,d_gender,a1r,0.0036459871493004226,0.4964515923807282,8389,2
+New DPs,policy,available,h,a1r,0.032866254879576805,0.6764360761517768,8666,2
+New DPs,policy,available,p,a1r,0.017274742617174883,0.6010431594520873,8587,2
+New DPs,policy,available,p_absolute,a1r,0.04109067687076681,0.6678518821603927,8705,2
+New DPs,policy,available,d_combined,a1r,0.006487374745514521,0.503530689842477,3682,1
+New DPs,policy,available,d_education,a1r,0.00964008807005595,0.5280672268907562,5950,1
+New DPs,policy,available,d_income,a1r,0.005383312975922136,0.4967993754879001,6405,1
+Other group discussions,policy,available,d_education,celaya_2018,-0.018612637362637362,0.3269230769230769,52,1
+Other group discussions,policy,available,d_gender,celaya_2018,-0.010802469135802469,0.4074074074074074,54,1
+Other group discussions,policy,available,d_income,celaya_2018,-0.01680143755615453,0.3584905660377358,53,1
+Other group discussions,policy,available,h,celaya_2018,-0.015039695306280335,0.3392857142857143,56,1
+Other group discussions,policy,available,p,celaya_2018,-0.030592991913746634,0.2830188679245283,53,1
+Other group discussions,policy,available,p_absolute,celaya_2018,-0.013095238095238096,0.375,56,1
+Other group discussions,policy,available,d_combined,celaya_2018,-0.014444444444444442,0.36666666666666664,30,1
+Other group discussions,policy,available,d_gender,consensus,-0.01698424796747966,0.33739837398373984,65,2
+Other group discussions,policy,available,h,consensus,0.018042926656092473,0.4170296167247387,138,2
+Other group discussions,policy,available,p,consensus,-0.005630630630630633,0.22972972972972974,74,1
+Other group discussions,policy,available,p_absolute,consensus,0.024136178861788617,0.34146341463414637,82,1
+Other group discussions,affect,available,h,cross_party_2021,0.018540842206622322,0.48677248677248675,1323,1
+Other group discussions,affect,available,p,cross_party_2021,-0.015200320512820498,0.42788461538461536,1248,1
+Other group discussions,affect,available,p_absolute,cross_party_2021,0.01060090702947846,0.5003779289493575,1323,1
+Other group discussions,affect,available,d_gender,cross_party_2021,-0.002724358974358953,0.42948717948717946,624,1
+Other group discussions,policy,available,h,diplomacy_2020,0.09586914506708956,0.6545454545454545,55,1
+Other group discussions,policy,available,p,diplomacy_2020,0.017045454545454534,0.36363636363636365,44,1
+Other group discussions,policy,available,p_absolute,diplomacy_2020,0.06666666666666667,0.509090909090909,55,1
+Other group discussions,policy,available,d_gender,diplomacy_2020,-0.026960784313725474,0.2647058823529412,34,1
+Other group discussions,policy,available,d_gender,echo_2021,-0.015934343434343433,0.4263322884012539,319,1
+Other group discussions,policy,available,h,echo_2021,0.02925892242165318,0.646551724137931,348,1
+Other group discussions,policy,available,p,echo_2021,0.025813079930290608,0.5905044510385756,337,1
+Other group discussions,policy,available,p_absolute,echo_2021,0.03923497080824668,0.6551724137931034,348,1
+Other group discussions,policy,available,h,hongkong_2020,-0.09247614723523742,0,2,1
+Other group discussions,policy,available,p,hongkong_2020,0,0,1,1
+Other group discussions,policy,available,p_absolute,hongkong_2020,0.016666666666666663,0.5,2,1
+Other group discussions,policy,available,d_combined,oboe_2010,0.011796016483516466,0.5038461538461538,520,1
+Other group discussions,policy,available,d_education,oboe_2010,0.004829048545901824,0.5008839127872716,1697,1
+Other group discussions,policy,available,d_gender,oboe_2010,0.007784072102975074,0.4913871260199456,1103,1
+Other group discussions,policy,available,d_income,oboe_2010,0.009912896932127714,0.493491124260355,1690,1
+Other group discussions,policy,available,h,oboe_2010,0.017410601544338725,0.5105953582240161,1982,1
+Other group discussions,policy,available,p_absolute,oboe_2010,0.03806970300025858,0.5835835835835835,1998,1
+Other group discussions,policy,available,p,oboe_2010,-0.017210865230231416,0.4647887323943662,1846,1
+Other group discussions,policy,available,d_education,shizuoka_2019,0.027447089947089935,0.52,75,1
+Other group discussions,policy,available,d_gender,shizuoka_2019,-0.005734823169033693,0.40350877192982454,57,1
+Other group discussions,policy,available,h,shizuoka_2019,0.007147592832535148,0.5,80,1
+Other group discussions,policy,available,p,shizuoka_2019,-0.016165547415547408,0.41025641025641024,78,1
+Other group discussions,policy,available,p_absolute,shizuoka_2019,0.007068452380952402,0.4375,80,1
+New DPs,policy,available,d_gender,tanzania_2015,-0.00840860085540938,0.4526112185686654,517,1
+New DPs,policy,available,h,tanzania_2015,-0.00556495482044937,0.4857142857142857,525,1
+New DPs,policy,available,p,tanzania_2015,-0.036964365114654125,0.371868978805395,519,1
+New DPs,policy,available,p_absolute,tanzania_2015,-0.005957962672248376,0.4419047619047619,525,1
+Other group discussions,affect,available,d_combined,whatsapp,0.004725085910652936,0.3745704467353952,291,1
+Other group discussions,affect,available,d_education,whatsapp,-0.006455399061032807,0.352112676056338,639,1
+Other group discussions,affect,available,h,whatsapp,0.01339217388610886,0.3306060606060606,3300,1
+Other group discussions,affect,available,p,whatsapp,-0.07691952750092276,0.19638242894056848,2709,1
+Other group discussions,affect,available,p_absolute,whatsapp,0.0025423728813558947,0.3268361581920904,3540,1
+Other group discussions,affect,available,d_income,whatsapp,0.01083984375000003,0.375,1280,1
+Original DPs,policy,paired,h,12,-0.009267906883757341,0.53125,32,1
+Original DPs,policy,paired,p,12,0.02992878176597244,0.65625,32,1
+Original DPs,policy,paired,p_absolute,12,0.035553781616960795,0.65625,32,1
+Original DPs,policy,paired,h,13,0.022528107846762242,0.6898148148148148,216,1
+Original DPs,policy,paired,p,13,0.022066132884951233,0.6952380952380952,210,1
+Original DPs,policy,paired,p_absolute,13,0.05165799151656491,0.7546296296296297,216,1
+Original DPs,policy,paired,h,20,0.021954452175852495,0.6148148148148148,270,1
+Original DPs,policy,paired,p,20,-0.05427935006672609,0.18421052631578946,266,1
+Original DPs,policy,paired,p_absolute,20,-0.04812872418686537,0.2037037037037037,270,1
+Original DPs,policy,paired,h,15,0.013687010500032473,0.5555555555555556,90,1
+Original DPs,policy,paired,p,15,-0.024935123950746953,0.34831460674157305,89,1
+Original DPs,policy,paired,p_absolute,15,-0.0071625373148993575,0.4,90,1
+Original DPs,policy,paired,h,17,0.030666361089553725,0.6730769230769231,104,1
+Original DPs,policy,paired,p,17,-0.014212808902294908,0.46534653465346537,101,1
+Original DPs,policy,paired,p_absolute,17,0.04786373233740345,0.6346153846153846,104,1
+Original DPs,policy,paired,h,18,0.0038758507656175643,0.5212121212121212,330,1
+Original DPs,policy,paired,p,18,-0.016097620806935223,0.3887147335423197,319,1
+Original DPs,policy,paired,p_absolute,18,-0.0022288045697639695,0.44545454545454544,330,1
+Original DPs,policy,paired,h,1,-0.06155245791436655,0.3125,64,1
+Original DPs,policy,paired,p,1,-0.1959905366262102,0.1935483870967742,62,1
+Original DPs,policy,paired,p_absolute,1,0.030782565915837952,0.609375,64,1
+Original DPs,policy,paired,h,2,0.0028059231843679433,0.45185185185185184,135,1
+Original DPs,policy,paired,p,2,-0.027766222458523844,0.34328358208955223,134,1
+Original DPs,policy,paired,p_absolute,2,-0.004792039523657169,0.4074074074074074,135,1
+Original DPs,policy,paired,h,3,0.020383166475104936,0.5833333333333334,60,1
+Original DPs,policy,paired,p,3,0.0012598071192652914,0.5333333333333333,60,1
+Original DPs,policy,paired,p_absolute,3,0.011801961018785048,0.5833333333333334,60,1
+Original DPs,policy,paired,h,4,0.015986424276589545,0.6333333333333333,60,1
+Original DPs,policy,paired,p,4,-0.0305296543153082,0.36666666666666664,60,1
+Original DPs,policy,paired,p_absolute,4,-0.014516363851438991,0.43333333333333335,60,1
+Original DPs,policy,paired,h,5,0.02600853410258376,0.6041666666666666,48,1
+Original DPs,policy,paired,p,5,-0.10019689234642884,0.4782608695652174,46,1
+Original DPs,policy,paired,p_absolute,5,0.045016309050086606,0.6458333333333334,48,1
+Original DPs,policy,paired,h,6,1.1090295967492446e-5,0.52,100,1
+Original DPs,policy,paired,p,6,-0.009999332673288808,0.43,100,1
+Original DPs,policy,paired,p_absolute,6,-0.008694193041678584,0.44,100,1
+Original DPs,policy,paired,h,7,0.01724250225010598,0.7063492063492064,126,1
+Original DPs,policy,paired,p,7,-0.045632503550801895,0.35714285714285715,126,1
+Original DPs,policy,paired,p_absolute,7,-0.00914933746610441,0.5,126,1
+Original DPs,policy,paired,h,8,0.02002661482003377,0.6666666666666666,96,1
+Original DPs,policy,paired,p,8,0.02254088659396362,0.625,96,1
+Original DPs,policy,paired,p_absolute,8,0.033318002996080016,0.65625,96,1
+Original DPs,policy,paired,h,19,0.014766077402455828,0.6547619047619048,84,1
+Original DPs,policy,paired,p,19,0.012466545661305095,0.6219512195121951,82,1
+Original DPs,policy,paired,p_absolute,19,0.05175300356033065,0.7142857142857143,84,1
+Original DPs,policy,paired,h,21,0.028495233412340074,0.6666666666666666,84,1
+Original DPs,policy,paired,p,21,0.03679149505330585,0.6341463414634146,82,1
+Original DPs,policy,paired,p_absolute,21,0.054351353636692745,0.6666666666666666,84,1
+Original DPs,policy,paired,h,10,0.015070130578503519,0.49019607843137253,204,1
+Original DPs,policy,paired,p,10,-0.054678975698162983,0.34517766497461927,197,1
+Original DPs,policy,paired,p_absolute,10,-0.0056346941395932675,0.4264705882352941,204,1
+Original DPs,policy,paired,h,9,0.018404283674383636,0.5694444444444444,144,1
+Original DPs,policy,paired,p,9,-0.008053000046416195,0.42657342657342656,143,1
+Original DPs,policy,paired,p_absolute,9,0.01718743548892505,0.5,144,1
+Original DPs,policy,paired,h,16,-0.002292770879502094,0.4166666666666667,48,1
+Original DPs,policy,paired,p,16,0.008698215991642097,0.5833333333333334,48,1
+Original DPs,policy,paired,p_absolute,16,0.019775596952537996,0.6041666666666666,48,1
+Original DPs,policy,paired,h,14,0.005801685983220689,0.5259259259259259,135,1
+Original DPs,policy,paired,p,14,-0.012720765908721912,0.46564885496183206,131,1
+Original DPs,policy,paired,p_absolute,14,0.0034169335154851893,0.5407407407407407,135,1
+Original DPs,policy,paired,h,11,0.005671424831970038,0.56,50,1
+Original DPs,policy,paired,p,11,-0.016909068382597803,0.4,50,1
+Original DPs,policy,paired,p_absolute,11,0.010488367514838103,0.46,50,1
+Original DPs,policy,available,h,12,-0.009267906883757341,0.53125,32,1
+Original DPs,policy,available,p,12,0.02992878176597244,0.65625,32,1
+Original DPs,policy,available,p_absolute,12,0.035553781616960795,0.65625,32,1
+Original DPs,policy,available,h,13,0.022457736603443808,0.6944444444444444,216,1
+Original DPs,policy,available,p,13,0.021046686061932964,0.6904761904761905,210,1
+Original DPs,policy,available,p_absolute,13,0.05138507770198441,0.7453703703703703,216,1
+Original DPs,policy,available,h,20,0.021954452175852495,0.6148148148148148,270,1
+Original DPs,policy,available,p,20,-0.05427935006672609,0.18421052631578946,266,1
+Original DPs,policy,available,p_absolute,20,-0.04812872418686537,0.2037037037037037,270,1
+Original DPs,policy,available,h,15,0.014612582258226755,0.6,90,1
+Original DPs,policy,available,p,15,-0.024770440690513564,0.38202247191011235,89,1
+Original DPs,policy,available,p_absolute,15,-0.007772821092502079,0.4444444444444444,90,1
+Original DPs,policy,available,h,17,0.030363342480746364,0.6634615384615384,104,1
+Original DPs,policy,available,p,17,-0.012098586526215488,0.46534653465346537,101,1
+Original DPs,policy,available,p_absolute,17,0.05062270727368309,0.6346153846153846,104,1
+Original DPs,policy,available,h,18,0.0036434663354908336,0.5303030303030303,330,1
+Original DPs,policy,available,p,18,-0.01751380943696621,0.4231974921630094,319,1
+Original DPs,policy,available,p_absolute,18,-0.0019016577163498737,0.48484848484848486,330,1
+Original DPs,policy,available,h,1,-0.06096923046861198,0.328125,64,1
+Original DPs,policy,available,p,1,-0.19373497024884595,0.20967741935483872,62,1
+Original DPs,policy,available,p_absolute,1,0.0328436379074017,0.625,64,1
+Original DPs,policy,available,h,2,0.0026702127696003808,0.48148148148148145,135,1
+Original DPs,policy,available,p,2,-0.027813503806012642,0.37593984962406013,133,1
+Original DPs,policy,available,p_absolute,2,-0.0029683180079421796,0.45925925925925926,135,1
+Original DPs,policy,available,h,3,0.02132149824274879,0.5666666666666667,60,1
+Original DPs,policy,available,p,3,0.0029285333977072583,0.55,60,1
+Original DPs,policy,available,p_absolute,3,0.014647384757954563,0.6,60,1
+Original DPs,policy,available,h,4,0.018213605450931595,0.65,60,1
+Original DPs,policy,available,p,4,-0.03434564845864101,0.38333333333333336,60,1
+Original DPs,policy,available,p_absolute,4,-0.011608281754864874,0.45,60,1
+Original DPs,policy,available,h,5,0.02584543049775416,0.6458333333333334,48,1
+Original DPs,policy,available,p,5,-0.11029296870387302,0.46808510638297873,47,1
+Original DPs,policy,available,p_absolute,5,0.043720215692871905,0.625,48,1
+Original DPs,policy,available,h,6,-6.755360221105546e-5,0.52,100,1
+Original DPs,policy,available,p,6,-0.010086927370258505,0.43,100,1
+Original DPs,policy,available,p_absolute,6,-0.008781787738648288,0.44,100,1
+Original DPs,policy,available,h,7,0.021943787410901992,0.7380952380952381,126,1
+Original DPs,policy,available,p,7,-0.043318928809758135,0.3790322580645161,124,1
+Original DPs,policy,available,p_absolute,7,-0.007779396508125699,0.48412698412698413,126,1
+Original DPs,policy,available,h,8,0.02056599834128444,0.6666666666666666,96,1
+Original DPs,policy,available,p,8,0.02254663946327188,0.59375,96,1
+Original DPs,policy,available,p_absolute,8,0.03316213218813961,0.6145833333333334,96,1
+Original DPs,policy,available,h,19,0.014766077402455828,0.6547619047619048,84,1
+Original DPs,policy,available,p,19,0.012466545661305095,0.6219512195121951,82,1
+Original DPs,policy,available,p_absolute,19,0.05175300356033065,0.7142857142857143,84,1
+Original DPs,policy,available,h,21,0.028495233412340074,0.6666666666666666,84,1
+Original DPs,policy,available,p,21,0.03679149505330585,0.6341463414634146,82,1
+Original DPs,policy,available,p_absolute,21,0.054351353636692745,0.6666666666666666,84,1
+Original DPs,policy,available,h,10,0.016152544715981425,0.5147058823529411,204,1
+Original DPs,policy,available,p,10,-0.04892203076255969,0.3686868686868687,198,1
+Original DPs,policy,available,p_absolute,10,1.1051789507954894e-4,0.46568627450980393,204,1
+Original DPs,policy,available,h,9,0.01831141410118709,0.5694444444444444,144,1
+Original DPs,policy,available,p,9,-0.008231710224026441,0.42657342657342656,143,1
+Original DPs,policy,available,p_absolute,9,0.017009966354214874,0.5,144,1
+Original DPs,policy,available,h,16,0.0033066521910574053,0.4791666666666667,48,1
+Original DPs,policy,available,p,16,0.009451051595177621,0.5957446808510638,47,1
+Original DPs,policy,available,p_absolute,16,0.0209132155746612,0.6458333333333334,48,1
+Original DPs,policy,available,h,14,0.006593623228496226,0.5481481481481482,135,1
+Original DPs,policy,available,p,14,-0.012042602214522035,0.48854961832061067,131,1
+Original DPs,policy,available,p_absolute,14,0.005276113531271011,0.5777777777777777,135,1
+Original DPs,policy,available,h,11,0.005814623081210447,0.56,50,1
+Original DPs,policy,available,p,11,-0.01973098580091377,0.42857142857142855,49,1
+Original DPs,policy,available,p_absolute,11,0.006621387272857845,0.5,50,1
+Original DPs,policy,paired,d_gender,12,0.04385075854366106,0.59375,32,1
+Original DPs,policy,paired,d_gender,13,4.195168115667153e-4,0.4666666666666667,210,1
+Original DPs,policy,paired,d_gender,20,-0.0035209493973200052,0.4053030303030303,264,1
+Original DPs,policy,paired,d_gender,15,0.013376081033031563,0.5222222222222223,90,1
+Original DPs,policy,paired,d_gender,17,0.0032425539232605795,0.5050505050505051,99,1
+Original DPs,policy,paired,d_gender,18,0.0019107898625266568,0.4722222222222222,324,1
+Original DPs,policy,paired,d_gender,1,0.03051915597025311,0.5555555555555556,63,1
+Original DPs,policy,paired,d_gender,2,-0.017965708688701836,0.37593984962406013,133,1
+Original DPs,policy,paired,d_gender,3,-0.004324783341491675,0.43333333333333335,60,1
+Original DPs,policy,paired,d_gender,4,0.018702687043363933,0.5333333333333333,60,1
+Original DPs,policy,paired,d_gender,5,0.02691795041802863,0.5531914893617021,47,1
+Original DPs,policy,paired,d_gender,6,0.0017665863016759053,0.494949494949495,99,1
+Original DPs,policy,paired,d_gender,7,0.018081168992542813,0.536,125,1
+Original DPs,policy,paired,d_gender,8,-0.01822078392819208,0.3854166666666667,96,1
+Original DPs,policy,paired,d_gender,19,-0.0065564150148258215,0.4523809523809524,84,1
+Original DPs,policy,paired,d_gender,21,-0.013560604625938158,0.4444444444444444,81,1
+Original DPs,policy,paired,d_gender,10,0.026784364891457614,0.5077720207253886,193,1
+Original DPs,policy,paired,d_gender,9,-0.018456851528370836,0.3819444444444444,144,1
+Original DPs,policy,paired,d_gender,16,-0.017952911333418326,0.375,48,1
+Original DPs,policy,paired,d_gender,14,-2.638265351534416e-4,0.48872180451127817,133,1
+Original DPs,policy,paired,d_gender,11,-0.0073803341266575895,0.4166666666666667,48,1
+Original DPs,policy,paired,d_education,12,-0.004541088723327378,0.4838709677419355,31,1
+Original DPs,policy,paired,d_education,13,0.017765117568699754,0.5515463917525774,194,1
+Original DPs,policy,paired,d_education,20,8.88177043714402e-4,0.40540540540540543,259,1
+Original DPs,policy,paired,d_education,15,0.011156477439274495,0.5977011494252874,87,1
+Original DPs,policy,paired,d_education,17,0.016457295671838387,0.5102040816326531,98,1
+Original DPs,policy,paired,d_education,18,0.006424488879188037,0.4751552795031056,322,1
+Original DPs,policy,paired,d_education,1,-0.016448132631703347,0.5,62,1
+Original DPs,policy,paired,d_education,2,0.0037472382521972127,0.5116279069767442,129,1
+Original DPs,policy,paired,d_education,3,0.008322053168433725,0.5084745762711864,59,1
+Original DPs,policy,paired,d_education,4,0.012486417858085306,0.5666666666666667,60,1
+Original DPs,policy,paired,d_education,5,0.13998936261689018,0.7916666666666666,48,1
+Original DPs,policy,paired,d_education,6,0.018411331732819385,0.62,100,1
+Original DPs,policy,paired,d_education,7,0.0021841012129711836,0.512,125,1
+Original DPs,policy,paired,d_education,8,-0.0022897981298387014,0.46808510638297873,94,1
+Original DPs,policy,paired,d_education,19,0.017623859973920013,0.4878048780487805,82,1
+Original DPs,policy,paired,d_education,21,0.02973086356363161,0.5783132530120482,83,1
+Original DPs,policy,paired,d_education,10,0.014844092633666124,0.5053763440860215,186,1
+Original DPs,policy,paired,d_education,9,0.0033405977602375715,0.4552238805970149,134,1
+Original DPs,policy,paired,d_education,16,-0.014831074474567921,0.3958333333333333,48,1
+Original DPs,policy,paired,d_education,14,0.006225967575643663,0.5454545454545454,132,1
+Original DPs,policy,paired,d_education,11,0.032971794871794864,0.7,50,1
+Original DPs,policy,paired,d_income,12,0.05495041255779459,0.7142857142857143,28,1
+Original DPs,policy,paired,d_income,13,-0.002699482595930797,0.46296296296296297,216,1
+Original DPs,policy,paired,d_income,15,0.01243843846407934,0.5888888888888889,90,1
+Original DPs,policy,paired,d_income,17,-0.025241126973371674,0.4583333333333333,96,1
+Original DPs,policy,paired,d_income,2,0.007254556917618339,0.5271317829457365,129,1
+Original DPs,policy,paired,d_income,4,0.01751844854423336,0.5833333333333334,60,1
+Original DPs,policy,paired,d_income,5,0.010063147902821758,0.4782608695652174,46,1
+Original DPs,policy,paired,d_income,8,-0.004061237547851208,0.5208333333333334,96,1
+Original DPs,policy,paired,d_income,10,0.01142682295741521,0.4635416666666667,192,1
+Original DPs,policy,paired,d_income,16,-0.02233339334561657,0.375,48,1
+Original DPs,policy,paired,d_income,14,0.0037329962594374005,0.5074626865671642,134,1
+Original DPs,policy,paired,d_combined,12,0.022380070681629317,0.5909090909090909,22,1
+Original DPs,policy,paired,d_combined,13,0.007624201449002651,0.49029126213592233,206,1
+Original DPs,policy,paired,d_combined,15,0.006640186902070166,0.5,90,1
+Original DPs,policy,paired,d_combined,17,0.011917445916300935,0.5068493150684932,73,1
+Original DPs,policy,paired,d_combined,2,-0.007987534212508725,0.46534653465346537,101,1
+Original DPs,policy,paired,d_combined,4,0.023036707902550364,0.5892857142857143,56,1
+Original DPs,policy,paired,d_combined,5,0.06215946861780198,0.6,45,1
+Original DPs,policy,paired,d_combined,8,0.00895825682692155,0.5333333333333333,90,1
+Original DPs,policy,paired,d_combined,10,0.04113245208238702,0.5619834710743802,121,1
+Original DPs,policy,paired,d_combined,16,-0.013609195026253167,0.4772727272727273,44,1
+Original DPs,policy,paired,d_combined,14,0.012873836803600625,0.5403225806451613,124,1
+Original DPs,policy,available,d_gender,12,0.04385075854366106,0.59375,32,1
+Original DPs,policy,available,d_gender,13,1.565999690629941e-5,0.4688995215311005,209,1
+Original DPs,policy,available,d_gender,20,-0.0035209493973200052,0.4053030303030303,264,1
+Original DPs,policy,available,d_gender,15,0.013616770964861481,0.5111111111111111,90,1
+Original DPs,policy,available,d_gender,17,-5.702716866557405e-4,0.48484848484848486,99,1
+Original DPs,policy,available,d_gender,18,0.0030241300607274577,0.5092592592592593,324,1
+Original DPs,policy,available,d_gender,1,0.013751530178830941,0.532258064516129,62,1
+Original DPs,policy,available,d_gender,2,-0.016497568632409396,0.40601503759398494,133,1
+Original DPs,policy,available,d_gender,3,-0.004631238457678944,0.45,60,1
+Original DPs,policy,available,d_gender,4,0.00598550782745884,0.5333333333333333,60,1
+Original DPs,policy,available,d_gender,5,0.11267270333094803,0.6808510638297872,47,1
+Original DPs,policy,available,d_gender,6,0.001855065793564493,0.494949494949495,99,1
+Original DPs,policy,available,d_gender,7,0.016502411903610723,0.5238095238095238,126,1
+Original DPs,policy,available,d_gender,8,-0.019816545457821477,0.40625,96,1
+Original DPs,policy,available,d_gender,19,-0.0065564150148258215,0.4523809523809524,84,1
+Original DPs,policy,available,d_gender,21,-0.013560604625938158,0.4444444444444444,81,1
+Original DPs,policy,available,d_gender,10,0.018245456423736074,0.5279187817258884,197,1
+Original DPs,policy,available,d_gender,9,-0.018266154880359237,0.3819444444444444,144,1
+Original DPs,policy,available,d_gender,16,-0.026944381674950314,0.375,48,1
+Original DPs,policy,available,d_gender,14,-0.0042939931426746744,0.46616541353383456,133,1
+Original DPs,policy,available,d_gender,11,-0.004138966119664641,0.4166666666666667,48,1
+Original DPs,policy,available,d_education,12,-0.004541088723327378,0.4838709677419355,31,1
+Original DPs,policy,available,d_education,13,0.017880208663172296,0.5412371134020618,194,1
+Original DPs,policy,available,d_education,20,8.88177043714402e-4,0.40540540540540543,259,1
+Original DPs,policy,available,d_education,15,0.007215387719094848,0.5909090909090909,88,1
+Original DPs,policy,available,d_education,17,0.017413727731764923,0.5306122448979592,98,1
+Original DPs,policy,available,d_education,18,0.0069501990988455045,0.5046728971962616,321,1
+Original DPs,policy,available,d_education,1,-0.015191301983843181,0.5081967213114754,61,1
+Original DPs,policy,available,d_education,2,-0.002640274038315143,0.5343511450381679,131,1
+Original DPs,policy,available,d_education,3,0.006596750218110018,0.4745762711864407,59,1
+Original DPs,policy,available,d_education,4,0.009705033963622814,0.5833333333333334,60,1
+Original DPs,policy,available,d_education,5,0.12121958434573323,0.75,48,1
+Original DPs,policy,available,d_education,6,0.018323737035849684,0.62,100,1
+Original DPs,policy,available,d_education,7,0.004299243546557794,0.536,125,1
+Original DPs,policy,available,d_education,8,-0.0022852499194534227,0.5106382978723404,94,1
+Original DPs,policy,available,d_education,19,0.017623859973920013,0.4878048780487805,82,1
+Original DPs,policy,available,d_education,21,0.02973086356363161,0.5783132530120482,83,1
+Original DPs,policy,available,d_education,10,0.013216248116208433,0.5531914893617021,188,1
+Original DPs,policy,available,d_education,9,0.003127378145621501,0.4552238805970149,134,1
+Original DPs,policy,available,d_education,16,-0.014946615382810328,0.44680851063829785,47,1
+Original DPs,policy,available,d_education,14,0.00332954064066657,0.5227272727272727,132,1
+Original DPs,policy,available,d_education,11,0.031896833721833676,0.74,50,1
+Original DPs,policy,available,d_income,12,0.05495041255779459,0.7142857142857143,28,1
+Original DPs,policy,available,d_income,13,-0.0030129840379044593,0.4675925925925926,216,1
+Original DPs,policy,available,d_income,15,0.013943173618793247,0.6111111111111112,90,1
+Original DPs,policy,available,d_income,17,-0.031172839848437987,0.4166666666666667,96,1
+Original DPs,policy,available,d_income,2,0.006732541208853037,0.5151515151515151,132,1
+Original DPs,policy,available,d_income,4,-0.005271078929688293,0.55,60,1
+Original DPs,policy,available,d_income,5,0.004002417499757874,0.46808510638297873,47,1
+Original DPs,policy,available,d_income,8,-0.004184026002830835,0.53125,96,1
+Original DPs,policy,available,d_income,10,0.010816941011707937,0.51010101010101,198,1
+Original DPs,policy,available,d_income,16,-0.021659125592378342,0.3333333333333333,48,1
+Original DPs,policy,available,d_income,14,0.008361439301233523,0.5338345864661654,133,1
+Original DPs,policy,available,d_combined,12,0.022380070681629317,0.5909090909090909,22,1
+Original DPs,policy,available,d_combined,13,0.006774163038216393,0.48792270531400966,207,1
+Original DPs,policy,available,d_combined,15,0.006800967578987231,0.5111111111111111,90,1
+Original DPs,policy,available,d_combined,17,0.011240705515804205,0.47297297297297297,74,1
+Original DPs,policy,available,d_combined,2,-0.012993211274726408,0.4519230769230769,104,1
+Original DPs,policy,available,d_combined,4,0.011681926143476658,0.5535714285714286,56,1
+Original DPs,policy,available,d_combined,5,0.08876587147420482,0.6222222222222222,45,1
+Original DPs,policy,available,d_combined,8,0.005307886233324829,0.5555555555555556,90,1
+Original DPs,policy,available,d_combined,10,0.035339104669461746,0.5748031496062992,127,1
+Original DPs,policy,available,d_combined,16,-0.013651479259558086,0.4666666666666667,45,1
+Original DPs,policy,available,d_combined,14,0.013382425272186296,0.5284552845528455,123,1

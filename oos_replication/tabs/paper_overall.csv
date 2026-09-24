@@ -1,0 +1,113 @@
+comparison,construct,membership,metric,mean,positive_fraction,pairs,studies,families,weighting
+New DPs,policy,paired,d_gender,-6.341281171805767e-4,0.47437898610092544,8872,3,2,equal_family_study
+New DPs,policy,paired,h,0.013524312514703877,0.5733964310207222,9189,3,2,equal_family_study
+New DPs,policy,paired,p,-0.009544296242965798,0.4834063383682093,9100,3,2,equal_family_study
+New DPs,policy,paired,p_absolute,0.017791737067935375,0.5467488894084639,9230,3,2,equal_family_study
+New DPs,policy,paired,d_combined,0.006010000769075889,0.4911177917463788,3659,1,1,equal_family_study
+New DPs,policy,paired,d_education,0.00912152330878268,0.5147979029257568,5913,1,1,equal_family_study
+New DPs,policy,paired,d_income,0.0049809711521855374,0.48832105345665466,6379,1,1,equal_family_study
+Other group discussions,policy,paired,d_education,0.0036677502972993032,0.43100159719717657,1620,3,3,equal_family_study
+Other group discussions,policy,paired,d_gender,-0.011172317720721804,0.37832554638739657,1497,7,6,equal_family_study
+Other group discussions,policy,paired,d_income,-0.0054644177996329415,0.3996355925747226,1539,2,2,equal_family_study
+Other group discussions,policy,paired,h,0.007596121680837391,0.4277327026465824,2616,8,7,equal_family_study
+Other group discussions,policy,paired,p,-0.0035809277240992903,0.3260013197126091,2414,7,7,equal_family_study
+Other group discussions,policy,paired,p_absolute,0.024378128285934487,0.4722340886714907,2609,7,7,equal_family_study
+Other group discussions,policy,paired,d_combined,-0.009435498380712483,0.3999580184718724,427,2,2,equal_family_study
+Other group discussions,affect,paired,h,0.01596650804636559,0.40868927368927366,4623,2,2,equal_family_study
+Other group discussions,affect,paired,p,-0.04767271962316476,0.3038405361129636,3901,2,2,equal_family_study
+Other group discussions,affect,paired,p_absolute,0.006006668204004738,0.405838681988803,4863,2,2,equal_family_study
+Other group discussions,affect,paired,d_gender,-0.002724358974358953,0.42948717948717946,624,1,1,equal_family_study
+Other group discussions,affect,paired,d_combined,0.0178571428571429,0.3861003861003861,259,1,1,equal_family_study
+Other group discussions,affect,paired,d_education,-0.0032327586206897067,0.3413793103448276,580,1,1,equal_family_study
+Other group discussions,affect,paired,d_income,0.015598650927487391,0.3760539629005059,1186,1,1,equal_family_study
+New DPs,policy,available,d_gender,-0.0023813068530544783,0.4745314054746968,8906,3,2,equal_family_study
+New DPs,policy,available,h,0.013650650029563718,0.5810751809330312,9191,3,2,equal_family_study
+New DPs,policy,available,p,-0.009844811248739621,0.4864560691287412,9106,3,2,equal_family_study
+New DPs,policy,available,p_absolute,0.017566357099259217,0.5548783220325773,9230,3,2,equal_family_study
+New DPs,policy,available,d_combined,0.006487374745514521,0.503530689842477,3682,1,1,equal_family_study
+New DPs,policy,available,d_education,0.00964008807005595,0.5280672268907562,5950,1,1,equal_family_study
+New DPs,policy,available,d_income,0.005383312975922136,0.4967993754879001,6405,1,1,equal_family_study
+Other group discussions,policy,available,d_education,0.004554500376784799,0.4492689965701162,1824,3,3,equal_family_study
+Other group discussions,policy,available,d_gender,-0.011438765986234941,0.38845664168251876,1632,7,6,equal_family_study
+Other group discussions,policy,available,d_income,-0.0034442703120134083,0.4259908451490454,1743,2,2,equal_family_study
+Other group discussions,policy,available,h,0.008601906568598761,0.43828683827397924,2661,8,7,equal_family_study
+Other group discussions,policy,available,p,-0.0038202143877729927,0.3345620792828534,2433,7,7,equal_family_study
+Other group discussions,policy,available,p_absolute,0.025535342898477358,0.4859729030145346,2621,7,7,equal_family_study
+Other group discussions,policy,available,d_combined,-0.001324213980463988,0.43525641025641026,550,2,2,equal_family_study
+Other group discussions,affect,available,h,0.01596650804636559,0.40868927368927366,4623,2,2,equal_family_study
+Other group discussions,affect,available,p,-0.04605992400687163,0.31213352216259194,3957,2,2,equal_family_study
+Other group discussions,affect,available,p_absolute,0.006571639955417177,0.413607043570724,4863,2,2,equal_family_study
+Other group discussions,affect,available,d_gender,-0.002724358974358953,0.42948717948717946,624,1,1,equal_family_study
+Other group discussions,affect,available,d_combined,0.004725085910652936,0.3745704467353952,291,1,1,equal_family_study
+Other group discussions,affect,available,d_education,-0.006455399061032807,0.352112676056338,639,1,1,equal_family_study
+Other group discussions,affect,available,d_income,0.01083984375000003,0.375,1280,1,1,equal_family_study
+Original DPs,policy,paired,h,0.010012939904181893,0.5689327130748699,2480,21,21,equal_family_study
+Original DPs,policy,paired,p,-0.02277380907917896,0.45438766824783167,2434,21,21,equal_family_study
+Original DPs,policy,paired,p_absolute,0.014888587667929876,0.5372626689240835,2480,21,21,equal_family_study
+Original DPs,policy,available,h,0.010796551892625225,0.5820969489194279,2480,21,21,equal_family_study
+Original DPs,policy,available,p,-0.02295346333910283,0.4645497507741572,2431,21,21,equal_family_study
+Original DPs,policy,available,p_absolute,0.015668071807562172,0.5494024633940601,2480,21,21,equal_family_study
+Original DPs,policy,paired,d_gender,0.0036842116795856574,0.4714221286886651,2433,21,21,equal_family_study
+Original DPs,policy,paired,d_education,0.01449805446969374,0.5319243063312834,2383,21,21,equal_family_study
+Original DPs,policy,paired,d_income,0.005731780285511795,0.5163667792620319,1135,11,11,equal_family_study
+Original DPs,policy,paired,d_combined,0.015920536176682067,0.5323267299434807,972,11,11,equal_family_study
+Original DPs,policy,available,d_gender,0.005272519330190809,0.47929326801340333,2436,21,21,equal_family_study
+Original DPs,policy,available,d_education,0.01284820207050466,0.5408510844133138,2385,21,21,equal_family_study
+Original DPs,policy,available,d_income,0.0030460791624454817,0.5137646941900988,1144,11,11,equal_family_study
+Original DPs,policy,available,d_combined,0.015911675461182453,0.5287375694913891,983,11,11,equal_family_study
+New DPs,policy,paired,d_gender,0.002049632421937237,0.47971145175834085,8872,3,2,pairs
+New DPs,policy,paired,h,0.028831154170230546,0.6447926869082599,9189,3,2,pairs
+New DPs,policy,paired,p,0.018502649797591614,0.5904395604395605,9100,3,2,pairs
+New DPs,policy,paired,p_absolute,0.03824800122161667,0.643661971830986,9230,3,2,pairs
+New DPs,policy,paired,d_combined,0.006010000769075889,0.4911177917463788,3659,1,1,pairs
+New DPs,policy,paired,d_education,0.00912152330878268,0.5147979029257568,5913,1,1,pairs
+New DPs,policy,paired,d_income,0.0049809711521855374,0.48832105345665466,6379,1,1,pairs
+Other group discussions,policy,paired,d_education,0.0029846413874191455,0.445679012345679,1620,3,3,pairs
+Other group discussions,policy,paired,d_gender,-0.0015199446512072128,0.42084168336673344,1497,7,6,pairs
+Other group discussions,policy,paired,d_income,0.005091754592241923,0.437946718648473,1539,2,2,pairs
+Other group discussions,policy,paired,h,0.013099274659679909,0.4717125382262997,2616,8,7,pairs
+Other group discussions,policy,paired,p,-0.011801174695230192,0.4146644573322287,2414,7,7,pairs
+Other group discussions,policy,paired,p_absolute,0.028403884295509444,0.5017247987734764,2609,7,7,pairs
+Other group discussions,policy,paired,d_combined,-0.005130385487528342,0.42857142857142855,427,2,2,pairs
+Other group discussions,affect,paired,h,0.014865608493082548,0.37529742591390874,4623,2,2,pairs
+Other group discussions,affect,paired,p,-0.05936811074083629,0.25916431684183544,3901,2,2,pairs
+Other group discussions,affect,paired,p_absolute,0.003912194118856848,0.36273904996915485,4863,2,2,pairs
+Other group discussions,affect,paired,d_gender,-0.002724358974358953,0.42948717948717946,624,1,1,pairs
+Other group discussions,affect,paired,d_combined,0.0178571428571429,0.3861003861003861,259,1,1,pairs
+Other group discussions,affect,paired,d_education,-0.0032327586206897067,0.3413793103448276,580,1,1,pairs
+Other group discussions,affect,paired,d_income,0.015598650927487391,0.3760539629005059,1186,1,1,pairs
+New DPs,policy,available,d_gender,0.0017532175464534177,0.4892207500561419,8906,3,2,pairs
+New DPs,policy,available,h,0.02939629915109914,0.6532477423566533,9191,3,2,pairs
+New DPs,policy,available,p,0.016480509441162413,0.5937843180320668,9106,3,2,pairs
+New DPs,policy,available,p_absolute,0.03611045328636622,0.648320693391116,9230,3,2,pairs
+New DPs,policy,available,d_combined,0.006487374745514521,0.503530689842477,3682,1,1,pairs
+New DPs,policy,available,d_education,0.00964008807005595,0.5280672268907562,5950,1,1,pairs
+New DPs,policy,available,d_income,0.005383312975922136,0.4967993754879001,6405,1,1,pairs
+Other group discussions,policy,available,d_education,0.005090773018404596,0.4967105263157895,1824,3,3,pairs
+Other group discussions,policy,available,d_gender,1.554343328240613e-4,0.46200980392156865,1632,7,6,pairs
+Other group discussions,policy,available,d_income,0.009100584982684823,0.48938611589214,1743,2,2,pairs
+Other group discussions,policy,available,h,0.019487152310523517,0.5208568207440811,2661,8,7,pairs
+Other group discussions,policy,available,p,-0.010530726352242989,0.46732429099876693,2433,7,7,pairs
+Other group discussions,policy,available,p_absolute,0.03633282943899122,0.5749713849675696,2621,7,7,pairs
+Other group discussions,policy,available,d_combined,0.010364718614718611,0.49636363636363634,550,2,2,pairs
+Other group discussions,affect,available,h,0.014865608493082548,0.37529742591390874,4623,2,2,pairs
+Other group discussions,affect,available,p,-0.05745387920141434,0.2693960070760677,3957,2,2,pairs
+Other group discussions,affect,available,p_absolute,0.004734731647131442,0.37404894098293234,4863,2,2,pairs
+Other group discussions,affect,available,d_gender,-0.002724358974358953,0.42948717948717946,624,1,1,pairs
+Other group discussions,affect,available,d_combined,0.004725085910652936,0.3745704467353952,291,1,1,pairs
+Other group discussions,affect,available,d_education,-0.006455399061032807,0.352112676056338,639,1,1,pairs
+Other group discussions,affect,available,d_income,0.01083984375000003,0.375,1280,1,1,pairs
+Original DPs,policy,paired,h,0.012289850724591189,0.5741935483870968,2480,21,21,pairs
+Original DPs,policy,paired,p,-0.022365708624233774,0.42769104354971244,2434,21,21,pairs
+Original DPs,policy,paired,p_absolute,0.007890874242023347,0.5016129032258064,2480,21,21,pairs
+Original DPs,policy,available,h,0.012849354473943484,0.5858870967741936,2480,21,21,pairs
+Original DPs,policy,available,p,-0.022210725585501453,0.4397367338543809,2431,21,21,pairs
+Original DPs,policy,available,p_absolute,0.008838345608620544,0.5157258064516129,2480,21,21,pairs
+Original DPs,policy,paired,d_gender,0.0019169913027719183,0.46280312371557747,2433,21,21,pairs
+Original DPs,policy,paired,d_education,0.01107427032423586,0.5119597146454049,2383,21,21,pairs
+Original DPs,policy,paired,d_income,0.002937421993993166,0.4995594713656388,1135,11,11,pairs
+Original DPs,policy,paired,d_combined,0.013983383950957108,0.5216049382716049,972,11,11,pairs
+Original DPs,policy,available,d_gender,0.0017542999619123444,0.47126436781609193,2436,21,21,pairs
+Original DPs,policy,available,d_education,0.010042515830050875,0.5232704402515723,2385,21,21,pairs
+Original DPs,policy,available,d_income,0.0015062635914549556,0.5052447552447552,1144,11,11,pairs
+Original DPs,policy,available,d_combined,0.012851849946904416,0.5188199389623601,983,11,11,pairs

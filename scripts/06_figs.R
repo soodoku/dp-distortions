@@ -1,566 +1,158 @@
 "
 Deliberative Distortions
-Figures:
-      1. Boxplot, Density Plot of Polarization, Homogenization by Poll
-      2. By Anglo/Others
-      3. By Online/f2f
+Figures: density and by-poll boxplots of polarization, homogenization, and
+domination (all four dimensions), plus Anglo/Other and Online/F2F splits.
+
+All domination panels use the Equation 3 advantaged reference.
+
 "
 
-
-# Set basedir
-setwd(githubdir)
-setwd("distortions/")
-
-# Polarization by grp-issue pair 
-hp   <- read.csv("tabs/03_hom_pol_by_group_issue.csv")
-
-# Domination by grp-issue pair 
-dom_fem <-  read.csv("tabs/03_dom_fem_by_group_issue.csv")
-dom_inc <-  read.csv("tabs/03_dom_highinc_by_group_issue.csv")
-dom_ed  <-  read.csv("tabs/03_dom_ed_by_group_issue.csv")
-dom_t3  <-  read.csv("tabs/03_dom_triple_disadv_by_group_issue.csv")
-
-# Create an Anglo dummy
-anglo <- c("UK EU", "UK Health", "UK Monarchy", "UK General Election", "UK Crime", "Central Power & Light", "San Mateo, CA", "West Texas Utilities", "National Issues Convention", 
-          "By the People: National", "Southwestern Electric Power", "By the People: Health and Education", "By the People 2004 US General Election", "By the People 2004 US Presidential Primaries",
-          "New Haven, CT", "National Issues Convention 2")
-
-# Create Online/F2F vector
-# dp_all <- read.csv("cdd/data/agg/polardata.csv")
-# table(dp_all$pollname) --- compare to Table 1
-
-online  <- c("By the People: National",
-             "By the People 2004 US General Election",
-             "By the People 2004 US Presidential Primaries",
-             "By the People: Health and Education",
-             "National Issues Convention")
-
-# Load libs
+source("scripts/00_functions.R")
 library(ggplot2)
-library(grid)
-library(goji)
-if ("package:plyr" %in% search()) detach(package:plyr)
-library(dplyr)
 
-# Polarization
-# -------------
+anglo <- c(
+  "UK EU", "UK Health", "UK Monarchy", "UK General Election",
+  "UK Crime", "Central Power & Light", "San Mateo, CA",
+  "West Texas Utilities", "National Issues Convention",
+  "By the People: National", "Southwestern Electric Power",
+  "By the People: Health and Education",
+  "By the People 2004 US General Election",
+  "By the People 2004 US Presidential Primaries",
+  "New Haven, CT", "National Issues Convention 2"
+)
 
-hp <- hp %>% left_join(dom_fem[, c("unique_id", "poll_name")])
+online <- c(
+  "By the People: National",
+  "By the People 2004 US General Election",
+  "By the People 2004 US Presidential Primaries",
+  "By the People: Health and Education",
+  "National Issues Convention"
+)
 
-# Take out missing
-polar2  <- subset(hp, !is.na(polarex))
+fig_theme <- theme_bw() +
+  theme(
+    axis.text = element_text(size = 7),
+    axis.ticks = element_blank(),
+    panel.grid.major.x = element_line(color = "#eeeeee"),
+    panel.grid.major.y = element_line(
+      color = "#dddddd",
+      linetype = "dotted"
+    ),
+    panel.grid.minor = element_blank(),
+    plot.margin = unit(rep(.5, 4), "cm"),
+    panel.border = element_blank(),
+    legend.title = element_blank()
+  )
 
-ggplot(polar2, aes(polarex)) +
-geom_density(aes(x = polarex, y = ..count../sum(..count..))) +
-theme_bw() +
-xlab(expression(P["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/density_polarization.png", width = 3, height = 3)
+density_fig <- function(d, lab, file) {
+  p <- ggplot(d, aes(value)) +
+    geom_histogram(aes(y = after_stat(density)),
+      bins = 40,
+      fill = "grey75", color = "white", linewidth = .2
+    ) +
+    geom_vline(xintercept = 0, linewidth = .35) +
+    labs(x = lab, y = "Density") +
+    fig_theme
+  ggsave(file, p, width = 3.3, height = 3, device = ragg::agg_png)
+}
 
-ggplot(polar2, aes(poll_name, polarex)) +
-geom_boxplot() +
-theme_bw() +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(polar2$polarex), max(polar2$polarex), by = .1), 2)) + 
-theme(axis.title.x = element_blank(),
-      axis.text = element_text(size = 7),
-      axis.title.y = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_polarization.png", width = 5, height = 5)
+poll_boxplot_fig <- function(d, file) {
+  size <- if (n_distinct(d$poll_name) > 15) 7 else 5
+  p <- ggplot(d, aes(poll_name, value)) +
+    geom_boxplot() +
+    coord_flip() +
+    labs(x = NULL, y = NULL) +
+    fig_theme
+  ggsave(file, p, width = size, height = size, device = ragg::agg_png)
+}
 
-# Anglo vs. rest.
+split_density_fig <- function(d, split, lab, file) {
+  p <- ggplot(d, aes(value,
+    fill = .data[[split]], color = .data[[split]],
+    group = .data[[split]]
+  )) +
+    geom_density(aes(y = after_stat(scaled)), alpha = .1) +
+    scale_fill_grey() +
+    scale_color_grey() +
+    geom_vline(xintercept = 0, linewidth = .35) +
+    labs(x = lab, y = "Scaled density") +
+    fig_theme
+  ggsave(file, p, width = 5, height = 5, device = ragg::agg_png)
+}
 
-polar2$anglo <- ifelse(polar2$poll_name %in% anglo, "Anglo", "Other")
+split_boxplot_fig <- function(d, split, lab, file) {
+  p <- ggplot(d, aes(.data[[split]], value)) +
+    geom_boxplot() +
+    coord_flip() +
+    labs(x = NULL, y = lab) +
+    fig_theme
+  ggsave(file, p, width = 5, height = 5, device = ragg::agg_png)
+}
 
-ggplot(polar2) +  
-geom_density(aes(fill = anglo, color = anglo, group = anglo, polarex, y = ..scaled..), alpha = .1) + 
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(P["gj"])) +
-ylab("Rel. Freq.") + 
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_anglo_polarization.png", width = 5, height = 5)
+hp <- read.csv("tabs/03_hom_pol_by_group_issue.csv")
 
-# Online Vs. F2f
+dom_pairs <- function(dim_name) {
+  read.csv(sprintf("tabs/03_dom_%s_by_group_issue.csv", dim_name)) |>
+    rename(value = ext_grp)
+}
 
-polar2$online <- ifelse(polar2$poll_name %in% online, "Online", "F2F")
+sets <- list(
+  polarization = list(
+    d = hp |> rename(value = polarex),
+    lab = expression(P["gj"]), dom = FALSE
+  ),
+  homogenization = list(
+    d = hp |> rename(value = homoex),
+    lab = expression(H["gj"]), dom = FALSE
+  ),
+  dom_gender = list(d = dom_pairs("gender"), lab = expression(D["gj"]), dom = TRUE),
+  dom_educ = list(d = dom_pairs("educ"), lab = expression(D["gj"]), dom = TRUE),
+  dom_income = list(d = dom_pairs("income"), lab = expression(D["gj"]), dom = TRUE),
+  dom_triple = list(d = dom_pairs("triple"), lab = expression(D["gj"]), dom = TRUE)
+)
 
-ggplot(polar2) +  
-geom_density(aes(fill = online, color = online, group = online, polarex, y = ..scaled..), alpha = .1) + 
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(P["gj"])) +
-ylab("Rel. Freq.") + 
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_online_f2f_polarization.png", width = 5, height = 5)
+dir.create("figs", showWarnings = FALSE)
+manifest <- list()
 
-# Homogenization 
-# ----------------
+for (name in names(sets)) {
+  s <- sets[[name]]
+  d <- s$d |>
+    filter(!is.na(value)) |>
+    mutate(
+      anglo = if_else(poll_name %in% anglo, "Anglo", "Other"),
+      online = if_else(poll_name %in% online, "Online", "F2F")
+    )
 
-# Take out missing
-homo2  <- subset(hp, !is.na(homoex))
+  density_fig(d, s$lab, sprintf("figs/density_%s.png", name))
+  poll_boxplot_fig(d, sprintf("figs/boxplot_%s.png", name))
+  split_density_fig(
+    d, "anglo", s$lab,
+    sprintf("figs/density_anglo_%s.png", name)
+  )
+  split_density_fig(
+    d, "online", s$lab,
+    sprintf("figs/density_online_f2f_%s.png", name)
+  )
+  if (s$dom) {
+    split_boxplot_fig(
+      d, "anglo", s$lab,
+      sprintf("figs/boxplot_anglo_%s.png", name)
+    )
+  }
+  manifest[[name]] <- tibble(
+    construct = name,
+    pair_file = if (s$dom) {
+      sprintf("tabs/03_%s_by_group_issue.csv", name)
+    } else {
+      "tabs/03_hom_pol_by_group_issue.csv"
+    },
+    value_column = if (s$dom) "ext_grp" else if (name == "polarization") "polarex" else "homoex",
+    n_pairs = nrow(d),
+    density_figure = sprintf("figs/density_%s.png", name),
+    poll_figure = sprintf("figs/boxplot_%s.png", name),
+    anglo_figure = sprintf("figs/density_anglo_%s.png", name),
+    mode_figure = sprintf("figs/density_online_f2f_%s.png", name)
+  )
+}
 
-ggplot(homo2, aes(homoex)) + 
-geom_density(aes(x = homoex, y = ..count../sum(..count..))) +
-theme_bw() +
-xlab(expression(H["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/density_homogenization.png", width = 3, height = 3)
-
-ggplot(homo2, aes(poll_name, homoex)) +
-geom_boxplot() +
-theme_bw() +
-coord_flip() + 
-scale_y_continuous(breaks = round(seq(min(homo2$homoex), max(homo2$homoex), by = .1), 2)) +
-theme(axis.title.x = element_blank(),
-      axis.text = element_text(size = 7),
-      axis.title.y = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_homogenization.png", width = 5, height = 5)
-
-homo2$anglo <- ifelse(homo2$poll_name %in% anglo, "Anglo", "Other")
-
-ggplot(homo2) +
-geom_density(aes(fill = anglo, color = anglo, group = anglo, homoex, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(H["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_anglo_homogenization.png", width = 5, height = 5)
-
-# Online vs. F2f
-
-homo2$online <- ifelse(homo2$poll_name %in% online, "Online", "F2F")
-
-ggplot(homo2) +  
-geom_density(aes(fill = online, color = online, group = online, homoex, y = ..scaled..), alpha = .1) + 
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(P["gj"])) +
-ylab("Rel. Freq.") + 
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_online_f2f_homogenization.png", width = 5, height = 5)
-
-# Domination --- Income 
-# ----------------------
-
-# Take out missing
-dom_inc2  <- subset(dom_inc, !is.na(extgrp_grp))
-
-ggplot(dom_inc2, aes(extgrp_grp)) +
-geom_density(aes(x = extgrp_grp, y = ..count../sum(..count..))) +
-theme_bw() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/density_dom_inc.png", width = 3.3, height = 3)
-
-ggplot(dom_inc2, aes(poll_name, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_inc2$extgrp_grp), max(dom_inc2$extgrp_grp), by = .1), 2)) + 
-theme(axis.title.x = element_blank(),
-      axis.text = element_text(size = 7),
-      axis.title.y = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_dom_inc.png", width = 5, height = 5)
-
-dom_inc2$anglo <- ifelse(dom_inc2$poll_name %in% anglo, "Anglo", "Other")
-
-ggplot(dom_inc2, aes(anglo, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-ylab(expression(D["gj"])) +
-xlab("") +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_inc2$extgrp_grp), max(dom_inc2$extgrp_grp), by = .1), 2)) +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_anglo_dom_inc.png", width = 5, height = 5)
-
-ggplot(dom_inc2, aes(anglo, extgrp_grp)) +
-geom_density(aes(fill = anglo, color = anglo, group = anglo, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_anglo_dom_inc.png", width = 5, height = 5)
-
-# Online/F2f
-dom_inc2$online <- ifelse(dom_inc2$poll_name %in% online, "Online", "F2F")
-
-ggplot(dom_inc2, aes(online, extgrp_grp)) +
-geom_density(aes(fill = online, color = online, group = online, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_online_f2f_dom_inc.png", width = 5, height = 5)
-
-
-# Domination ---  Gender 
-# ----------------------
-
-# Take out missing
-dom_fem2  <- subset(dom_fem, !is.na(extgrp_grp))
-
-ggplot(dom_fem2, aes(extgrp_grp)) +
-geom_density(aes(x = extgrp_grp, y = ..count../sum(..count..))) +
-theme_bw() +
-xlab(expression(D["gj"])) + 
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/density_dom_fem.png", width = 3, height = 3)
-
-ggplot(dom_fem2, aes(poll_name, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_fem2$extgrp_grp), max(dom_fem2$extgrp_grp), by = .1), 2)) +
-theme(axis.title.x = element_blank(),
-      axis.text = element_text(size = 7),
-      axis.title.y = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_dom_fem.png", width = 7, height = 7)
-
-dom_fem2$anglo <- ifelse(dom_fem2$poll_name %in% anglo, "Anglo", "Other")
-
-ggplot(dom_fem2, aes(anglo, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-ylab(expression(D["gj"])) +
-xlab("") +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_fem2$extgrp_grp), max(dom_fem2$extgrp_grp), by = .1), 2)) +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_anglo_dom_fem.png", width = 5, height = 5)
-
-ggplot(dom_fem2, aes(anglo, extgrp_grp)) +
-geom_density(aes(fill = anglo, color = anglo, group = anglo, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_anglo_dom_fem.png", width = 5, height = 5)
-
-# Online/F2f
-dom_fem2$online <- ifelse(dom_fem2$poll_name %in% online, "Online", "F2F")
-
-ggplot(dom_fem2, aes(online, extgrp_grp)) +
-geom_density(aes(fill = online, color = online, group = online, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_online_f2f_dom_fem.png", width = 5, height = 5)
-
-# Domination ---  Education 
-# -------------------------
-
-# Take out missing
-dom_ed2  <- subset(dom_ed, !is.na(extgrp_grp))
-
-ggplot(dom_ed2, aes(extgrp_grp)) +
-geom_density(aes(x = extgrp_grp, y = ..count../sum(..count..))) +
-theme_bw() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"), 
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/density_dom_ed.png", width = 3.4, height = 3)
-
-ggplot(dom_ed2, aes(poll_name, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_ed2$extgrp_grp), max(dom_ed2$extgrp_grp), by = .1), 2)) +
-theme(axis.title.x = element_blank(),
-      axis.text = element_text(size = 7), 
-      axis.title.y = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_dom_ed.png", width = 7, height = 7)
-
-dom_ed2$anglo <- ifelse(dom_ed2$poll_name %in% anglo, "Anglo", "Other")
-
-ggplot(dom_ed2, aes(anglo, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-ylab(expression(D["gj"])) +
-xlab("") +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_ed2$extgrp_grp), max(dom_ed2$extgrp_grp), by = .1), 2)) +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_anglo_dom_ed.png", width = 5, height = 5)
-
-ggplot(dom_ed2, aes(anglo, extgrp_grp)) +
-geom_density(aes(fill = anglo, color = anglo, group = anglo, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_anglo_dom_ed.png", width = 5, height = 5)
-
-# Online/F2f
-dom_ed2$online <- ifelse(dom_ed2$poll_name %in% online, "Online", "F2F")
-
-ggplot(dom_ed2, aes(online, extgrp_grp)) +
-geom_density(aes(fill = online, color = online, group = online, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_online_f2f_dom_ed.png", width = 5, height = 5)
-
-# Domination ---  Triple 
-# -------------------------
-
-# Take out missing
-dom_t32  <- subset(dom_t3, !is.na(extgrp_grp))
-
-ggplot(dom_t32, aes(extgrp_grp)) +
-geom_density(aes(x = extgrp_grp, y = ..count../sum(..count..))) + 
-theme_bw() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/density_dom_triple.png", width = 3.3, height = 3)
-
-ggplot(dom_t32, aes(poll_name, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_t32$extgrp_grp), max(dom_t32$extgrp_grp), by = .1), 2)) +
-theme(axis.title.x = element_blank(),
-      axis.text = element_text(size = 7),
-      axis.title.y = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_dom_triple.png", width = 5, height = 5)
-
-dom_t32$anglo <- ifelse(dom_t32$poll_name %in% anglo, "Anglo", "Other")
-
-ggplot(dom_t32, aes(anglo, extgrp_grp)) +
-geom_boxplot() +
-theme_bw() +
-ylab(expression(D["gj"])) +
-xlab("") +
-coord_flip() +
-scale_y_continuous(breaks = round(seq(min(dom_t32$extgrp_grp), max(dom_t32$extgrp_grp), by = .1), 2)) +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0))
-ggsave("figs/boxplot_anglo_dom_triple.png", width = 5, height = 5)
-
-
-ggplot(dom_t32, aes(anglo, extgrp_grp)) +
-geom_density(aes(fill = anglo, color = anglo, group = anglo, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7),
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_anglo_dom_triple.png", width = 5, height = 5)
-
-
-# Online/F2f
-dom_t32$online <- ifelse(dom_t32$poll_name %in% online, "Online", "F2F")
-
-ggplot(dom_t32, aes(online, extgrp_grp)) +
-geom_density(aes(fill = online, color = online, group = online, extgrp_grp, y = ..scaled..), alpha = .1) +
-theme_bw() +
-scale_fill_grey() +
-scale_color_grey() +
-xlab(expression(D["gj"])) +
-ylab("Rel. Freq.") +
-theme(axis.text = element_text(size = 7), 
-      axis.ticks = element_blank(),
-      panel.grid.major.x = element_line(color = "#eeeeee"),
-      panel.grid.major.y = element_line(color = "#dddddd", linetype = "dotted"),
-      panel.grid.minor = element_blank(),
-      plot.margin = unit(c(.5, .5, .5, .5), "cm"),
-      panel.border = element_rect(0, 0, 0, 0),
-      legend.title = element_blank())
-ggsave("figs/density_online_f2f_dom_triple.png", width = 5, height = 5)
+write.csv(list_rbind(manifest), "figs/figure_manifest.csv", row.names = FALSE)

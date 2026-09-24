@@ -1,7 +1,7 @@
 Package: distortions
 Type: Project
-Title: Corrected Analysis for Deliberative Distortions
-Version: 1.1.0
+Title: Deliberative Distortions and Out-of-Sample Replication
+Version: 1.2.0
 Authors@R: c(
     person("Robert", "Luskin", role = "aut"),
     person("Gaurav", "Sood", role = "aut"),
@@ -9,7 +9,8 @@ Authors@R: c(
     person("Kyu", "Hahn", role = "aut")
   )
 Description: Reproduces, audits, and corrects the empirical analysis for
-    Deliberative Distortions.
+    Deliberative Distortions, with an out-of-sample replication and extension
+    comparing Deliberative Polls and other discussion studies.
 Depends:
     R (>= 4.6.0)
 Imports:
@@ -21,10 +22,15 @@ Imports:
     fixest,
     fwildclusterboot,
     ggplot2,
+    haven,
+    jsonlite,
+    knitr,
     lintr,
     purrr,
     ragg,
+    readr,
     renv,
+    rprojroot,
     sandwich,
     testthat,
     tibble,

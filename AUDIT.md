@@ -198,20 +198,37 @@ make ci
 
 The authoritative outputs are:
 
-- `tabs_clean/02_table_2_corrected.csv`
-- `tabs_clean/03_table_3_corrected.csv`
-- `tabs_clean/05_attitude_change.csv`
-- `tabs_clean/05_attitude_change_weighting.csv`
-- `tabs_clean/09_paired_response_sensitivity.csv`
-- `tabs_clean/09_frequency_comparison.csv`
-- `tabs_clean/05_corr_hpd.csv`
-- `tabs_clean/07_parsing_domination.csv`
-- `tabs_clean/99_validation.csv`
-- `figs_clean/figure_manifest.csv`
+- `tabs/02_table_2.csv`
+- `tabs/03_table_3.csv`
+- `tabs/05_attitude_change.csv`
+- `tabs/05_attitude_change_weighting.csv`
+- `tabs/09_paired_response_sensitivity.csv`
+- `tabs/09_frequency_comparison.csv`
+- `tabs/05_corr_hpd.csv`
+- `tabs/07_parsing_domination.csv`
+- `tabs/99_validation.csv`
+- `figs/figure_manifest.csv`
 - `provenance/claims.csv`, `values.csv`, `artifacts.csv`, and `checks.csv`
 
 The repository has no editable manuscript source. The published PDF cannot be
 rebuilt locally, so the journal article remains immutable. The claim ledger
 identifies journal locations for numerical updates or author interpretation review.
-The original `scripts/`, `tabs/`, and `figs/` remain unchanged as historical
-provenance.
+The `paper-2022` tag preserves the original scripts, tables, figures, and data.
+The working directories contain the current analysis and outputs.
+
+
+## Reproducing the comparisons in the correction note
+
+`make audit` runs `scripts/run_all.R` and the single audit entry point,
+`scripts/checks.R`. `Rscript scripts/checks.R` runs the focused
+comparisons against those saved outputs without regenerating the analysis.
+Historical poll summaries are read from the `paper-2022` tag.
+
+These comparisons hold other revised calculations fixed; they do not uniquely
+decompose the difference between the published and revised results. They cover
+unavailable subgroup means, reference ties and valid zeros, US Primaries
+duplication, historical aggregation, and the combined-disadvantage predictor.
+The script checks baseline scores, estimates, CR2 inference, and samples against
+the release, and reconstructs the historical aggregation formula from archived
+poll summaries. It prints the scenario results for inspection and stops on a
+failed check.

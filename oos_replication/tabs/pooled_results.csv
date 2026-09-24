@@ -1,0 +1,729 @@
+format,construct,timing_class,membership,metric,weighting,pairs,families,mean,positive_fraction,largest_family_share,se,df,lower,upper,inference
+casual_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,h,pairs,1,1,-0.04034096487552652,0,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,available,h,equal_family_event,1,1,-0.04034096487552652,0,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,available,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,available,p_absolute,pairs,1,1,0.033333333333333326,1,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,available,p_absolute,equal_family_event,1,1,0.033333333333333326,1,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,h,pairs,1,1,-0.04034096487552652,0,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,paired,h,equal_family_event,1,1,-0.04034096487552652,0,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,paired,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+casual_discussion,policy,immediate,paired,p_absolute,pairs,1,1,0.033333333333333326,1,1,NA,NA,NA,NA,fewer than two independent families
+casual_discussion,policy,immediate,paired,p_absolute,equal_family_event,1,1,0.033333333333333326,1,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,d_gender,pairs,41,1,-0.03570460704607046,0.34146341463414637,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,available,d_gender,equal_family_event,41,1,-0.03570460704607044,0.3414634146341462,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,h,pairs,56,1,0.02350308117620525,0.5535714285714286,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,available,h,equal_family_event,56,1,0.023503081176205223,0.5535714285714278,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,available,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,available,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,d_gender,pairs,41,1,-0.03570460704607046,0.34146341463414637,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,paired,d_gender,equal_family_event,41,1,-0.03570460704607044,0.3414634146341462,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,h,pairs,56,1,0.02350308117620525,0.5535714285714286,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,paired,h,equal_family_event,56,1,0.023503081176205223,0.5535714285714278,1,NA,NA,NA,NA,fewer than two independent families
+classroom_discussion,policy,immediate,paired,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+classroom_discussion,policy,immediate,paired,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,available,d_education,pairs,8,1,-0.01438492063492064,0.375,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,d_education,equal_family_event,8,1,-0.01438492063492064,0.375,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,d_gender,pairs,5,1,-0.06210317460317459,0.2,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,d_gender,equal_family_event,5,1,-0.062103174603174605,0.2,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,available,h,pairs,8,1,0.022269624090187994,0.625,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,h,equal_family_event,8,1,0.022269624090187994,0.625,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,p,pairs,7,1,0.026360544217687073,0.5714285714285714,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,p,equal_family_event,7,1,0.026360544217687076,0.5714285714285715,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,p_absolute,pairs,8,1,0.034784226190476185,0.625,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,available,p_absolute,equal_family_event,8,1,0.034784226190476185,0.625,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,paired,d_education,pairs,8,1,-0.01605902777777779,0.375,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,d_education,equal_family_event,8,1,-0.01605902777777779,0.375,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,d_gender,pairs,5,1,-0.04871031746031744,0.2,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,d_gender,equal_family_event,5,1,-0.048710317460317454,0.2,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,belief,immediate,paired,h,pairs,8,1,0.020608010709928865,0.5,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,h,equal_family_event,8,1,0.020608010709928865,0.5,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,p,pairs,7,1,0.028273809523809527,0.5714285714285714,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,p,equal_family_event,7,1,0.028273809523809527,0.5714285714285715,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,p_absolute,pairs,8,1,0.03645833333333333,0.625,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,belief,immediate,paired,p_absolute,equal_family_event,8,1,0.03645833333333333,0.625,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,available,d_education,pairs,75,1,0.027447089947089946,0.52,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,d_education,equal_family_event,75,1,0.027447089947089987,0.5200000000000002,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,d_gender,pairs,57,1,-0.005734823169033695,0.40350877192982454,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,d_gender,equal_family_event,57,1,-0.005734823169033684,0.40350877192982393,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,available,h,pairs,80,1,0.007147592832535144,0.5,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,h,equal_family_event,80,1,0.007147592832535155,0.500000000000001,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,p,pairs,78,1,-0.01616554741554743,0.41025641025641024,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,p,equal_family_event,78,1,-0.016165547415547418,0.4102564102564111,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,p_absolute,pairs,80,1,0.007068452380952375,0.4375,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,available,p_absolute,equal_family_event,80,1,0.0070684523809523905,0.4375000000000009,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,paired,d_education,pairs,75,1,0.027089947089947095,0.52,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,d_education,equal_family_event,75,1,0.027089947089947122,0.5200000000000002,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,d_gender,pairs,57,1,-0.00463833194096352,0.40350877192982454,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,d_gender,equal_family_event,57,1,-0.004638331940963512,0.40350877192982393,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_mini_public,policy,immediate,paired,h,pairs,80,1,0.0077361376845106414,0.4875,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,h,equal_family_event,80,1,0.007736137684510651,0.48750000000000104,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,p,pairs,78,1,-0.014448514448514454,0.41025641025641024,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,p,equal_family_event,78,1,-0.014448514448514449,0.4102564102564111,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,p_absolute,pairs,80,1,0.009188988095238097,0.4375,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_mini_public,policy,immediate,paired,p_absolute,equal_family_event,80,1,0.009188988095238108,0.4375000000000009,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_combined,pairs,230,1,0.012915261528752567,0.5347826086956522,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_combined,equal_family_event,230,1,0.012915261528752619,0.5347826086956529,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_education,pairs,377,1,0.01616471202814624,0.5570291777188329,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_education,equal_family_event,377,1,0.01616471202814614,0.5570291777188285,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_gender,pairs,405,1,0.0015654877882546703,0.4419753086419753,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_gender,equal_family_event,405,1,0.0015654877882546809,0.4419753086419788,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_income,pairs,395,1,0.008369925371228413,0.5063291139240507,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,d_income,equal_family_event,395,1,0.008369925371228389,0.5063291139240503,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,h,pairs,419,1,0.04373518205327465,0.7374701670644391,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,h,equal_family_event,419,1,0.043735182053274244,0.7374701670644361,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,p,pairs,418,1,0.04355242239934751,0.7272727272727273,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,p,equal_family_event,418,1,0.043552422399347875,0.7272727272727303,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,p_absolute,pairs,420,1,0.04618327632140653,0.7333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,available,p_absolute,equal_family_event,420,1,0.046183276321406744,0.7333333333333335,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_combined,pairs,230,1,0.013474754217081575,0.5217391304347826,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_combined,equal_family_event,230,1,0.01347475421708163,0.5217391304347834,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_education,pairs,376,1,0.01886907790009321,0.5531914893617021,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_education,equal_family_event,376,1,0.01886907790009335,0.5531914893617058,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_gender,pairs,404,1,0.001004362253452235,0.42326732673267325,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_gender,equal_family_event,404,1,0.0010043622534522364,0.4232673267326733,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_income,pairs,396,1,0.009603262218569697,0.5126262626262627,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,d_income,equal_family_event,396,1,0.009603262218569766,0.512626262626267,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,h,pairs,419,1,0.04381114643142114,0.7326968973747017,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,h,equal_family_event,419,1,0.043811146431420735,0.7326968973746986,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,p,pairs,419,1,0.044927530060374324,0.7279236276849642,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,p,equal_family_event,419,1,0.04492753006037394,0.7279236276849611,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,p_absolute,pairs,420,1,0.04776084697670831,0.7333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,climate_belief,immediate,paired,p_absolute,equal_family_event,420,1,0.04776084697670847,0.7333333333333335,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_combined,pairs,174,1,0.008495615176649665,0.5172413793103449,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_combined,equal_family_event,174,1,0.008495615176649632,0.5172413793103425,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_education,pairs,281,1,0.01898107997647456,0.6156583629893239,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_education,equal_family_event,281,1,0.01898107997647463,0.6156583629893241,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_gender,pairs,311,1,-0.00314991110858332,0.47266881028938906,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_gender,equal_family_event,311,1,-0.0031499111085833394,0.47266881028939206,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_income,pairs,296,1,0.01400007556257556,0.5337837837837838,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,d_income,equal_family_event,296,1,0.0140000755625755,0.5337837837837829,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,h,pairs,315,1,0.033355973815822816,0.6825396825396826,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,h,equal_family_event,315,1,0.033355973815822934,0.6825396825396827,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,p,pairs,311,1,0.03447997518737066,0.6977491961414791,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,p,equal_family_event,311,1,0.03447997518737078,0.6977491961414811,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,p_absolute,pairs,315,1,0.0476494087922659,0.746031746031746,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,available,p_absolute,equal_family_event,315,1,0.04764940879226608,0.7460317460317462,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_combined,pairs,175,1,0.009042162599305464,0.5142857142857142,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_combined,equal_family_event,175,1,0.009042162599305488,0.5142857142857165,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_education,pairs,280,1,0.019599770036219606,0.6107142857142858,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_education,equal_family_event,280,1,0.01959977003621968,0.6107142857142859,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_gender,pairs,310,1,-0.002929909801351926,0.46774193548387094,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_gender,equal_family_event,310,1,-0.0029299098013519393,0.46774193548387477,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_income,pairs,296,1,0.012782972470472467,0.5371621621621622,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,d_income,equal_family_event,296,1,0.012782972470472416,0.5371621621621613,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,h,pairs,315,1,0.032853946538335885,0.6857142857142857,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,h,equal_family_event,315,1,0.032853946538335954,0.6857142857142859,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,p,pairs,310,1,0.03416993937961678,0.6870967741935484,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,p,equal_family_event,310,1,0.03416993937961701,0.687096774193551,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,p_absolute,pairs,315,1,0.04748829829782207,0.7365079365079366,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,environmental_concern,immediate,paired,p_absolute,equal_family_event,315,1,0.047488298297822265,0.7365079365079367,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,available,d_gender,pairs,517,1,-0.008408600855409376,0.4526112185686654,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,d_gender,equal_family_event,517,1,-0.008408600855409303,0.4526112185686594,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,available,h,pairs,525,1,-0.005564954820449369,0.4857142857142857,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,h,equal_family_event,525,1,-0.005564954820449444,0.4857142857142927,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p,pairs,519,1,-0.03696436511465419,0.371868978805395,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p,equal_family_event,519,1,-0.03696436511465392,0.37186897880539316,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p_absolute,pairs,525,1,-0.005957962672248385,0.4419047619047619,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p_absolute,equal_family_event,525,1,-0.00595796267224847,0.44190476190476824,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,paired,d_gender,pairs,517,1,-0.0053714784033932995,0.46034816247582205,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,d_gender,equal_family_event,517,1,-0.005371478403393251,0.4603481624758159,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+deliberative_poll,policy,delayed,paired,h,pairs,525,1,-0.005110639111677841,0.4780952380952381,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,h,equal_family_event,525,1,-0.005110639111677909,0.47809523809524496,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p,pairs,520,1,-0.038309424016154836,0.37115384615384617,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p,equal_family_event,520,1,-0.03830942401615492,0.3711538461538463,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p_absolute,pairs,525,1,-0.007626856212570511,0.43047619047619046,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p_absolute,equal_family_event,525,1,-0.007626856212570579,0.4304761904761966,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_combined,pairs,3682,1,0.006487374745514512,0.503530689842477,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_combined,equal_family_event,3682,1,0.006487374745514626,0.5035306898424777,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_education,pairs,5950,1,0.00964008807005594,0.5280672268907562,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_education,equal_family_event,5950,1,0.009640088070055067,0.528067226890738,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_gender,pairs,8389,1,0.0023794733711957282,0.4914769340803433,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_gender,equal_family_event,8389,1,0.003645987149300701,0.49645159238072883,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_income,pairs,6405,1,0.005383312975922152,0.4967993754879001,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,d_income,equal_family_event,6405,1,0.005383312975922766,0.4967993754879831,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,h,pairs,8666,1,0.03151430726730774,0.6633971843987999,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,h,equal_family_event,8666,1,0.032866254879578366,0.6764360761517768,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,p,pairs,8587,1,0.019710728364473136,0.6071969255851869,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,p,equal_family_event,8587,1,0.017274742617175036,0.6010431594520894,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,p_absolute,pairs,8705,1,0.038647606460205756,0.6607696726019529,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,available,p_absolute,equal_family_event,8705,1,0.041090676870778976,0.6678518821605163,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_combined,pairs,3659,1,0.006010000769075905,0.4911177917463788,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_combined,equal_family_event,3659,1,0.006010000769075441,0.49111779174633147,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_education,pairs,5913,1,0.009121523308782685,0.5147979029257568,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_education,equal_family_event,5913,1,0.009121523308781208,0.5147979029256772,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_gender,pairs,8355,1,0.0025088441869516994,0.48090963494913225,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_gender,equal_family_event,8355,1,0.004103222169032228,0.48840980972601716,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_income,pairs,6379,1,0.004980971152185525,0.48832105345665466,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,d_income,equal_family_event,6379,1,0.004980971152185202,0.4883210534566374,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,h,pairs,8664,1,0.0308878764085733,0.6548938134810711,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,h,equal_family_event,8664,1,0.03215926414107979,0.668697623946201,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,p,pairs,8580,1,0.0219458057863036,0.6037296037296037,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,p,equal_family_event,8580,1,0.019220831530228594,0.5956588305827237,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,p_absolute,pairs,8705,1,0.04101472151489048,0.6565192418150488,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,immediate,paired,p_absolute,equal_family_event,8705,1,0.04321033034845412,0.6630215883408626,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,available,d_gender,pairs,624,1,-0.0027243589743589755,0.42948717948717946,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,d_gender,equal_family_event,624,1,-0.0027243589743589833,0.4294871794871796,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,available,h,pairs,1323,1,0.018540842206622294,0.48677248677248675,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,h,equal_family_event,1323,1,0.018540842206622728,0.48677248677249124,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,p,pairs,1248,1,-0.015200320512820512,0.42788461538461536,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,p,equal_family_event,1248,1,-0.015200320512820551,0.4278846153846155,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,p_absolute,pairs,1323,1,0.010600907029478464,0.5003779289493575,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,available,p_absolute,equal_family_event,1323,1,0.010600907029478716,0.500377928949362,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,paired,d_gender,pairs,624,1,-0.0027243589743589755,0.42948717948717946,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,d_gender,equal_family_event,624,1,-0.0027243589743589833,0.4294871794871796,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_cross_party,affect,immediate,paired,h,pairs,1323,1,0.018540842206622294,0.48677248677248675,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,h,equal_family_event,1323,1,0.018540842206622728,0.48677248677249124,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,p,pairs,1248,1,-0.015200320512820512,0.42788461538461536,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,p,equal_family_event,1248,1,-0.015200320512820551,0.4278846153846155,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,p_absolute,pairs,1323,1,0.010600907029478464,0.5003779289493575,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_cross_party,affect,immediate,paired,p_absolute,equal_family_event,1323,1,0.010600907029478716,0.500377928949362,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,d_combined,pairs,94,1,0,0.3404255319148936,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,d_combined,equal_family_event,94,1,2.818925648462316e-18,0.34042553191489416,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,d_education,pairs,206,1,-0.0024271844660194173,0.34951456310679613,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,d_education,equal_family_event,206,1,-0.00242718446601942,0.34951456310679613,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,affect,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,affect,immediate,available,d_income,pairs,388,1,0.004510309278350515,0.3479381443298969,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,d_income,equal_family_event,388,1,0.004510309278350528,0.3479381443298973,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,h,pairs,940,1,0.01523288544577402,0.33191489361702126,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,h,equal_family_event,940,1,0.015232885445773902,0.33191489361701704,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,p,pairs,736,1,-0.06929347826086957,0.19972826086956522,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,p,equal_family_event,736,1,-0.06929347826086892,0.19972826086956394,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,p_absolute,pairs,990,1,0.0054292929292929296,0.32626262626262625,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,available,p_absolute,equal_family_event,990,1,0.005429292929292895,0.326262626262626,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,d_combined,pairs,94,1,0,0.3404255319148936,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,d_combined,equal_family_event,94,1,2.818925648462316e-18,0.34042553191489416,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,d_education,pairs,201,1,0.003109452736318408,0.35323383084577115,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,d_education,equal_family_event,201,1,0.0031094527363184185,0.353233830845772,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,affect,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,affect,immediate,paired,d_income,pairs,362,1,0.014157458563535912,0.36187845303867405,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,d_income,equal_family_event,362,1,0.014157458563535806,0.36187845303867056,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,h,pairs,940,1,0.01523288544577402,0.33191489361702126,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,h,equal_family_event,940,1,0.015232885445773902,0.33191489361701704,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,p,pairs,714,1,-0.06757703081232493,0.19607843137254902,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,p,equal_family_event,714,1,-0.06757703081232501,0.1960784313725492,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,p_absolute,pairs,990,1,0.007954545454545454,0.3212121212121212,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,affect,immediate,paired,p_absolute,equal_family_event,990,1,0.007954545454545409,0.3212121212121209,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_combined,pairs,68,1,-0.012867647058823529,0.29411764705882354,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_combined,equal_family_event,68,1,-0.012867647058823553,0.29411764705882404,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_education,pairs,164,1,-0.022103658536585365,0.3170731707317073,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_education,equal_family_event,164,1,-0.022103658536585354,0.31707317073170727,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_income,pairs,312,1,-0.001201923076923077,0.33653846153846156,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_income,equal_family_event,312,1,-0.0012019230769230837,0.33653846153846184,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,h,pairs,760,1,-0.0013956054891839744,0.2986842105263158,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,h,equal_family_event,760,1,-0.001395605489184002,0.29868421052632194,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,available,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_combined,pairs,68,1,-0.012867647058823529,0.29411764705882354,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_combined,equal_family_event,68,1,-0.012867647058823553,0.29411764705882404,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_education,pairs,158,1,-0.012658227848101266,0.3227848101265823,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_education,equal_family_event,158,1,-0.012658227848101238,0.32278481012658156,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_income,pairs,295,1,-0.001271186440677966,0.33220338983050846,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_income,equal_family_event,295,1,-0.0012711864406779782,0.3322033898305112,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,h,pairs,760,1,-0.0013956054891839744,0.2986842105263158,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,h,equal_family_event,760,1,-0.001395605489184002,0.29868421052632194,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HH,stereotype_judgment,immediate,paired,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,affect,immediate,available,d_combined,pairs,114,1,0.02631578947368421,0.4473684210526316,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,d_combined,equal_family_event,114,1,0.02631578947368415,0.4473684210526312,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,d_education,pairs,164,1,0.019054878048780487,0.42073170731707316,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,d_education,equal_family_event,164,1,0.019054878048780484,0.42073170731707316,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,affect,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,affect,immediate,available,d_income,pairs,329,1,0.022036474164133738,0.40425531914893614,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,d_income,equal_family_event,329,1,0.022036474164133884,0.40425531914893753,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,h,pairs,740,1,0.008838834764831844,0.327027027027027,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,h,equal_family_event,740,1,0.00883883476483192,0.32702702702702785,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,p,pairs,630,1,-0.07757936507936508,0.1984126984126984,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,p,equal_family_event,630,1,-0.07757936507936516,0.19841269841269862,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,p_absolute,pairs,800,1,-7.8125e-4,0.33125,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,available,p_absolute,equal_family_event,800,1,-7.812500000000144e-4,0.33125000000000365,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,d_combined,pairs,97,1,0.041237113402061855,0.44329896907216493,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,d_combined,equal_family_event,97,1,0.041237113402061924,0.44329896907216587,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,d_education,pairs,146,1,0.009417808219178082,0.3767123287671233,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,d_education,equal_family_event,146,1,0.009417808219178054,0.3767123287671227,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,affect,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,affect,immediate,paired,d_income,pairs,303,1,0.02764026402640264,0.39933993399339934,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,d_income,equal_family_event,303,1,0.027640264026402513,0.39933993399339696,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,h,pairs,740,1,0.008838834764831844,0.327027027027027,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,h,equal_family_event,740,1,0.00883883476483192,0.32702702702702785,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,p,pairs,619,1,-0.0805735056542811,0.18578352180936994,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,p,equal_family_event,619,1,-0.0805735056542822,0.18578352180937246,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,p_absolute,pairs,800,1,-0.00265625,0.31625,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,affect,immediate,paired,p_absolute,equal_family_event,800,1,-0.0026562500000000453,0.31625000000000375,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_combined,pairs,106,1,0.01768867924528302,0.4056603773584906,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_combined,equal_family_event,106,1,0.017688679245283022,0.4056603773584906,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_education,pairs,144,1,0.015625,0.4375,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_education,equal_family_event,144,1,0.01562500000000004,0.4375000000000005,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_income,pairs,265,1,0.014622641509433962,0.3622641509433962,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_income,equal_family_event,265,1,0.014622641509433964,0.36226415094339626,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,h,pairs,600,1,0.025927248643506737,0.3383333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,h,equal_family_event,600,1,0.02592724864350649,0.3383333333333298,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,available,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_combined,pairs,99,1,0.007575757575757576,0.36363636363636365,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_combined,equal_family_event,99,1,0.007575757575757593,0.36363636363636453,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_education,pairs,129,1,-0.00872093023255814,0.37209302325581395,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_education,equal_family_event,129,1,-0.008720930232558127,0.37209302325581384,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_income,pairs,251,1,0.018924302788844622,0.3545816733067729,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_income,equal_family_event,251,1,0.018924302788844636,0.3545816733067729,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,h,pairs,600,1,0.025927248643506737,0.3383333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,h,equal_family_event,600,1,0.02592724864350649,0.3383333333333298,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_gen_HM,stereotype_judgment,immediate,paired,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,affect,immediate,available,d_combined,pairs,16,1,-0.0078125,0.375,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,d_combined,equal_family_event,16,1,-0.0078125,0.375,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,d_education,pairs,94,1,0.009308510638297872,0.3829787234042553,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,d_education,equal_family_event,94,1,0.009308510638297879,0.382978723404256,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,affect,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,affect,immediate,available,d_income,pairs,288,1,0.00390625,0.3645833333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,d_income,equal_family_event,288,1,0.00390625000000001,0.36458333333333365,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,h,pairs,870,1,0.01259787943493274,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,h,equal_family_event,870,1,0.012597879434932886,0.33333333333333764,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,p,pairs,687,1,-0.08278748180494905,0.18340611353711792,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,p,equal_family_event,687,1,-0.08278748180494816,0.18340611353711608,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,p_absolute,pairs,920,1,0.008152173913043478,0.3391304347826087,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,available,p_absolute,equal_family_event,920,1,0.008152173913043308,0.33913043478260035,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,d_combined,pairs,16,1,-0.0078125,0.375,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,d_combined,equal_family_event,16,1,-0.0078125,0.375,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,d_education,pairs,89,1,0.008426966292134831,0.3707865168539326,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,d_education,equal_family_event,89,1,0.008426966292134816,0.37078651685393216,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,affect,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,affect,immediate,paired,d_income,pairs,281,1,-4.4483985765124553e-4,0.35231316725978645,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,d_income,equal_family_event,281,1,-4.448398576512346e-4,0.3523131672597868,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,h,pairs,870,1,0.01259787943493274,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,h,equal_family_event,870,1,0.012597879434932886,0.33333333333333764,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,p,pairs,680,1,-0.08731617647058823,0.17058823529411765,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,p,equal_family_event,680,1,-0.08731617647058833,0.17058823529411787,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,p_absolute,pairs,920,1,0.006793478260869565,0.3239130434782609,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,affect,immediate,paired,p_absolute,equal_family_event,920,1,0.006793478260869428,0.3239130434782529,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_combined,pairs,12,1,0.03125,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_combined,equal_family_event,12,1,0.03125,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_education,pairs,76,1,-0.03125,0.2631578947368421,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_education,equal_family_event,76,1,-0.031249999999999965,0.2631578947368417,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_income,pairs,237,1,-0.020042194092827006,0.2742616033755274,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_income,equal_family_event,237,1,-0.02004219409282712,0.2742616033755292,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,h,pairs,696,1,-0.0015239370284192884,0.2959770114942529,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,h,equal_family_event,696,1,-0.0015239370284193048,0.29597701149425776,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,available,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_combined,pairs,12,1,0.03125,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_combined,equal_family_event,12,1,0.03125,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_education,pairs,71,1,-0.02464788732394366,0.2676056338028169,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_education,equal_family_event,71,1,-0.024647887323943688,0.26760563380281716,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_income,pairs,235,1,-0.02127659574468085,0.2680851063829787,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_income,equal_family_event,235,1,-0.021276595744680826,0.26808510638297867,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,h,pairs,696,1,-0.0015239370284192884,0.2959770114942529,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,h,equal_family_event,696,1,-0.0015239370284193048,0.29597701149425776,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HH,stereotype_judgment,immediate,paired,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,affect,immediate,available,d_combined,pairs,67,1,-0.022388059701492536,0.29850746268656714,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,d_combined,equal_family_event,67,1,-0.022388059701492508,0.2985074626865667,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,d_education,pairs,175,1,-0.04357142857142857,0.2742857142857143,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,d_education,equal_family_event,175,1,-0.04357142857142874,0.2742857142857154,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,affect,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,affect,immediate,available,d_income,pairs,275,1,0.013636363636363636,0.3890909090909091,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,d_income,equal_family_event,275,1,0.013636363636363573,0.389090909090908,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,h,pairs,750,1,0.016499158227686102,0.3293333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,h,equal_family_event,750,1,0.01649915822768627,0.32933333333333736,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,p,pairs,656,1,-0.07869664634146341,0.20426829268292682,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,p,equal_family_event,656,1,-0.07869664634146464,0.20426829268293054,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,p_absolute,pairs,830,1,-0.00391566265060241,0.3096385542168675,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,available,p_absolute,equal_family_event,830,1,-0.003915662650602362,0.30963855421686354,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,d_combined,pairs,52,1,0.014423076923076924,0.36538461538461536,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,d_combined,equal_family_event,52,1,0.01442307692307692,0.3653846153846149,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,d_education,pairs,144,1,-0.03211805555555555,0.2708333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,d_education,equal_family_event,144,1,-0.03211805555555564,0.270833333333334,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,affect,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,affect,immediate,paired,d_income,pairs,240,1,0.021354166666666667,0.3958333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,d_income,equal_family_event,240,1,0.02135416666666672,0.3958333333333341,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,h,pairs,750,1,0.016499158227686102,0.3293333333333333,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,h,equal_family_event,750,1,0.01649915822768627,0.32933333333333736,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,p,pairs,640,1,-0.0861328125,0.165625,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,p,equal_family_event,640,1,-0.08613281249999935,0.165624999999998,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,p_absolute,pairs,830,1,-0.008433734939759036,0.28072289156626506,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,affect,immediate,paired,p_absolute,equal_family_event,830,1,-0.00843373493975893,0.2807228915662619,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_combined,pairs,60,1,-0.01875,0.35,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_combined,equal_family_event,60,1,-0.01874999999999998,0.34999999999999953,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_education,pairs,153,1,-0.0392156862745098,0.26143790849673204,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_education,equal_family_event,153,1,-0.039215686274509914,0.26143790849673276,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_income,pairs,212,1,-0.0047169811320754715,0.330188679245283,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_income,equal_family_event,212,1,-0.004716981132075445,0.33018867924528117,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,h,pairs,600,1,0.010606601717798215,0.30833333333333335,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,h,equal_family_event,600,1,0.010606601717798115,0.3083333333333304,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,available,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_combined,pairs,47,1,0.010638297872340425,0.3829787234042553,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_combined,equal_family_event,47,1,0.01063829787234042,0.382978723404255,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_education,pairs,126,1,-0.026785714285714284,0.2619047619047619,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_education,equal_family_event,126,1,-0.026785714285714357,0.2619047619047626,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_gender,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_gender,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_income,pairs,184,1,0.001358695652173913,0.31521739130434784,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_income,equal_family_event,184,1,0.0013586956521739085,0.31521739130434695,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,h,pairs,600,1,0.010606601717798215,0.30833333333333335,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,h,equal_family_event,600,1,0.010606601717798115,0.3083333333333304,1,NA,NA,NA,NA,fewer than two independent families
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,p,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,p,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,p_absolute,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+dyadic_online_igr_HM,stereotype_judgment,immediate,paired,p_absolute,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+facilitated_discussion,policy,immediate,available,d_combined,pairs,30,1,-0.014444444444444439,0.36666666666666664,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_combined,equal_family_event,30,1,-0.013318452380952379,0.3705357142857143,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_education,pairs,52,1,-0.018612637362637362,0.3269230769230769,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_education,equal_family_event,52,1,-0.018154761904761885,0.3307823129251697,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_gender,pairs,54,1,-0.010802469135802463,0.4074074074074074,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_gender,equal_family_event,54,1,-0.01061507936507935,0.4107142857142853,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_income,pairs,53,1,-0.016801437556154535,0.3584905660377358,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,d_income,equal_family_event,53,1,-0.015136054421768684,0.37142857142857094,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,available,h,pairs,57,2,-0.017312881872748195,0.3333333333333333,0.9824561403508771,0.01701097061587939,0.9999999999999963,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,available,h,equal_family_event,57,2,-0.0798255124506143,0.169642857142857,0.5000000000000003,0.06478581714433396,1,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,available,p,pairs,54,2,-0.030026455026455044,0.2777777777777778,0.9814814814814815,0.0041244507958135765,1.0000000000000016,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,available,p,equal_family_event,54,2,-0.014788832199546482,0.1437074829931972,0.5000000000000002,0.014740253110845666,1.0002249766509406,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,available,p_absolute,pairs,57,2,-0.0128654970760234,0.3684210526315789,0.9824561403508771,0.0017192243631793248,0.9999999999999963,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,available,p_absolute,equal_family_event,57,2,-0.006547619047619044,0.18749999999999986,0.5000000000000003,0.006547619047619042,1,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,paired,d_combined,pairs,30,1,-0.014444444444444439,0.36666666666666664,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_combined,equal_family_event,30,1,-0.013318452380952379,0.3705357142857143,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_education,pairs,52,1,-0.018612637362637362,0.3269230769230769,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_education,equal_family_event,52,1,-0.018154761904761885,0.3307823129251697,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_gender,pairs,54,1,-0.010802469135802463,0.4074074074074074,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_gender,equal_family_event,54,1,-0.01061507936507935,0.4107142857142853,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_income,pairs,53,1,-0.016801437556154535,0.3584905660377358,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,d_income,equal_family_event,53,1,-0.015136054421768684,0.37142857142857094,1,NA,NA,NA,NA,fewer than two independent families
+facilitated_discussion,policy,immediate,paired,h,pairs,57,2,-0.017312881872748195,0.3333333333333333,0.9824561403508771,0.01701097061587939,0.9999999999999963,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,paired,h,equal_family_event,57,2,-0.0798255124506143,0.169642857142857,0.5000000000000003,0.06478581714433396,1,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,paired,p,pairs,54,2,-0.030026455026455044,0.2777777777777778,0.9814814814814815,0.0041244507958135765,1.0000000000000016,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,paired,p,equal_family_event,54,2,-0.014788832199546482,0.1437074829931972,0.5000000000000002,0.014740253110845666,1.0002249766509406,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,paired,p_absolute,pairs,57,2,-0.0128654970760234,0.3684210526315789,0.9824561403508771,0.0017192243631793248,0.9999999999999963,NA,NA,effective df below four
+facilitated_discussion,policy,immediate,paired,p_absolute,equal_family_event,57,2,-0.006547619047619044,0.18749999999999986,0.5000000000000003,0.006547619047619042,1,NA,NA,effective df below four
+laboratory_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,available,d_gender,pairs,24,1,0.0017361111111111154,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,d_gender,equal_family_event,24,1,0.001736111111111115,0.3333333333333335,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,available,h,pairs,82,1,0.0125827721359797,0.2804878048780488,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,h,equal_family_event,82,1,0.012582772135979697,0.2804878048780487,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,p,pairs,74,1,-0.005630630630630631,0.22972972972972974,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,p,equal_family_event,74,1,-0.005630630630630642,0.22972972972973008,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,p_absolute,pairs,82,1,0.024136178861788614,0.34146341463414637,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,available,p_absolute,equal_family_event,82,1,0.02413617886178861,0.34146341463414626,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,paired,d_gender,pairs,24,1,0.0017361111111111154,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,d_gender,equal_family_event,24,1,0.001736111111111115,0.3333333333333335,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+laboratory_discussion,policy,immediate,paired,h,pairs,82,1,0.0125827721359797,0.2804878048780488,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,h,equal_family_event,82,1,0.012582772135979697,0.2804878048780487,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,p,pairs,74,1,-0.005630630630630631,0.22972972972972974,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,p,equal_family_event,74,1,-0.005630630630630642,0.22972972972973008,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,p_absolute,pairs,82,1,0.024136178861788614,0.34146341463414637,1,NA,NA,NA,NA,fewer than two independent families
+laboratory_discussion,policy,immediate,paired,p_absolute,equal_family_event,82,1,0.02413617886178861,0.34146341463414626,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,available,d_gender,pairs,156,1,-0.009423076923076916,0.40384615384615385,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,d_gender,equal_family_event,156,1,-0.009423076923076944,0.40384615384615447,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,available,h,pairs,160,1,0.004364887441674865,0.53125,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,h,equal_family_event,160,1,0.004364887441674873,0.5312500000000004,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,p,pairs,149,1,-0.015882070949185045,0.38926174496644295,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,p,equal_family_event,149,1,-0.015882070949185062,0.3892617449664431,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,p_absolute,pairs,160,1,0.01602083333333334,0.54375,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,available,p_absolute,equal_family_event,160,1,0.01602083333333338,0.5437500000000005,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,paired,d_gender,pairs,156,1,-0.00597374847374847,0.4166666666666667,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,d_gender,equal_family_event,156,1,-0.005973748473748483,0.41666666666666724,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+mixed_partisan_discussion,policy,immediate,paired,h,pairs,160,1,0.005237042034701411,0.54375,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,h,equal_family_event,160,1,0.005237042034701423,0.5437500000000005,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,p,pairs,149,1,-0.012682166826462128,0.40268456375838924,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,p,equal_family_event,149,1,-0.012682166826462143,0.4026845637583894,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,p_absolute,pairs,160,1,0.014916666666666672,0.525,1,NA,NA,NA,NA,fewer than two independent families
+mixed_partisan_discussion,policy,immediate,paired,p_absolute,equal_family_event,160,1,0.014916666666666708,0.5250000000000005,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,available,d_gender,pairs,163,1,-0.02216598500340832,0.44785276073619634,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,d_gender,equal_family_event,163,1,-0.016447737194566377,0.4730473965287074,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,available,h,pairs,188,1,0.05044533517057095,0.7446808510638298,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,h,equal_family_event,188,1,0.04595663528304738,0.7325191570881229,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,p,pairs,188,1,0.0588587048294495,0.75,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,p,equal_family_event,188,1,0.04815305145046542,0.7052203065134102,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,p_absolute,pairs,188,1,0.058991683552853766,0.75,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,available,p_absolute,equal_family_event,188,1,0.048326662561576535,0.7052203065134102,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,paired,d_gender,pairs,162,1,-0.019341563786008247,0.43209876543209874,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,d_gender,equal_family_event,162,1,-0.014512137402130573,0.4523247978436628,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+partisan_discussion,policy,immediate,paired,h,pairs,188,1,0.052118857101702824,0.7446808510638298,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,h,equal_family_event,188,1,0.04742590528091448,0.7298850574712646,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,p,pairs,188,1,0.060233662613981734,0.7606382978723404,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,p,equal_family_event,188,1,0.05003426610107663,0.7164750957854408,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,p_absolute,pairs,188,1,0.06053761398176288,0.7659574468085106,1,NA,NA,NA,NA,fewer than two independent families
+partisan_discussion,policy,immediate,paired,p_absolute,equal_family_event,188,1,0.05043109149790202,0.7234195402298853,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_combined,pairs,520,1,0.011796016483516485,0.5038461538461538,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_combined,equal_family_event,520,1,-0.0051810046674488925,0.4628848741660471,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_education,pairs,1697,1,0.00482904854590181,0.5008839127872716,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_education,equal_family_event,1697,1,0.00574512600861247,0.5086622125798845,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_gender,pairs,1103,1,0.007784072102975095,0.4913871260199456,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_gender,equal_family_event,1103,1,0.0094592709963519,0.48349089976678344,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_income,pairs,1690,1,0.009912896932127694,0.493491124260355,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,d_income,equal_family_event,1690,1,0.011206694996289707,0.4939679829654865,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,h,pairs,1982,1,0.017410601544338735,0.5105953582240161,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,h,equal_family_event,1982,1,0.014256179262936474,0.4979369115005443,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,p,pairs,1846,1,-0.01721086523023146,0.4647887323943662,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,p,equal_family_event,1846,1,-0.01614071409802416,0.47893667974586535,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,p_absolute,pairs,1998,1,0.03806970300025856,0.5835835835835835,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,available,p_absolute,equal_family_event,1998,1,0.03826382271640719,0.5975386207870378,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_combined,pairs,397,1,-0.0044265523169805315,0.4332493702770781,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_combined,equal_family_event,397,1,-0.011468454087283014,0.4158415241827131,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_education,pairs,1493,1,0.0025259411645881837,0.44608171466845276,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_education,equal_family_event,1493,1,0.005468145972786386,0.459807934533064,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_gender,pairs,969,1,0.005135694628728683,0.4324045407636739,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_gender,equal_family_event,969,1,-4.955558429301133e-4,0.4155093539620091,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_income,pairs,1486,1,0.005872601956888635,0.4407806191117093,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,d_income,equal_family_event,1486,1,0.005550748333413619,0.44286257632996684,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,h,pairs,1937,1,0.008476485300053654,0.4434692823954569,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,h,equal_family_event,1937,1,0.0072512708599034355,0.45472464096869203,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,p,pairs,1827,1,-0.019434724720028492,0.39299397920087575,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,p,equal_family_event,1827,1,-0.017641756578496683,0.4113631265217158,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,p_absolute,pairs,1986,1,0.027521170015505365,0.4874118831822759,1,NA,NA,NA,NA,fewer than two independent families
+town_meeting,policy,immediate,paired,p_absolute,equal_family_event,1986,1,0.031885814466572016,0.5117471826503214,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,available,d_gender,pairs,17,1,0.014705882352941176,0.4117647058823529,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,d_gender,equal_family_event,17,1,0.014705882352941187,0.411764705882353,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,available,h,pairs,27,1,0.128841323691127,0.7407407407407407,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,h,equal_family_event,27,1,0.12884132369112705,0.7407407407407409,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,p,pairs,22,1,-0.011363636363636355,0.3181818181818182,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,p,equal_family_event,22,1,-0.01136363636363636,0.31818181818181834,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,p_absolute,pairs,27,1,0.05246913580246915,0.48148148148148145,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,available,p_absolute,equal_family_event,27,1,0.052469135802469175,0.4814814814814818,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,paired,d_gender,pairs,17,1,0.014705882352941176,0.4117647058823529,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,d_gender,equal_family_event,17,1,0.014705882352941187,0.411764705882353,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,policy,immediate,paired,h,pairs,27,1,0.128841323691127,0.7407407407407407,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,h,equal_family_event,27,1,0.12884132369112705,0.7407407407407409,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,p,pairs,22,1,-0.011363636363636355,0.3181818181818182,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,p,equal_family_event,22,1,-0.01136363636363636,0.31818181818181834,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,p_absolute,pairs,27,1,0.05246913580246915,0.48148148148148145,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,policy,immediate,paired,p_absolute,equal_family_event,27,1,0.052469135802469175,0.4814814814814818,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,available,d_gender,pairs,5,1,-0.05000000000000001,0.2,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,d_gender,equal_family_event,5,1,-0.05000000000000002,0.2,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,available,h,pairs,8,1,0.06021767065896504,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,h,equal_family_event,8,1,0.06021767065896504,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,p,pairs,5,1,-1.1102230246251566e-17,0.4,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,p,equal_family_event,5,1,-1.0408340855860843e-17,0.4,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,p_absolute,pairs,8,1,0.03125,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,available,p_absolute,equal_family_event,8,1,0.03125,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,paired,d_gender,pairs,5,1,-0.05000000000000001,0.2,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,d_gender,equal_family_event,5,1,-0.05000000000000002,0.2,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_structured_discussion,social_judgment,immediate,paired,h,pairs,8,1,0.06021767065896504,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,h,equal_family_event,8,1,0.06021767065896504,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,p,pairs,5,1,-1.1102230246251566e-17,0.4,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,p,equal_family_event,5,1,-1.0408340855860843e-17,0.4,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,p_absolute,pairs,8,1,0.03125,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_structured_discussion,social_judgment,immediate,paired,p_absolute,equal_family_event,8,1,0.03125,0.5,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,available,d_gender,pairs,17,1,-0.06862745098039215,0.11764705882352941,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,d_gender,equal_family_event,17,1,-0.06862745098039215,0.11764705882352941,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,available,h,pairs,28,1,0.06407454425105351,0.5714285714285714,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,h,equal_family_event,28,1,0.06407454425105352,0.5714285714285715,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,p,pairs,22,1,0.045454545454545435,0.4090909090909091,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,p,equal_family_event,22,1,0.045454545454545456,0.4090909090909093,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,p_absolute,pairs,28,1,0.08035714285714282,0.5357142857142857,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,available,p_absolute,equal_family_event,28,1,0.08035714285714285,0.5357142857142858,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,paired,d_gender,pairs,17,1,-0.06862745098039215,0.11764705882352941,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,d_gender,equal_family_event,17,1,-0.06862745098039215,0.11764705882352941,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,policy,immediate,paired,h,pairs,28,1,0.06407454425105351,0.5714285714285714,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,h,equal_family_event,28,1,0.06407454425105352,0.5714285714285715,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,p,pairs,22,1,0.045454545454545435,0.4090909090909091,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,p,equal_family_event,22,1,0.045454545454545456,0.4090909090909093,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,p_absolute,pairs,28,1,0.08035714285714282,0.5357142857142857,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,policy,immediate,paired,p_absolute,equal_family_event,28,1,0.08035714285714285,0.5357142857142858,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,available,d_gender,pairs,3,1,0.027777777777777773,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,d_gender,equal_family_event,3,1,0.02777777777777777,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,available,h,pairs,7,1,0.03749375134063141,0.42857142857142855,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,h,equal_family_event,7,1,0.03749375134063141,0.42857142857142866,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,p,pairs,4,1,0,0.25,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,p,equal_family_event,4,1,0,0.25,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,p_absolute,pairs,7,1,0.047619047619047616,0.42857142857142855,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,available,p_absolute,equal_family_event,7,1,0.04761904761904763,0.42857142857142866,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_gender,pairs,3,1,0.027777777777777773,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_gender,equal_family_event,3,1,0.02777777777777777,0.3333333333333333,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
+triadic_unstructured_discussion,social_judgment,immediate,paired,h,pairs,7,1,0.03749375134063141,0.42857142857142855,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,h,equal_family_event,7,1,0.03749375134063141,0.42857142857142866,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,p,pairs,4,1,0,0.25,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,p,equal_family_event,4,1,0,0.25,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,p_absolute,pairs,7,1,0.047619047619047616,0.42857142857142855,1,NA,NA,NA,NA,fewer than two independent families
+triadic_unstructured_discussion,social_judgment,immediate,paired,p_absolute,equal_family_event,7,1,0.04761904761904763,0.42857142857142866,1,NA,NA,NA,NA,fewer than two independent families

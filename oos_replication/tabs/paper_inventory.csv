@@ -1,0 +1,14 @@
+study_id,study_label,participants,group_episodes,items,policy_items,country,mode,year,source,family_id,design
+a1r_2019,A1R 2019,523,40,47,47,United States,Face-to-face,2019,https://doi.org/10.7910/DVN/KJ8IH2,a1r,DP
+oboe,"Our Budget, Our Economy",2751,339,6,6,United States,Face-to-face,2010,https://doi.org/10.7910/DVN/XDDN2Y,oboe_2010,Extension
+hongkong,Hong Kong,12,2,1,1,Hong Kong,Face-to-face,2020,https://doi.org/10.7910/DVN/W9DAQM,hongkong_2020,Extension
+tanzania,Tanzania,371,50,21,21,Tanzania,Face-to-face,2015,https://doi.org/10.7910/DVN/S3NRQL,tanzania_2015,DP
+a1r_climate,A1R Climate,962,105,72,65,United States,Online,2021,https://doi.org/10.7910/DVN/IIOG1S,a1r,DP
+celaya,Celaya,104,7,8,8,United States,Face-to-face,2018,https://doi.org/10.7910/DVN/OOMED8,celaya_2018,Extension
+echo,UK partisan discussion,653,87,4,4,United Kingdom,Online,2021,https://doi.org/10.7910/DVN/BM2A1Q,echo_2021,Extension
+whatsapp,WhatsApp India,712,356,18,0,India,Online,Unknown,https://doi.org/10.7910/DVN/WYXEXN,whatsapp,Extension
+cross_party,US cross-party conversation,294,147,9,0,United States,Online,2021,https://doi.org/10.7910/DVN/EVRMBG,cross_party_2021,Extension
+consensus_1,Consensus: pupils,116,28,2,2,Netherlands,Face-to-face,Unknown,https://doi.org/10.34894/6IOPCF,consensus,Extension
+consensus_2,Consensus: students,136,41,2,2,Germany,Face-to-face,Unknown,https://doi.org/10.34894/6IOPCF,consensus,Extension
+diplomacy,Diplomacy lab,105,70,10,8,Netherlands,Face-to-face,2020,https://doi.org/10.34894/SAZIAE,diplomacy_2020,Extension
+shizuoka,Shizuoka,65,8,11,10,Japan,Face-to-face,2019,https://doi.org/10.6084/m9.figshare.22229794,shizuoka_2019,Extension

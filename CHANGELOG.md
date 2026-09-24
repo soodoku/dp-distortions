@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.2.0 - 2026-09-23
+
+- Read unchanged historical and OOS inputs from checksum-pinned dp-data sources;
+  retain numerical results and stop on missing or changed source files.
+- Consolidate the current analysis in `scripts/`, `tabs/`, and `figs/`.
+  Preserve the historical replication under `paper-2022`.
+- Add an R out-of-sample analysis and standalone working paper with parallel
+  tables and figures: 13 studies, 12 public datasets, 11 dependence families,
+  and 6,804 participant-study records. Policy and affective outcomes are separate.
+- Compare the original polls, new polls, and other discussions using equal-family
+  and pair weights; report paired-response and family-omission sensitivities.
+  Aggregate changes are small, and the evidence does not establish a causal
+  ranking of discussion formats.
+- Document source availability and eligibility, including the public São Tomé
+  replication files, whose survey responses lack discussion-group linkage.
+- Retain the original study's numerical results from v1.1.0. Validate both
+  analyses locally and through GitHub Actions.
+
 ## v1.1.0 - 2026-09-10
 
 - Preserve raw source-poll IDs alongside analysis IDs.

@@ -1,0 +1,39 @@
+study_id,study_label,construct,dimension,participants,group_episodes
+a1r_2019,A1R 2019,policy,gender,522,40
+oboe,"Our Budget, Our Economy",policy,gender,1009,180
+oboe,"Our Budget, Our Economy",policy,education,1623,272
+oboe,"Our Budget, Our Economy",policy,income,1474,274
+oboe,"Our Budget, Our Economy",policy,combined,416,73
+tanzania,Tanzania,policy,gender,360,50
+a1r_climate,A1R Climate,environmental_concern,gender,950,104
+a1r_climate,A1R Climate,environmental_concern,education,901,96
+a1r_climate,A1R Climate,environmental_concern,income,943,102
+a1r_climate,A1R Climate,environmental_concern,combined,596,59
+a1r_climate,A1R Climate,climate_belief,gender,943,104
+a1r_climate,A1R Climate,climate_belief,education,895,96
+a1r_climate,A1R Climate,climate_belief,income,936,102
+a1r_climate,A1R Climate,climate_belief,combined,592,59
+a1r_climate,A1R Climate,policy,gender,948,104
+a1r_climate,A1R Climate,policy,education,900,96
+a1r_climate,A1R Climate,policy,income,941,102
+a1r_climate,A1R Climate,policy,combined,595,59
+celaya,Celaya,policy,gender,104,7
+celaya,Celaya,policy,education,104,7
+celaya,Celaya,policy,income,103,7
+celaya,Celaya,policy,combined,60,4
+echo,UK partisan discussion,policy,gender,606,81
+whatsapp,WhatsApp India,affect,education,160,80
+whatsapp,WhatsApp India,affect,income,322,161
+whatsapp,WhatsApp India,stereotype_judgment,education,160,80
+whatsapp,WhatsApp India,stereotype_judgment,income,324,162
+whatsapp,WhatsApp India,affect,combined,74,37
+whatsapp,WhatsApp India,stereotype_judgment,combined,76,38
+cross_party,US cross-party conversation,affect,gender,142,71
+consensus_1,Consensus: pupils,policy,gender,93,22
+consensus_2,Consensus: students,policy,gender,61,19
+diplomacy,Diplomacy lab,policy,gender,68,34
+diplomacy,Diplomacy lab,social_judgment,gender,24,8
+shizuoka,Shizuoka,policy,gender,49,6
+shizuoka,Shizuoka,policy,education,63,8
+shizuoka,Shizuoka,belief,gender,40,5
+shizuoka,Shizuoka,belief,education,62,8

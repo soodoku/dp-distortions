@@ -1,0 +1,393 @@
+source,format,construct,timing_class,membership,metric,pairs,mean,positive_fraction,title
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,d_combined,0,NA,NA,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,d_education,0,NA,NA,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,d_gender,1853,0.006968575587032138,0.5018888289260658,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,d_income,0,NA,NA,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,h,1880,0.034405451603256525,0.6930851063829787,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,p,1854,0.014421923665451204,0.5814455231930961,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,paired,p_absolute,1880,0.0470754011059862,0.674468085106383,America in One Room 2019
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,d_combined,175,0.009042162599305466,0.5142857142857142,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,d_education,280,0.019599770036219613,0.6107142857142858,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,d_gender,310,-0.0029299098013519306,0.46774193548387094,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,d_income,296,0.01278297247047247,0.5371621621621622,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,h,315,0.03285394653833588,0.6857142857142857,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,p,310,0.03416993937961679,0.6870967741935484,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,paired,p_absolute,315,0.04748829829782211,0.7365079365079366,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,d_combined,3659,0.006010000769075889,0.4911177917463788,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,d_education,5913,0.00912152330878268,0.5147979029257568,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,d_gender,6502,0.0012378687510321662,0.474930790525992,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,d_income,6379,0.0049809711521855374,0.48832105345665466,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,h,6784,0.02991307667891467,0.644310141509434,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,p,6726,0.024019739394995177,0.6098721379720488,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,paired,p_absolute,6825,0.0393452595908963,0.6515750915750915,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,d_combined,230,0.01347475421708159,0.5217391304347826,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,d_education,376,0.018869077900093227,0.5531914893617021,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,d_gender,404,0.0010043622534522414,0.42326732673267325,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,d_income,396,0.009603262218569707,0.5126262626262627,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,h,419,0.04381114643142114,0.7326968973747017,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,p,419,0.04492753006037435,0.7279236276849642,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,paired,p_absolute,420,0.04776084697670833,0.7333333333333333,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,d_combined,30,-0.014444444444444442,0.36666666666666664,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,d_education,52,-0.018612637362637362,0.3269230769230769,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,d_gender,54,-0.010802469135802469,0.4074074074074074,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,d_income,53,-0.01680143755615453,0.3584905660377358,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,h,56,-0.015039695306280335,0.3392857142857143,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,p,53,-0.030592991913746634,0.2830188679245283,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,paired,p_absolute,56,-0.013095238095238096,0.375,Celaya deliberative democracy experiment 2018
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,d_combined,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,d_education,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,d_gender,41,-0.03570460704607044,0.34146341463414637,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,d_income,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,h,56,0.023503081176205243,0.5535714285714286,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,p,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,paired,p_absolute,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,d_combined,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,d_education,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,d_gender,24,0.0017361111111111201,0.3333333333333333,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,d_income,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,h,82,0.012582772135979706,0.2804878048780488,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,p,74,-0.005630630630630633,0.22972972972972974,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,paired,p_absolute,82,0.024136178861788617,0.34146341463414637,Attitudinal consensus in conversations
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,d_combined,0,NA,NA,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,d_education,0,NA,NA,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,d_gender,624,-0.002724358974358953,0.42948717948717946,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,d_income,0,NA,NA,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,h,1323,0.018540842206622322,0.48677248677248675,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,p,1248,-0.015200320512820498,0.42788461538461536,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,paired,p_absolute,1323,0.01060090702947846,0.5003779289493575,Cross-partisan conversation after the 2020 election
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,d_gender,17,-0.06862745098039216,0.11764705882352941,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,h,28,0.0640745442510535,0.5714285714285714,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,p,22,0.04545454545454545,0.4090909090909091,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,paired,p_absolute,28,0.08035714285714285,0.5357142857142857,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,d_gender,3,0.027777777777777773,0.3333333333333333,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,h,7,0.03749375134063141,0.42857142857142855,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,p,4,0,0.25,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,paired,p_absolute,7,0.047619047619047616,0.42857142857142855,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,d_gender,17,0.01470588235294118,0.4117647058823529,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,h,27,0.12884132369112694,0.7407407407407407,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,p,22,-0.011363636363636357,0.3181818181818182,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,paired,p_absolute,27,0.05246913580246914,0.48148148148148145,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,d_gender,5,-0.05,0.2,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,h,8,0.060217670658965036,0.5,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,p,5,-8.326672684688675e-18,0.4,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,paired,p_absolute,8,0.03125,0.5,Encouraging diplomacy in online discussions
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,d_combined,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,d_education,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,d_gender,162,-0.01934156378600824,0.43209876543209874,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,d_income,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,h,188,0.05211885710170279,0.7446808510638298,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,p,188,0.06023366261398177,0.7606382978723404,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,paired,p_absolute,188,0.060537613981762925,0.7659574468085106,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,d_combined,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,d_education,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,d_gender,156,-0.0059737484737484615,0.4166666666666667,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,d_income,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,h,160,0.0052370420347014075,0.54375,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,p,149,-0.012682166826462136,0.40268456375838924,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,paired,p_absolute,160,0.014916666666666661,0.525,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,d_combined,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,d_education,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,d_gender,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,d_income,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,h,1,-0.14461132959494832,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,p,1,0,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,paired,p_absolute,1,0,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,d_combined,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,d_education,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,d_gender,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,d_income,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,h,1,-0.04034096487552652,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,p,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,paired,p_absolute,1,0.033333333333333326,1,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,d_combined,397,-0.0044265523169805246,0.4332493702770781,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,d_education,1493,0.0025259411645881737,0.44608171466845276,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,d_gender,969,0.005135694628728641,0.4324045407636739,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,d_income,1486,0.005872601956888649,0.4407806191117093,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,h,1937,0.008476485300053646,0.4434692823954569,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,p,1827,-0.019434724720028523,0.39299397920087575,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,paired,p_absolute,1986,0.027521170015505362,0.4874118831822759,Our Budget Our Economy 2010
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,d_combined,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,d_education,75,0.027089947089947095,0.52,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,d_gender,57,-0.0046383319409635144,0.40350877192982454,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,d_income,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,h,80,0.007736137684510636,0.4875,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,p,78,-0.014448514448514442,0.41025641025641024,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,paired,p_absolute,80,0.009188988095238111,0.4375,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,d_combined,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,d_education,8,-0.016059027777777787,0.375,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,d_gender,5,-0.04871031746031745,0.2,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,d_income,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,h,8,0.020608010709928862,0.5,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,p,7,0.028273809523809524,0.5714285714285714,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,paired,p_absolute,8,0.03645833333333333,0.625,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,d_combined,0,NA,NA,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,d_education,0,NA,NA,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,d_gender,517,-0.005371478403393306,0.46034816247582205,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,d_income,0,NA,NA,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,h,525,-0.005110639111677843,0.4780952380952381,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,p,520,-0.03830942401615479,0.37115384615384617,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,paired,p_absolute,525,-0.007626856212570503,0.43047619047619046,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,d_combined,94,0,0.3404255319148936,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,d_education,201,0.0031094527363183847,0.35323383084577115,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,d_income,362,0.014157458563535912,0.36187845303867405,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,h,940,0.015232885445774018,0.33191489361702126,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,p,714,-0.0675770308123249,0.19607843137254902,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,paired,p_absolute,990,0.007954545454545466,0.3212121212121212,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_combined,68,-0.012867647058823532,0.29411764705882354,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_education,158,-0.012658227848101245,0.3227848101265823,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,d_income,295,-0.0012711864406779307,0.33220338983050846,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,h,760,-0.001395605489183963,0.2986842105263158,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,paired,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,d_combined,97,0.04123711340206183,0.44329896907216493,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,d_education,146,0.00941780821917804,0.3767123287671233,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,d_income,303,0.027640264026402617,0.39933993399339934,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,h,740,0.008838834764831821,0.327027027027027,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,p,619,-0.08057350565428106,0.18578352180936994,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,paired,p_absolute,800,-0.002656249999999987,0.31625,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_combined,99,0.007575757575757583,0.36363636363636365,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_education,129,-0.008720930232558134,0.37209302325581395,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,d_income,251,0.01892430278884461,0.3545816733067729,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,h,600,0.025927248643506734,0.3383333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,paired,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,d_combined,16,-0.0078125,0.375,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,d_education,89,0.008426966292134852,0.3707865168539326,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,d_income,281,-4.448398576512396e-4,0.35231316725978645,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,h,870,0.012597879434932707,0.3333333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,p,680,-0.08731617647058819,0.17058823529411765,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,paired,p_absolute,920,0.00679347826086954,0.3239130434782609,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_combined,12,0.03125,0.3333333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_education,71,-0.024647887323943646,0.2676056338028169,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,d_income,235,-0.02127659574468088,0.2680851063829787,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,h,696,-0.0015239370284192753,0.2959770114942529,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,paired,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,d_combined,52,0.014423076923076964,0.36538461538461536,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,d_education,144,-0.032118055555555546,0.2708333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,d_income,240,0.021354166666666622,0.3958333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,h,750,0.016499158227686158,0.3293333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,p,640,-0.08613281250000003,0.165625,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,paired,p_absolute,830,-0.008433734939759083,0.28072289156626506,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_combined,47,0.010638297872340424,0.3829787234042553,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_education,126,-0.026785714285714295,0.2619047619047619,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,d_income,184,0.0013586956521739356,0.31521739130434784,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,h,600,0.010606601717798205,0.30833333333333335,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,paired,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,d_combined,0,NA,NA,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,d_education,0,NA,NA,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,d_gender,1858,0.005919640923004756,0.5053821313240043,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,d_income,0,NA,NA,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,h,1880,0.03525434660561116,0.699468085106383,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,p,1857,0.012982148812116515,0.5901992460958535,America in One Room 2019
+https://doi.org/10.7910/DVN/KJ8IH2,deliberative_poll,policy,immediate,available,p_absolute,1880,0.04539137008086478,0.6803191489361702,America in One Room 2019
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,d_combined,174,0.008495615176649672,0.5172413793103449,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,d_education,281,0.018981079976474587,0.6156583629893239,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,d_gender,311,-0.003149911108583316,0.47266881028938906,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,d_income,296,0.014000075562575556,0.5337837837837838,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,h,315,0.03335597381582283,0.6825396825396826,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,p,311,0.034479975187370684,0.6977491961414791,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,environmental_concern,immediate,available,p_absolute,315,0.04764940879226594,0.746031746031746,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,d_combined,3682,0.006487374745514521,0.503530689842477,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,d_education,5950,0.00964008807005595,0.5280672268907562,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,d_gender,6531,0.001372333375596089,0.48752105343745217,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,d_income,6405,0.005383312975922136,0.4967993754879001,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,h,6786,0.03047816315354245,0.6534040671971706,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,p,6730,0.021567336422233255,0.611887072808321,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,policy,immediate,available,p_absolute,6825,0.036789983660668844,0.6553846153846153,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,d_combined,230,0.012915261528752588,0.5347826086956522,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,d_education,377,0.016164712028146257,0.5570291777188329,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,d_gender,405,0.001565487788254662,0.4419753086419753,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,d_income,395,0.008369925371228432,0.5063291139240507,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,h,419,0.04373518205327465,0.7374701670644391,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,p,418,0.04355242239934754,0.7272727272727273,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/IIOG1S,deliberative_poll,climate_belief,immediate,available,p_absolute,420,0.046183276321406556,0.7333333333333333,America in One Room Climate 2021
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,d_combined,30,-0.014444444444444442,0.36666666666666664,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,d_education,52,-0.018612637362637362,0.3269230769230769,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,d_gender,54,-0.010802469135802469,0.4074074074074074,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,d_income,53,-0.01680143755615453,0.3584905660377358,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,h,56,-0.015039695306280335,0.3392857142857143,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,p,53,-0.030592991913746634,0.2830188679245283,Celaya deliberative democracy experiment 2018
+https://doi.org/10.7910/DVN/OOMED8,facilitated_discussion,policy,immediate,available,p_absolute,56,-0.013095238095238096,0.375,Celaya deliberative democracy experiment 2018
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,d_combined,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,d_education,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,d_gender,41,-0.03570460704607044,0.34146341463414637,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,d_income,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,h,56,0.023503081176205243,0.5535714285714286,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,p,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,classroom_discussion,policy,immediate,available,p_absolute,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,d_combined,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,d_education,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,d_gender,24,0.0017361111111111201,0.3333333333333333,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,d_income,0,NA,NA,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,h,82,0.012582772135979706,0.2804878048780488,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,p,74,-0.005630630630630633,0.22972972972972974,Attitudinal consensus in conversations
+https://doi.org/10.34894/6IOPCF,laboratory_discussion,policy,immediate,available,p_absolute,82,0.024136178861788617,0.34146341463414637,Attitudinal consensus in conversations
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,d_combined,0,NA,NA,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,d_education,0,NA,NA,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,d_gender,624,-0.002724358974358953,0.42948717948717946,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,d_income,0,NA,NA,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,h,1323,0.018540842206622322,0.48677248677248675,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,p,1248,-0.015200320512820498,0.42788461538461536,Cross-partisan conversation after the 2020 election
+https://doi.org/10.7910/DVN/EVRMBG,dyadic_cross_party,affect,immediate,available,p_absolute,1323,0.01060090702947846,0.5003779289493575,Cross-partisan conversation after the 2020 election
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,d_gender,17,-0.06862745098039216,0.11764705882352941,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,h,28,0.0640745442510535,0.5714285714285714,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,p,22,0.04545454545454545,0.4090909090909091,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,policy,immediate,available,p_absolute,28,0.08035714285714285,0.5357142857142857,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,d_gender,3,0.027777777777777773,0.3333333333333333,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,h,7,0.03749375134063141,0.42857142857142855,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,p,4,0,0.25,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_unstructured_discussion,social_judgment,immediate,available,p_absolute,7,0.047619047619047616,0.42857142857142855,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,d_gender,17,0.01470588235294118,0.4117647058823529,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,h,27,0.12884132369112694,0.7407407407407407,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,p,22,-0.011363636363636357,0.3181818181818182,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,policy,immediate,available,p_absolute,27,0.05246913580246914,0.48148148148148145,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,d_combined,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,d_education,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,d_gender,5,-0.05,0.2,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,d_income,0,NA,NA,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,h,8,0.060217670658965036,0.5,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,p,5,-8.326672684688675e-18,0.4,Encouraging diplomacy in online discussions
+https://doi.org/10.34894/SAZIAE,triadic_structured_discussion,social_judgment,immediate,available,p_absolute,8,0.03125,0.5,Encouraging diplomacy in online discussions
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,d_combined,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,d_education,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,d_gender,163,-0.022165985003408314,0.44785276073619634,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,d_income,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,h,188,0.050445335170570926,0.7446808510638298,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,p,188,0.058858704829449514,0.75,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,partisan_discussion,policy,immediate,available,p_absolute,188,0.05899168355285377,0.75,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,d_combined,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,d_education,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,d_gender,156,-0.009423076923076912,0.40384615384615385,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,d_income,0,NA,NA,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,h,160,0.004364887441674871,0.53125,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,p,149,-0.01588207094918505,0.38926174496644295,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/BM2A1Q,mixed_partisan_discussion,policy,immediate,available,p_absolute,160,0.016020833333333335,0.54375,UK partisan echo chambers 2021
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,d_combined,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,d_education,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,d_gender,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,d_income,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,h,1,-0.14461132959494832,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,p,1,0,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,facilitated_discussion,policy,immediate,available,p_absolute,1,0,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,d_combined,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,d_education,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,d_gender,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,d_income,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,h,1,-0.04034096487552652,0,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,p,0,NA,NA,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/W9DAQM,casual_discussion,policy,immediate,available,p_absolute,1,0.033333333333333326,1,Hong Kong Article 23 discussion 2020
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,d_combined,520,0.011796016483516466,0.5038461538461538,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,d_education,1697,0.004829048545901824,0.5008839127872716,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,d_gender,1103,0.007784072102975074,0.4913871260199456,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,d_income,1690,0.009912896932127714,0.493491124260355,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,h,1982,0.017410601544338725,0.5105953582240161,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,p,1846,-0.017210865230231416,0.4647887323943662,Our Budget Our Economy 2010
+https://doi.org/10.7910/DVN/XDDN2Y,town_meeting,policy,immediate,available,p_absolute,1998,0.03806970300025858,0.5835835835835835,Our Budget Our Economy 2010
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,d_combined,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,d_education,75,0.027447089947089935,0.52,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,d_gender,57,-0.005734823169033693,0.40350877192982454,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,d_income,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,h,80,0.007147592832535148,0.5,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,p,78,-0.016165547415547408,0.41025641025641024,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,policy,immediate,available,p_absolute,80,0.007068452380952402,0.4375,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,d_combined,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,d_education,8,-0.01438492063492064,0.375,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,d_gender,5,-0.0621031746031746,0.2,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,d_income,0,NA,NA,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,h,8,0.022269624090187994,0.625,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,p,7,0.02636054421768707,0.5714285714285714,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.6084/m9.figshare.22229794,deliberative_mini_public,belief,immediate,available,p_absolute,8,0.03478422619047618,0.625,Shizuoka nuclear-restart mini-public (2019)
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,d_combined,0,NA,NA,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,d_education,0,NA,NA,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,d_gender,517,-0.00840860085540938,0.4526112185686654,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,d_income,0,NA,NA,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,h,525,-0.00556495482044937,0.4857142857142857,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,p,519,-0.036964365114654125,0.371868978805395,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/S3NRQL,deliberative_poll,policy,delayed,available,p_absolute,525,-0.005957962672248376,0.4419047619047619,Tanzania resource deliberation 2015
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,d_combined,94,0,0.3404255319148936,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,d_education,206,-0.002427184466019427,0.34951456310679613,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,d_income,388,0.004510309278350507,0.3479381443298969,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,h,940,0.015232885445774018,0.33191489361702126,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,p,736,-0.06929347826086954,0.19972826086956522,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,affect,immediate,available,p_absolute,990,0.005429292929292966,0.32626262626262625,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_combined,68,-0.012867647058823532,0.29411764705882354,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_education,164,-0.022103658536585396,0.3170731707317073,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,d_income,312,-0.001201923076923057,0.33653846153846156,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,h,760,-0.001395605489183963,0.2986842105263158,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HH,stereotype_judgment,immediate,available,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,d_combined,114,0.02631578947368419,0.4473684210526316,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,d_education,164,0.019054878048780498,0.42073170731707316,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,d_income,329,0.022036474164133776,0.40425531914893614,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,h,740,0.008838834764831821,0.327027027027027,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,p,630,-0.07757936507936511,0.1984126984126984,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,affect,immediate,available,p_absolute,800,-7.812499999999369e-4,0.33125,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_combined,106,0.017688679245283025,0.4056603773584906,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_education,144,0.015625,0.4375,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,d_income,265,0.014622641509433931,0.3622641509433962,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,h,600,0.025927248643506734,0.3383333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_gen_HM,stereotype_judgment,immediate,available,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,d_combined,16,-0.0078125,0.375,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,d_education,94,0.009308510638297861,0.3829787234042553,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,d_income,288,0.00390625,0.3645833333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,h,870,0.012597879434932707,0.3333333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,p,687,-0.0827874818049489,0.18340611353711792,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,affect,immediate,available,p_absolute,920,0.008152173913043494,0.3391304347826087,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_combined,12,0.03125,0.3333333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_education,76,-0.03125,0.2631578947368421,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,d_income,237,-0.020042194092826995,0.2742616033755274,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,h,696,-0.0015239370284192753,0.2959770114942529,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HH,stereotype_judgment,immediate,available,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,d_combined,67,-0.022388059701492574,0.29850746268656714,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,d_education,175,-0.04357142857142855,0.2742857142857143,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,d_income,275,0.013636363636363622,0.3890909090909091,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,h,750,0.016499158227686158,0.3293333333333333,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,p,656,-0.07869664634146335,0.20426829268292682,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,affect,immediate,available,p_absolute,830,-0.003915662650602359,0.3096385542168675,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_combined,60,-0.01874999999999998,0.35,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_education,153,-0.0392156862745098,0.26143790849673204,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_gender,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,d_income,212,-0.004716981132075499,0.330188679245283,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,h,600,0.010606601717798205,0.30833333333333335,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,p,0,NA,NA,WhatsApp conversations and religious nationalism
+https://doi.org/10.7910/DVN/WYXEXN,dyadic_online_igr_HM,stereotype_judgment,immediate,available,p_absolute,0,NA,NA,WhatsApp conversations and religious nationalism

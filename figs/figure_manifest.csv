@@ -1,0 +1,7 @@
+"construct","pair_file","value_column","n_pairs","density_figure","poll_figure","anglo_figure","mode_figure"
+"polarization","tabs/03_hom_pol_by_group_issue.csv","polarex",2431,"figs/density_polarization.png","figs/boxplot_polarization.png","figs/density_anglo_polarization.png","figs/density_online_f2f_polarization.png"
+"homogenization","tabs/03_hom_pol_by_group_issue.csv","homoex",2480,"figs/density_homogenization.png","figs/boxplot_homogenization.png","figs/density_anglo_homogenization.png","figs/density_online_f2f_homogenization.png"
+"dom_gender","tabs/03_dom_gender_by_group_issue.csv","ext_grp",2436,"figs/density_dom_gender.png","figs/boxplot_dom_gender.png","figs/density_anglo_dom_gender.png","figs/density_online_f2f_dom_gender.png"
+"dom_educ","tabs/03_dom_educ_by_group_issue.csv","ext_grp",2385,"figs/density_dom_educ.png","figs/boxplot_dom_educ.png","figs/density_anglo_dom_educ.png","figs/density_online_f2f_dom_educ.png"
+"dom_income","tabs/03_dom_income_by_group_issue.csv","ext_grp",1144,"figs/density_dom_income.png","figs/boxplot_dom_income.png","figs/density_anglo_dom_income.png","figs/density_online_f2f_dom_income.png"
+"dom_triple","tabs/03_dom_triple_by_group_issue.csv","ext_grp",983,"figs/density_dom_triple.png","figs/boxplot_dom_triple.png","figs/density_anglo_dom_triple.png","figs/density_online_f2f_dom_triple.png"

@@ -7,3 +7,14 @@ renv/library/
 renv/staging/
 renv/local/
 renv/lock/
+oos_replication/data/
+oos_replication/*.aux
+oos_replication/*.bbl
+oos_replication/*.blg
+oos_replication/*.fdb_latexmk
+oos_replication/*.fls
+oos_replication/*.log
+oos_replication/*.out
+oos_replication/*.synctex.gz
+
+/upstream/

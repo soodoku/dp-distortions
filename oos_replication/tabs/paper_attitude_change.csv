@@ -1,0 +1,59 @@
+panel_label,construct,net,gross,pairs,weighting
+Corrected original,policy,0.0979681839424107,0.20780061568574615,NA,Equal group episodes
+Corrected original,policy,0.0894143821147943,0.20266440808617317,2480,Equal group-item episodes
+A1R 2019,policy,0.1023246636637594,0.1995806479277224,NA,Equal group episodes
+A1R 2019,policy,0.10232466366375942,0.1995806479277224,1880,Equal group-item episodes
+"Our Budget, Our Economy",policy,0.11647349901692802,0.18623324581594974,NA,Equal group episodes
+"Our Budget, Our Economy",policy,0.11647349901692801,0.18623324581594974,1986,Equal group-item episodes
+Hong Kong: facilitated,policy,1.2335811384723961e-17,0.13333333333333333,NA,Equal group episodes
+Hong Kong: facilitated,policy,1.2335811384723961e-17,0.13333333333333333,1,Equal group-item episodes
+Hong Kong: casual,policy,0.03333333333333334,0.06666666666666668,NA,Equal group episodes
+Hong Kong: casual,policy,0.03333333333333334,0.06666666666666668,1,Equal group-item episodes
+Tanzania,policy,0.11754308826094541,0.3533648482469911,NA,Equal group episodes
+Tanzania,policy,0.11496418977847549,0.34809410430839,525,Equal group-item episodes
+A1R Climate,climate_belief,0.07295652299381292,0.12544413116839587,NA,Equal group episodes
+A1R Climate,climate_belief,0.07295652299381292,0.12544413116839587,420,Equal group-item episodes
+A1R Climate,environmental_concern,0.0750449585687681,0.14350632280884382,NA,Equal group episodes
+A1R Climate,environmental_concern,0.0750449585687681,0.14350632280884382,315,Equal group-item episodes
+A1R Climate,policy,0.08531868353103,0.17016645484803208,NA,Equal group episodes
+A1R Climate,policy,0.08531868353102998,0.1701664548480321,6825,Equal group-item episodes
+Celaya,policy,0.0538265306122449,0.25552721088435376,NA,Equal group episodes
+Celaya,policy,0.0538265306122449,0.2555272108843537,56,Equal group-item episodes
+UK: same-party,policy,0.08701304457953395,0.13075164640324216,NA,Equal group episodes
+UK: same-party,policy,0.08701304457953395,0.13075164640324216,188,Equal group-item episodes
+UK: mixed-party,policy,0.06429613095238096,0.12474553571428572,NA,Equal group episodes
+UK: mixed-party,policy,0.06429613095238096,0.12474553571428572,160,Equal group-item episodes
+WhatsApp: gen_HH,affect,0.1220959595959596,0.15568181818181817,NA,Equal group episodes
+WhatsApp: gen_HH,affect,0.12209595959595962,0.15568181818181814,990,Equal group-item episodes
+WhatsApp: gen_HH,stereotype_judgment,0.11931818181818182,0.14772727272727273,NA,Equal group episodes
+WhatsApp: gen_HH,stereotype_judgment,0.1193181818181818,0.14772727272727268,792,Equal group-item episodes
+WhatsApp: gen_HM,affect,0.13578125,0.17515625,NA,Equal group episodes
+WhatsApp: gen_HM,affect,0.13578125000000002,0.17515624999999996,800,Equal group-item episodes
+WhatsApp: gen_HM,stereotype_judgment,0.133203125,0.16953125,NA,Equal group episodes
+WhatsApp: gen_HM,stereotype_judgment,0.13320312499999998,0.16953124999999986,640,Equal group-item episodes
+WhatsApp: igr_HH,affect,0.13668478260869565,0.16820652173913045,NA,Equal group episodes
+WhatsApp: igr_HH,affect,0.13668478260869557,0.16820652173913034,920,Equal group-item episodes
+WhatsApp: igr_HH,stereotype_judgment,0.13145380434782608,0.16270380434782608,NA,Equal group episodes
+WhatsApp: igr_HH,stereotype_judgment,0.13145380434782605,0.16270380434782603,736,Equal group-item episodes
+WhatsApp: igr_HM,affect,0.1322289156626506,0.163855421686747,NA,Equal group episodes
+WhatsApp: igr_HM,affect,0.13222891566265046,0.16385542168674694,830,Equal group-item episodes
+WhatsApp: igr_HM,stereotype_judgment,0.13516566265060243,0.16829819277108432,NA,Equal group episodes
+WhatsApp: igr_HM,stereotype_judgment,0.13516566265060231,0.1682981927710843,664,Equal group-item episodes
+US cross-party conversation,affect,0.06539304610733182,0.07654950869236583,NA,Equal group episodes
+US cross-party conversation,affect,0.06539304610733182,0.07654950869236583,1323,Equal group-item episodes
+Consensus: pupils,policy,0.11483134920634921,0.1478670634920635,NA,Equal group episodes
+Consensus: pupils,policy,0.11483134920634921,0.1478670634920635,56,Equal group-item episodes
+Consensus: students,policy,0.060213414634146346,0.08003048780487805,NA,Equal group episodes
+Consensus: students,policy,0.060213414634146346,0.08003048780487805,82,Equal group-item episodes
+Diplomacy: structured,policy,0.12654320987654322,0.1574074074074074,NA,Equal group episodes
+Diplomacy: structured,policy,0.12654320987654322,0.1574074074074074,27,Equal group-item episodes
+Diplomacy: structured,social_judgment,0.07291666666666667,0.07291666666666667,NA,Equal group episodes
+Diplomacy: structured,social_judgment,0.07291666666666667,0.07291666666666667,8,Equal group-item episodes
+Diplomacy: unstructured,policy,0.10416666666666667,0.15773809523809523,NA,Equal group episodes
+Diplomacy: unstructured,policy,0.10416666666666667,0.15773809523809523,28,Equal group-item episodes
+Diplomacy: unstructured,social_judgment,0.07142857142857144,0.09523809523809525,NA,Equal group episodes
+Diplomacy: unstructured,social_judgment,0.07142857142857144,0.09523809523809525,7,Equal group-item episodes
+Shizuoka,belief,0.06473214285714286,0.10143849206349206,NA,Equal group episodes
+Shizuoka,belief,0.06473214285714286,0.10143849206349206,8,Equal group-item episodes
+Shizuoka,policy,0.10577876984126984,0.19848710317460316,NA,Equal group episodes
+Shizuoka,policy,0.10577876984126984,0.1984871031746032,80,Equal group-item episodes

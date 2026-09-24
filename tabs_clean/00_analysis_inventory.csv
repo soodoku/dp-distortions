@@ -1,8 +1,0 @@
-"quantity","value","definition"
-"raw_rows",6084,"Rows in data/polardata.csv"
-"exact_duplicate_rows",217,"Rows identical on every column except the import row number X"
-"analysis_participants",5867,"Distinct participants after exact-record deduplication"
-"polls",21,"Deliberative polls in the analysis data"
-"groups",397,"Small groups across all polls"
-"indices",129,"Rows in the validated attitude-index dictionary"
-"possible_group_index_pairs",2480,"Groups multiplied by defined indices within each poll"
