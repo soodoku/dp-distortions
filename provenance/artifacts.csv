@@ -1,5 +1,5 @@
 "path","producer","exists","sha256"
-"tabs/00_analysis_inventory.csv","scripts/00_inventory.R",TRUE,"dca0341e88b7ce4e3d35bb5644efe9d62ba4110b90a6c3896a26b768816d4e04"
+"tabs/00_analysis_inventory.csv","scripts/00_inventory.R",TRUE,"f6f614281d4934bb41e53e1417aeb4174ef3ef9edacad4ebd48fac96cc11d816"
 "tabs/00_poll_inventory.csv","scripts/00_inventory.R",TRUE,"05c8a12a2c7f6ca88fbca0a38b6111b3e99c81e6d6751224d6df77f5aadec021"
 "tabs/03_hom_pol_by_group_issue.csv","scripts/01_hom_pol.R",TRUE,"585426890b0b871a624079f8951248ea5c71ccf2a02d061e03331c8d6338c85d"
 "tabs/03_dom_gender_by_group_issue.csv","scripts/02_domination.R",TRUE,"85041bdef44f4ff704874b19a3f1324817c9e457855bc2cdd4a82a7b634e70fd"

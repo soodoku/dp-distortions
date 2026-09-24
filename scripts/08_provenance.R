@@ -55,12 +55,19 @@ paper_path <- paste0(
   "deliberative-distortions-homogenization-polarization-and-domination-",
   "in-small-group-discussions.pdf"
 )
+upstream <- dp_source_manifest()
+upstream <- upstream[match(c("participant_data", "index_dictionary"), upstream$source), ]
+source_paths <- c(
+  paper_path, dp_source_path("participant_data"), dp_source_path("index_dictionary"), "renv.lock"
+)
 sources <- tibble(
   source_id = c("paper_vor", "participant_data", "index_dictionary", "package_lock"),
-  path = c(paper_path, "data/polardata.csv", "data/poll_indices.csv", "renv.lock"),
+  repository = c("soodoku/dp-distortions", upstream$repository, "soodoku/dp-distortions"),
+  revision = c(NA_character_, upstream$revision, NA_character_),
+  path = c(paper_path, upstream$path, "renv.lock"),
   official_url = c("https://doi.org/10.1017/S0007123421000168", NA, NA, NA),
-  editable = c(FALSE, TRUE, TRUE, TRUE),
-  sha256 = map_chr(path, \(p) digest::digest(p, algo = "sha256", file = TRUE))
+  editable = c(FALSE, FALSE, FALSE, TRUE),
+  sha256 = map_chr(source_paths, \(p) digest::digest(p, algo = "sha256", file = TRUE))
 )
 write.csv(sources, "provenance/sources.csv", row.names = FALSE)
 

@@ -86,8 +86,36 @@ dom_pairs_index <- function(smdata, t1var, t2var, adv) {
     )
 }
 
+dp_project_root <- function() {
+  rprojroot::find_root(rprojroot::has_file("DESCRIPTION"))
+}
+
+dp_source_manifest <- function() {
+  read.csv(file.path(dp_project_root(), "data", "sources.csv"))
+}
+
+dp_source_path <- function(
+  name,
+  root = Sys.getenv("DP_DATA_ROOT", unset = file.path(dp_project_root(), "..", "dp-data")),
+  manifest = dp_source_manifest()
+) {
+  entry <- manifest[manifest$source == name, ]
+  if (nrow(entry) != 1L) stop("Expected one pinned source: ", name)
+  path <- file.path(root, entry$path)
+  if (!file.exists(path)) stop("Missing upstream source: ", path)
+  hash <- digest::digest(path, algo = "sha256", file = TRUE)
+  if (is.na(entry$sha256) || !identical(hash, entry$sha256)) {
+    stop("Source checksum mismatch: ", name, ". Review changes before updating its pin.")
+  }
+  path
+}
+
+read_dp_source <- function(name) {
+  read.delim(dp_source_path(name), check.names = FALSE)
+}
+
 load_dp_data <- function() {
-  raw <- read.csv("data/polardata.csv", check.names = FALSE)
+  raw <- read_dp_source("participant_data")
   substantive <- setdiff(names(raw), "X")
   duplicate <- duplicated(raw[substantive])
   dpdat <- raw[!duplicate, , drop = FALSE] |>
@@ -96,7 +124,7 @@ load_dp_data <- function() {
       group_key = paste(dpnum, pollgroup, sep = ":")
     )
 
-  att_indices <- read.csv("data/poll_indices.csv", check.names = FALSE) |>
+  att_indices <- read_dp_source("index_dictionary") |>
     mutate(
       issue_id = t1var,
       actual_n_indices = n(),

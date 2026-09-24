@@ -62,7 +62,7 @@ record_check(
   sum(!is.na(hp$polarex)) == 2431
 )
 
-raw <- read.csv("data/polardata.csv", check.names = FALSE) |>
+raw <- read_dp_source("participant_data") |>
   mutate(group_key = paste(dpnum, pollgroup, sep = ":"))
 attitude_columns <- unique(c(att_indices$t1var, att_indices$t2_t3var))
 raw_means <- raw |>

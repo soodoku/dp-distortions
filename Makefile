@@ -1,3 +1,6 @@
+DP_DATA_ROOT ?= $(abspath ../dp-data)
+export DP_DATA_ROOT
+
 .PHONY: restore analysis audit test lint ci oos oos-check oos-paper
 
 restore:

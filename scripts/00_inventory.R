@@ -25,7 +25,7 @@ poll_inventory <- dpdat |>
 
 inventory <- tribble(
   ~quantity, ~value, ~definition,
-  "raw_rows", dat$raw_n, "Rows in data/polardata.csv",
+  "raw_rows", dat$raw_n, "Rows in upstream historical polardata",
   "exact_duplicate_rows", nrow(dat$duplicate_rows),
   "Rows identical on every column except the import row number X",
   "analysis_participants", dat$analysis_n,

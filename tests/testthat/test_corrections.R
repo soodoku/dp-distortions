@@ -1,7 +1,7 @@
 source(testthat::test_path("..", "..", "scripts", "00_functions.R"))
 
 test_that("source poll IDs retain the raw dictionary mapping", {
-  dictionary <- read.csv(testthat::test_path("..", "..", "data", "poll_indices.csv")) |>
+  dictionary <- read_dp_source("index_dictionary") |>
     distinct(dpnum, poll_id)
   files <- c(
     "03_hom_pol_by_group_issue.csv", "05_attitude_change_by_group_issue.csv",
@@ -15,7 +15,7 @@ test_that("source poll IDs retain the raw dictionary mapping", {
 })
 
 test_that("combined-share regression uses the outcome's eligible respondents", {
-  participants <- read.csv(testthat::test_path("..", "..", "data", "polardata.csv")) |>
+  participants <- read_dp_source("participant_data") |>
     distinct(across(-X), .keep_all = TRUE) |>
     mutate(advantaged = highinc == 1 & bettered == 1 & female == 0) |>
     filter(!is.na(hhincome), !is.na(advantaged)) |>

@@ -34,9 +34,17 @@ Dependencies are declared in [DESCRIPTION](DESCRIPTION) and pinned in
 [renv.lock](renv.lock) for R 4.6.0. From the repository root:
 
 ```sh
+git clone --branch v0.2.2 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
 make restore
 make ci
 ```
+
+The two historical inputs now come from dp-data. A release archive extracted to
+`../dp-data` also works; set `DP_DATA_ROOT` for another location.
+[data/sources.csv](data/sources.csv) pins their commit and SHA-256 checksums.
+Missing or changed inputs stop the build. This migration preserves the historical
+values and current analysis rules; reconstructed respondent measures are not yet
+substituted.
 
 `make ci` runs local linting, the analysis, audit checks, and tests.
 It does not require a hosted CI service. To regenerate only the analysis, run
@@ -75,8 +83,7 @@ exclusions, access gaps, and candidates still being screened.
 - [tabs/02_table_2.csv](tabs/02_table_2.csv) and
   [tabs/03_table_3.csv](tabs/03_table_3.csv): current main results.
 - [figs/figure_manifest.csv](figs/figure_manifest.csv): figure sources and outputs.
-- [data/polardata.csv](data/polardata.csv) and
-  [data/poll_indices.csv](data/poll_indices.csv): raw responses and index dictionary.
+- [data/sources.csv](data/sources.csv): upstream historical responses and index dictionary pins.
 - [provenance/](provenance/): claims, numerical values, sources, and checks.
 
 The session information below records the historical published run.

@@ -1,5 +1,5 @@
 "quantity","value","definition"
-"raw_rows",6084,"Rows in data/polardata.csv"
+"raw_rows",6084,"Rows in upstream historical polardata"
 "exact_duplicate_rows",217,"Rows identical on every column except the import row number X"
 "analysis_participants",5867,"Distinct participants after exact-record deduplication"
 "polls",21,"Deliberative polls in the analysis data"

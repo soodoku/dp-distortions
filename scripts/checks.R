@@ -118,8 +118,8 @@ stopifnot(
 
 # Uniform duplication in US Primaries.
 hp <- read.csv("tabs/03_hom_pol_by_group_issue.csv")
-raw <- read.csv("data/polardata.csv")
-indices <- read.csv("data/poll_indices.csv") |> filter(dpnum == 16)
+raw <- read_dp_source("participant_data")
+indices <- read_dp_source("index_dictionary") |> filter(dpnum == 16)
 primaries <- raw |> filter(dpnum == 16)
 unique_primaries <- primaries[!duplicated(primaries[setdiff(names(primaries), "X")]), ]
 variants <- bind_rows(

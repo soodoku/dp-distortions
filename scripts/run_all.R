@@ -3,7 +3,6 @@ Deliberative Distortions
 Run everything. From the repo root: Rscript scripts/run_all.R
 "
 
-stopifnot(file.exists("data/polardata.csv"))
 dir.create("tabs", showWarnings = FALSE)
 
 source("scripts/00_inventory.R")

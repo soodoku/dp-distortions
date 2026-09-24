@@ -30,6 +30,7 @@ Imports:
     ragg,
     readr,
     renv,
+    rprojroot,
     sandwich,
     testthat,
     tibble,
