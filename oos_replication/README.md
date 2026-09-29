@@ -31,7 +31,7 @@ make oos-check
 
 This reads the upstream files pinned in [files.csv](files.csv), checks their SHA-256 hashes,
 and runs the R analysis, manuscript build, numerical checks and linting. Set
-`DP_DATA_ROOT` if dp-data is elsewhere; a source archive works too. Original
+`DP_DATA_ROOT` if dp-data is elsewhere; an archive of the pinned commit works too. Original
 URLs and access dates remain in the manifest and upstream source catalog. The
 manuscript requires `latexmk` and a LaTeX installation. `make oos` regenerates
 only the existing numerical results; `make oos-paper` also builds the parallel

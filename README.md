@@ -40,8 +40,8 @@ make restore
 make ci
 ```
 
-The two historical inputs now come from dp-data. A release archive extracted to
-`../dp-data` also works; set `DP_DATA_ROOT` for another location.
+The two historical inputs now come from dp-data. An archive of the pinned commit
+extracted to `../dp-data` also works; set `DP_DATA_ROOT` for another location.
 [data/sources.csv](data/sources.csv) pins their commit and SHA-256 checksums.
 Missing or changed inputs stop the build. This migration preserves the historical
 values and current analysis rules; reconstructed respondent measures are not yet
