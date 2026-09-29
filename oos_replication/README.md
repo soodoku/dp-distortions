@@ -23,7 +23,8 @@ weighted identity is exact. Interpretation remains an author-review draft.
 From the repository root:
 
 ```sh
-git clone --branch v0.2.3 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
+git clone --filter=blob:none --no-checkout https://github.com/soodoku/dp-data.git ../dp-data
+git -C ../dp-data checkout 3e7673bfbde9ba1bda03681dff5ad981be8edfba
 make restore
 make oos-check
 ```
