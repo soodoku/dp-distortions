@@ -32,14 +32,24 @@ test_that("upstream verification rejects changed, missing and ambiguous sources"
 
 test_that("all OOS inputs resolve upstream and match the central catalog", {
   manifest <- oos_source_manifest()
-  expect_equal(nrow(manifest), 24L)
+  expect_equal(nrow(manifest), 26L)
   expect_equal(anyDuplicated(manifest$file), 0L)
   paths <- vapply(manifest$file, oos_source_path, character(1))
   expect_true(all(file.exists(paths)))
   root <- Sys.getenv("DP_DATA_ROOT", unset = file.path(dp_project_root(), "..", "dp-data"))
+  raw <- manifest[!startsWith(manifest$path, "output/"), ]
   catalog <- read.csv(file.path(root, "metadata", "oos_sources.csv"))
-  position <- match(manifest$file, catalog$file)
+  position <- match(raw$file, catalog$file)
+  expect_equal(nrow(raw), 24L)
   expect_false(anyNA(position))
-  expect_identical(manifest$path, catalog$path[position])
-  expect_identical(manifest$sha256, catalog$sha256[position])
+  expect_identical(raw$path, catalog$path[position])
+  expect_identical(raw$sha256, catalog$sha256[position])
+
+  generated <- manifest[startsWith(manifest$path, "output/"), ]
+  products <- read.csv(file.path(root, "output", "tanzania_attitudes", "manifest.csv"))
+  position <- match(generated$file, paste0(products$table, ".parquet"))
+  expect_equal(nrow(generated), 2L)
+  expect_false(anyNA(position))
+  expect_identical(generated$path, products$path[position])
+  expect_identical(generated$sha256, products$sha256[position])
 })

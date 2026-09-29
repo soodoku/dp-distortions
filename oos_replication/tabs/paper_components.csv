@@ -26,9 +26,9 @@ oboe,"Our Budget, Our Economy","Our Budget, Our Economy",town_meeting,policy,gen
 oboe,"Our Budget, Our Economy","Our Budget, Our Economy",town_meeting,policy,income,ext_adv,1486,-0.05423636480164069,0.2611036339165545
 oboe,"Our Budget, Our Economy","Our Budget, Our Economy",town_meeting,policy,income,ext_dis,1486,0.05951960360187142,0.4508748317631225
 oboe,"Our Budget, Our Economy","Our Budget, Our Economy",town_meeting,policy,income,ext_grp,1486,0.005872601956888651,0.4407806191117093
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,gender,ext_adv,517,-0.09055121887568696,0.30754352030947774
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,gender,ext_dis,517,0.07418266435191001,0.6576402321083172
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,gender,ext_grp,517,-0.005371478403393303,0.46034816247582205
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,gender,ext_adv,541,-0.09294791391602851,0.3068391866913124
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,gender,ext_dis,541,0.07244247776595282,0.6506469500924215
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,gender,ext_grp,541,-0.007219525186253473,0.4584103512014787
 a1r_climate,A1R Climate,A1R Climate,deliberative_poll,environmental_concern,combined,ext_adv,175,-0.06663809523809523,0.26857142857142857
 a1r_climate,A1R Climate,A1R Climate,deliberative_poll,policy,combined,ext_adv,3659,-0.08402887856427084,0.235310194042088
 a1r_climate,A1R Climate,A1R Climate,deliberative_poll,climate_belief,combined,ext_adv,230,-0.06378985507246378,0.25217391304347825

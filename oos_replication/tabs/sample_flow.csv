@@ -21,7 +21,7 @@ oboe_22,75,74,10,6,Exclude conflicting pre/post table assignments; retain docume
 oboe_27,87,87,9,6,Exclude conflicting pre/post table assignments; retain documented pre-table key.
 hongkong_deliberation,6,6,1,1,Study 1 actual discussion groups; study 2 video viewers excluded.
 hongkong_discussion,6,6,1,1,Study 1 actual discussion groups; study 2 video viewers excluded.
-tanzania_2015,2225,371,50,21,"371 released group assignments: 370 flagged zdelib=1; one flag missing. 31 further zdelib=1 citizens lack group assignments and cannot enter. 25 groups per round, same people reassigned; 50 group-episodes, one family. H26 omitted: appendix says seven categories, released labels specify five."
+tanzania_2015,2225,371,50,22,"371 released group assignments: 370 flagged zdelib=1; one flag missing. 31 further zdelib=1 citizens lack group assignments and cannot enter. 25 groups per round, same people reassigned; 50 group-episodes, one family. 22 central items: t0 baseline to t3 telephone follow-up, not immediate exit. Values, missingness, item definitions and H26 five-category scale are upstream."
 a1r_climate_2021,8814,962,105,72,ROOM crossed with schedule option; 139 attendees also participated in A1R2019. 65 policy items plus 3 concern and 4 belief items in separate outcome strata.
 celaya_2,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.
 celaya_4,15,15,1,8,104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.

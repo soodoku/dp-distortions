@@ -53,27 +53,6 @@ oboe,entitle,oboe_PR_DEF_ENTITLE,oboe_PT_DEF_ENTITLE,1,5,blank,0.5,policy,Cut gr
 oboe,defense,oboe_PR_DEF_DEFENSE,oboe_PT_DEF_DEFENSE,1,5,blank,0.5,policy,Cut defense spending,https://doi.org/10.7910/DVN/XDDN2Y,main
 oboe,fedsales,oboe_PR_DEF_FEDSALES,oboe_PT_DEF_FEDSALES,1,5,blank,0.5,policy,Create federal consumption or sales tax,https://doi.org/10.7910/DVN/XDDN2Y,main
 hongkong_2020,article_23,T1_QA_1,T2_QA_1,0,10,system missing,0.5,policy,Support Article 23 legislation,https://doi.org/10.7910/DVN/W9DAQM,main
-tanzania_2015,h11,H110,H111,1,7,-99;-97;98;99,0.5,policy,Gas revenue for public investment versus electricity subsidies,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h12,H120,H121,1,7,-99;-97;98;99,0.5,policy,Sell gas at full price versus subsidize local industry,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h21,H210,H211,1,7,-99;-97;98;99,0.5,policy,Strict versus loose spending limits,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h22,H220,H221,0,10,-99;-97;98;99,0.5,policy,Infrastructure spending importance,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h23,H230,H231,0,10,-99;-97;98;99,0.5,policy,Public services spending importance,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h24,H240,H241,0,10,-99;-97;98;99,0.5,policy,Saving for future generations importance,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h25,H250,H251,1,7,-99;-97;98;99,0.5,policy,Save for future versus spend now,https://doi.org/10.7910/DVN/S3NRQL,round_1
-tanzania_2015,h31,H310,H311,0,10,-99;-97;98;99,0.5,policy,Direct transfers to all households importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h32,H320,H321,0,10,-99;-97;98;99,0.5,policy,Transfers to households with children or elderly importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h33,H330,H331,0,10,-99;-97;98;99,0.5,policy,Transfers fighting poverty importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h34,H340,H341,0,10,-99;-97;98;99,0.5,policy,Transfers improving nutrition and schooling importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h35,H350,H351,0,10,-99;-97;98;99,0.5,policy,Transfers improving accountability importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h36,H360,H361,1,7,-99;-97;98;99,0.5,policy,Direct transfers versus government spending,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h37,H370,H371,1,5,-99;-97;98;99,0.5,policy,Child savings accounts,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h38,H380,H381,1,5,-99;-97;98;99,0.5,policy,Retirement savings accounts,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h41,H410,H411,0,10,-99;-97;98;99,0.5,policy,Infrastructure creating jobs importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h42,H420,H421,0,10,-99;-97;98;99,0.5,policy,Infrastructure promoting growth importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h43,H430,H431,0,10,-99;-97;98;99,0.5,policy,Public services helping poor people importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h44,H440,H441,0,10,-99;-97;98;99,0.5,policy,Public services promoting growth importance,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h45,H450,H451,1,5,-99;-97;98;99,0.5,policy,Public construction wastes money,https://doi.org/10.7910/DVN/S3NRQL,round_2
-tanzania_2015,h46,H460,H461,1,7,-99;-97;98;99,0.5,policy,Infrastructure versus public services,https://doi.org/10.7910/DVN/S3NRQL,round_2
 a1r_climate_2021,q0a,Q0A,T2Q0A,0,10,77;88;98;99,0.5,environmental_concern,How worried are you about the current condition of the natural environment in your local area?,https://deliberation.stanford.edu/news/america-one-room-climate-and-energy,main
 a1r_climate_2021,q0b,Q0B,T2Q0B,0,10,77;88;98;99,0.5,environmental_concern,How worried are you about the current condition of the natural environment in the United States?,https://deliberation.stanford.edu/news/america-one-room-climate-and-energy,main
 a1r_climate_2021,q0c,Q0C,T2Q0C,0,10,77;88;98;99,0.5,environmental_concern,How worried are you about the current condition of the natural environment in the earth as a whole?,https://deliberation.stanford.edu/news/america-one-room-climate-and-energy,main

@@ -139,9 +139,13 @@ denominator. Missing reference directions are excluded metric by metric.
   frequently missing; H/P retain these respondents and D uses known categories.
 - **Tanzania:** use the released household-to-group join and topic-specific round
   assignments. One assigned participant lacks the deliberation flag; assignment
-  documentation supports retaining that record. Exclude two items with conflicting
-  five-/seven-point documentation. Education coding is not sufficiently defined
-  for a median split, and consumption is not silently substituted for income.
+  documentation supports retaining that record. The central typed export supplies
+  all 22 items, including the approved five-category borrowing item H260/H261,
+  with source missingness and normalization already applied. Generic pre/post
+  slots represent the February 2015 t0 baseline and May–July 2015 t3 telephone follow-up; this
+  contrast includes information, deliberation and the subsequent interval.
+  Education coding is not sufficiently defined for a median split, and
+  consumption is not silently substituted for income.
 - **Hong Kong:** Study 1 has two groups of six. The casual-discussion group's
   initial mean is at the midpoint, so directional P is undefined; absolute P is
   still available. Study 2's video viewers are not discussion participants.

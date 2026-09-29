@@ -44,10 +44,10 @@ Other group discussions,policy,paired,d_gender,shizuoka_2019,-0.0046383319409635
 Other group discussions,policy,paired,h,shizuoka_2019,0.007736137684510636,0.4875,80,1
 Other group discussions,policy,paired,p,shizuoka_2019,-0.014448514448514442,0.41025641025641024,78,1
 Other group discussions,policy,paired,p_absolute,shizuoka_2019,0.009188988095238111,0.4375,80,1
-New DPs,policy,paired,d_gender,tanzania_2015,-0.005371478403393306,0.46034816247582205,517,1
-New DPs,policy,paired,h,tanzania_2015,-0.005110639111677843,0.4780952380952381,525,1
-New DPs,policy,paired,p,tanzania_2015,-0.03830942401615479,0.37115384615384617,520,1
-New DPs,policy,paired,p_absolute,tanzania_2015,-0.007626856212570503,0.43047619047619046,525,1
+New DPs,policy,paired,d_gender,tanzania_2015,-0.007219525186253467,0.4584103512014787,541,1
+New DPs,policy,paired,h,tanzania_2015,-0.007462469288624986,0.4636363636363636,550,1
+New DPs,policy,paired,p,tanzania_2015,-0.03940030705252107,0.36900369003690037,542,1
+New DPs,policy,paired,p_absolute,tanzania_2015,-0.00508445998445998,0.43636363636363634,550,1
 Other group discussions,affect,paired,d_combined,whatsapp,0.0178571428571429,0.3861003861003861,259,1
 Other group discussions,affect,paired,d_education,whatsapp,-0.0032327586206897067,0.3413793103448276,580,1
 Other group discussions,affect,paired,h,whatsapp,0.01339217388610886,0.3306060606060606,3300,1
@@ -99,10 +99,10 @@ Other group discussions,policy,available,d_gender,shizuoka_2019,-0.0057348231690
 Other group discussions,policy,available,h,shizuoka_2019,0.007147592832535148,0.5,80,1
 Other group discussions,policy,available,p,shizuoka_2019,-0.016165547415547408,0.41025641025641024,78,1
 Other group discussions,policy,available,p_absolute,shizuoka_2019,0.007068452380952402,0.4375,80,1
-New DPs,policy,available,d_gender,tanzania_2015,-0.00840860085540938,0.4526112185686654,517,1
-New DPs,policy,available,h,tanzania_2015,-0.00556495482044937,0.4857142857142857,525,1
-New DPs,policy,available,p,tanzania_2015,-0.036964365114654125,0.371868978805395,519,1
-New DPs,policy,available,p_absolute,tanzania_2015,-0.005957962672248376,0.4419047619047619,525,1
+New DPs,policy,available,d_gender,tanzania_2015,-0.010090937507758222,0.4510166358595194,541,1
+New DPs,policy,available,h,tanzania_2015,-0.00800589999374999,0.4709090909090909,550,1
+New DPs,policy,available,p,tanzania_2015,-0.03733421867185705,0.3726937269372694,542,1
+New DPs,policy,available,p_absolute,tanzania_2015,-0.0033462370962370883,0.4490909090909091,550,1
 Other group discussions,affect,available,d_combined,whatsapp,0.004725085910652936,0.3745704467353952,291,1
 Other group discussions,affect,available,d_education,whatsapp,-0.006455399061032807,0.352112676056338,639,1
 Other group discussions,affect,available,h,whatsapp,0.01339217388610886,0.3306060606060606,3300,1
