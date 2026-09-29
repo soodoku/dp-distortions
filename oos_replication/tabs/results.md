@@ -44,7 +44,7 @@ Echo's baseline precedes its discussion by 1–82 days; immediate refers to its 
 |Our Budget Our Economy 2010                         |town_meeting                    |policy                |paired     |  0.0085| -0.0194|          0.0275|    1937|    1827|             1986|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |policy                |paired     |  0.0077| -0.0144|          0.0092|      80|      78|               80|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |belief                |paired     |  0.0206|  0.0283|          0.0365|       8|       7|                8|
-|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |paired     | -0.0051| -0.0383|         -0.0076|     525|     520|              525|
+|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |paired     | -0.0075| -0.0394|         -0.0051|     550|     542|              550|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |paired     |  0.0152| -0.0676|          0.0080|     940|     714|              990|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |stereotype_judgment   |paired     | -0.0014|      NA|              NA|     760|       0|                0|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HM            |affect                |paired     |  0.0088| -0.0806|         -0.0027|     740|     619|              800|
@@ -72,7 +72,7 @@ Echo's baseline precedes its discussion by 1–82 days; immediate refers to its 
 |Our Budget Our Economy 2010                         |town_meeting                    |policy                |available  |  0.0174| -0.0172|          0.0381|    1982|    1846|             1998|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |policy                |available  |  0.0071| -0.0162|          0.0071|      80|      78|               80|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |belief                |available  |  0.0223|  0.0264|          0.0348|       8|       7|                8|
-|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |available  | -0.0056| -0.0370|         -0.0060|     525|     519|              525|
+|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |available  | -0.0080| -0.0373|         -0.0033|     550|     542|              550|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |available  |  0.0152| -0.0693|          0.0054|     940|     736|              990|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |stereotype_judgment   |available  | -0.0014|      NA|              NA|     760|       0|                0|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HM            |affect                |available  |  0.0088| -0.0776|         -0.0008|     740|     630|              800|
@@ -122,7 +122,7 @@ Unavailable dimensions are omitted here and retained as zero eligible pairs in t
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |policy                |paired     |d_gender    |    57| -0.0046|            0.4035|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |belief                |paired     |d_education |     8| -0.0161|            0.3750|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |belief                |paired     |d_gender    |     5| -0.0487|            0.2000|
-|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |paired     |d_gender    |   517| -0.0054|            0.4603|
+|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |paired     |d_gender    |   541| -0.0072|            0.4584|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |paired     |d_combined  |    94|  0.0000|            0.3404|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |paired     |d_education |   201|  0.0031|            0.3532|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |paired     |d_income    |   362|  0.0142|            0.3619|
@@ -181,7 +181,7 @@ Unavailable dimensions are omitted here and retained as zero eligible pairs in t
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |policy                |available  |d_gender    |    57| -0.0057|            0.4035|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |belief                |available  |d_education |     8| -0.0144|            0.3750|
 |Shizuoka nuclear-restart mini-public (2019)         |deliberative_mini_public        |belief                |available  |d_gender    |     5| -0.0621|            0.2000|
-|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |available  |d_gender    |   517| -0.0084|            0.4526|
+|Tanzania resource deliberation 2015                 |deliberative_poll               |policy                |available  |d_gender    |   541| -0.0101|            0.4510|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |available  |d_combined  |    94|  0.0000|            0.3404|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |available  |d_education |   206| -0.0024|            0.3495|
 |WhatsApp conversations and religious nationalism    |dyadic_online_gen_HH            |affect                |available  |d_income    |   388|  0.0045|            0.3479|

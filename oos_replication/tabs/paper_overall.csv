@@ -1,8 +1,8 @@
 comparison,construct,membership,metric,mean,positive_fraction,pairs,studies,families,weighting
-New DPs,policy,paired,d_gender,-6.341281171805767e-4,0.47437898610092544,8872,3,2,equal_family_study
-New DPs,policy,paired,h,0.013524312514703877,0.5733964310207222,9189,3,2,equal_family_study
-New DPs,policy,paired,p,-0.009544296242965798,0.4834063383682093,9100,3,2,equal_family_study
-New DPs,policy,paired,p_absolute,0.017791737067935375,0.5467488894084639,9230,3,2,equal_family_study
+New DPs,policy,paired,d_gender,-0.0015581515086106573,0.47341008046375377,8896,3,2,equal_family_study
+New DPs,policy,paired,h,0.012348397426230305,0.566166993791285,9214,3,2,equal_family_study
+New DPs,policy,paired,p,-0.01008973776114894,0.4823312603097364,9122,3,2,equal_family_study
+New DPs,policy,paired,p_absolute,0.019062935181990634,0.5496926123521868,9255,3,2,equal_family_study
 New DPs,policy,paired,d_combined,0.006010000769075889,0.4911177917463788,3659,1,1,equal_family_study
 New DPs,policy,paired,d_education,0.00912152330878268,0.5147979029257568,5913,1,1,equal_family_study
 New DPs,policy,paired,d_income,0.0049809711521855374,0.48832105345665466,6379,1,1,equal_family_study
@@ -20,10 +20,10 @@ Other group discussions,affect,paired,d_gender,-0.002724358974358953,0.429487179
 Other group discussions,affect,paired,d_combined,0.0178571428571429,0.3861003861003861,259,1,1,equal_family_study
 Other group discussions,affect,paired,d_education,-0.0032327586206897067,0.3413793103448276,580,1,1,equal_family_study
 Other group discussions,affect,paired,d_income,0.015598650927487391,0.3760539629005059,1186,1,1,equal_family_study
-New DPs,policy,available,d_gender,-0.0023813068530544783,0.4745314054746968,8906,3,2,equal_family_study
-New DPs,policy,available,h,0.013650650029563718,0.5810751809330312,9191,3,2,equal_family_study
-New DPs,policy,available,p,-0.009844811248739621,0.4864560691287412,9106,3,2,equal_family_study
-New DPs,policy,available,p_absolute,0.017566357099259217,0.5548783220325773,9230,3,2,equal_family_study
+New DPs,policy,available,d_gender,-0.0032224751792288998,0.4737341141201238,8930,3,2,equal_family_study
+New DPs,policy,available,h,0.012430177442913408,0.5736725835304338,9216,3,2,equal_family_study
+New DPs,policy,available,p,-0.010029738027341084,0.48686844319467837,9129,3,2,equal_family_study
+New DPs,policy,available,p_absolute,0.01887221988726486,0.5584713956256508,9255,3,2,equal_family_study
 New DPs,policy,available,d_combined,0.006487374745514521,0.503530689842477,3682,1,1,equal_family_study
 New DPs,policy,available,d_education,0.00964008807005595,0.5280672268907562,5950,1,1,equal_family_study
 New DPs,policy,available,d_income,0.005383312975922136,0.4967993754879001,6405,1,1,equal_family_study
@@ -55,10 +55,10 @@ Original DPs,policy,available,d_gender,0.005272519330190809,0.47929326801340333,
 Original DPs,policy,available,d_education,0.01284820207050466,0.5408510844133138,2385,21,21,equal_family_study
 Original DPs,policy,available,d_income,0.0030460791624454817,0.5137646941900988,1144,11,11,equal_family_study
 Original DPs,policy,available,d_combined,0.015911675461182453,0.5287375694913891,983,11,11,equal_family_study
-New DPs,policy,paired,d_gender,0.002049632421937237,0.47971145175834085,8872,3,2,pairs
-New DPs,policy,paired,h,0.028831154170230546,0.6447926869082599,9189,3,2,pairs
-New DPs,policy,paired,p,0.018502649797591614,0.5904395604395605,9100,3,2,pairs
-New DPs,policy,paired,p_absolute,0.03824800122161667,0.643661971830986,9230,3,2,pairs
+New DPs,policy,paired,d_gender,0.0019172246016432202,0.4795413669064748,8896,3,2,pairs
+New DPs,policy,paired,h,0.028598676263852357,0.6434773171261124,9214,3,2,pairs
+New DPs,policy,paired,p,0.01830081640254527,0.5897829423372067,9122,3,2,pairs
+New DPs,policy,paired,p_absolute,0.038275169940104666,0.6434359805510534,9255,3,2,pairs
 New DPs,policy,paired,d_combined,0.006010000769075889,0.4911177917463788,3659,1,1,pairs
 New DPs,policy,paired,d_education,0.00912152330878268,0.5147979029257568,5913,1,1,pairs
 New DPs,policy,paired,d_income,0.0049809711521855374,0.48832105345665466,6379,1,1,pairs
@@ -76,10 +76,10 @@ Other group discussions,affect,paired,d_gender,-0.002724358974358953,0.429487179
 Other group discussions,affect,paired,d_combined,0.0178571428571429,0.3861003861003861,259,1,1,pairs
 Other group discussions,affect,paired,d_education,-0.0032327586206897067,0.3413793103448276,580,1,1,pairs
 Other group discussions,affect,paired,d_income,0.015598650927487391,0.3760539629005059,1186,1,1,pairs
-New DPs,policy,available,d_gender,0.0017532175464534177,0.4892207500561419,8906,3,2,pairs
-New DPs,policy,available,h,0.02939629915109914,0.6532477423566533,9191,3,2,pairs
-New DPs,policy,available,p,0.016480509441162413,0.5937843180320668,9106,3,2,pairs
-New DPs,policy,available,p_absolute,0.03611045328636622,0.648320693391116,9230,3,2,pairs
+New DPs,policy,available,d_gender,0.0016239871130194724,0.48902575587905933,8930,3,2,pairs
+New DPs,policy,available,h,0.02915578795376795,0.6519097222222222,9216,3,2,pairs
+New DPs,policy,available,p,0.016323899435379957,0.5932741811808522,9129,3,2,pairs
+New DPs,policy,available,p_absolute,0.036152024185106435,0.6481901674770394,9255,3,2,pairs
 New DPs,policy,available,d_combined,0.006487374745514521,0.503530689842477,3682,1,1,pairs
 New DPs,policy,available,d_education,0.00964008807005595,0.5280672268907562,5950,1,1,pairs
 New DPs,policy,available,d_income,0.005383312975922136,0.4967993754879001,6405,1,1,pairs

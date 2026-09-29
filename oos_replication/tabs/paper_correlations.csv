@@ -152,12 +152,12 @@ Shizuoka,policy,p,d_gender,56,-0.1112473285389971
 Shizuoka,policy,p,d_education,73,0.008555880544683947
 Shizuoka,policy,p,d_income,0,NA
 Shizuoka,policy,p,d_combined,0,NA
-Tanzania,policy,h,p,520,0.494485442845094
-Tanzania,policy,h,d_gender,517,0.07313432942972363
+Tanzania,policy,h,p,542,0.4905622656359012
+Tanzania,policy,h,d_gender,541,0.07113264319303741
 Tanzania,policy,h,d_education,0,NA
 Tanzania,policy,h,d_income,0,NA
 Tanzania,policy,h,d_combined,0,NA
-Tanzania,policy,p,d_gender,512,0.11350684941214453
+Tanzania,policy,p,d_gender,534,0.11168488249170758
 Tanzania,policy,p,d_education,0,NA
 Tanzania,policy,p,d_income,0,NA
 Tanzania,policy,p,d_combined,0,NA

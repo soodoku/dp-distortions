@@ -9,8 +9,8 @@ Hong Kong: facilitated,policy,1.2335811384723961e-17,0.13333333333333333,NA,Equa
 Hong Kong: facilitated,policy,1.2335811384723961e-17,0.13333333333333333,1,Equal group-item episodes
 Hong Kong: casual,policy,0.03333333333333334,0.06666666666666668,NA,Equal group episodes
 Hong Kong: casual,policy,0.03333333333333334,0.06666666666666668,1,Equal group-item episodes
-Tanzania,policy,0.11754308826094541,0.3533648482469911,NA,Equal group episodes
-Tanzania,policy,0.11496418977847549,0.34809410430839,525,Equal group-item episodes
+Tanzania,policy,0.11869238291470435,0.35716845565149136,NA,Equal group episodes
+Tanzania,policy,0.11626893106893108,0.3518186813186813,550,Equal group-item episodes
 A1R Climate,climate_belief,0.07295652299381292,0.12544413116839587,NA,Equal group episodes
 A1R Climate,climate_belief,0.07295652299381292,0.12544413116839587,420,Equal group-item episodes
 A1R Climate,environmental_concern,0.0750449585687681,0.14350632280884382,NA,Equal group episodes

@@ -14,6 +14,7 @@ Description: Reproduces, audits, and corrects the empirical analysis for
 Depends:
     R (>= 4.6.0)
 Imports:
+    arrow,
     broom,
     clubSandwich,
     digest,

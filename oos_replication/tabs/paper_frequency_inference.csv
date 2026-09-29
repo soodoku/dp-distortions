@@ -171,30 +171,30 @@ deliberative_poll,policy,delayed,available,d_combined,pairs,0,0,NA,NA,NA,NA,NA,N
 deliberative_poll,policy,delayed,available,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,available,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,available,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
-deliberative_poll,policy,delayed,available,d_gender,pairs,517,1,0.4526112185686654,0.4526112185686654,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,available,d_gender,equal_family_event,517,1,0.4526112185686594,0.4526112185686594,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,d_gender,pairs,541,1,0.4510166358595194,0.4510166358595194,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,d_gender,equal_family_event,541,1,0.45101663585951746,0.45101663585951746,1,NA,NA,NA,NA,fewer than two independent families
 deliberative_poll,policy,delayed,available,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,available,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
-deliberative_poll,policy,delayed,available,h,pairs,525,1,0.4857142857142857,0.4857142857142857,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,available,h,equal_family_event,525,1,0.4857142857142927,0.4857142857142927,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,available,p,pairs,519,1,0.371868978805395,0.371868978805395,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,available,p,equal_family_event,519,1,0.37186897880539316,0.37186897880539316,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,available,p_absolute,pairs,525,1,0.4419047619047619,0.4419047619047619,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,available,p_absolute,equal_family_event,525,1,0.44190476190476824,0.44190476190476824,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,h,pairs,550,1,0.4709090909090909,0.4709090909090909,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,h,equal_family_event,550,1,0.47090909090909044,0.47090909090909044,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p,pairs,542,1,0.3726937269372694,0.3726937269372694,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p,equal_family_event,542,1,0.3726937269372717,0.3726937269372717,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p_absolute,pairs,550,1,0.4490909090909091,0.4490909090909091,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,available,p_absolute,equal_family_event,550,1,0.4490909090909086,0.4490909090909086,1,NA,NA,NA,NA,fewer than two independent families
 deliberative_poll,policy,delayed,paired,d_combined,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,paired,d_combined,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,paired,d_education,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,paired,d_education,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
-deliberative_poll,policy,delayed,paired,d_gender,pairs,517,1,0.46034816247582205,0.46034816247582205,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,paired,d_gender,equal_family_event,517,1,0.4603481624758159,0.4603481624758159,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,d_gender,pairs,541,1,0.4584103512014787,0.4584103512014787,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,d_gender,equal_family_event,541,1,0.45841035120147683,0.45841035120147683,1,NA,NA,NA,NA,fewer than two independent families
 deliberative_poll,policy,delayed,paired,d_income,pairs,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
 deliberative_poll,policy,delayed,paired,d_income,equal_family_event,0,0,NA,NA,NA,NA,NA,NA,NA,no eligible pairs
-deliberative_poll,policy,delayed,paired,h,pairs,525,1,0.4780952380952381,0.4780952380952381,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,paired,h,equal_family_event,525,1,0.47809523809524496,0.47809523809524496,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,paired,p,pairs,520,1,0.37115384615384617,0.37115384615384617,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,paired,p,equal_family_event,520,1,0.3711538461538463,0.3711538461538463,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,paired,p_absolute,pairs,525,1,0.43047619047619046,0.43047619047619046,1,NA,NA,NA,NA,fewer than two independent families
-deliberative_poll,policy,delayed,paired,p_absolute,equal_family_event,525,1,0.4304761904761966,0.4304761904761966,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,h,pairs,550,1,0.4636363636363636,0.4636363636363636,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,h,equal_family_event,550,1,0.4636363636363632,0.4636363636363632,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p,pairs,542,1,0.36900369003690037,0.36900369003690037,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p,equal_family_event,542,1,0.3690036900369027,0.3690036900369027,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p_absolute,pairs,550,1,0.43636363636363634,0.43636363636363634,1,NA,NA,NA,NA,fewer than two independent families
+deliberative_poll,policy,delayed,paired,p_absolute,equal_family_event,550,1,0.43636363636363584,0.43636363636363584,1,NA,NA,NA,NA,fewer than two independent families
 deliberative_poll,policy,immediate,available,d_combined,pairs,3682,1,0.503530689842477,0.503530689842477,1,NA,NA,NA,NA,fewer than two independent families
 deliberative_poll,policy,immediate,available,d_combined,equal_family_event,3682,1,0.5035306898424777,0.5035306898424777,1,NA,NA,NA,NA,fewer than two independent families
 deliberative_poll,policy,immediate,available,d_education,pairs,5950,1,0.5280672268907562,0.5280672268907562,1,NA,NA,NA,NA,fewer than two independent families

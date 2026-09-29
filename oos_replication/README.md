@@ -23,14 +23,15 @@ weighted identity is exact. Interpretation remains an author-review draft.
 From the repository root:
 
 ```sh
-git clone --branch v0.2.3 --depth 1 https://github.com/soodoku/dp-data.git ../dp-data
+git clone --filter=blob:none --no-checkout https://github.com/soodoku/dp-data.git ../dp-data
+git -C ../dp-data checkout 3e7673bfbde9ba1bda03681dff5ad981be8edfba
 make restore
 make oos-check
 ```
 
 This reads the upstream files pinned in [files.csv](files.csv), checks their SHA-256 hashes,
 and runs the R analysis, manuscript build, numerical checks and linting. Set
-`DP_DATA_ROOT` if dp-data is elsewhere; a source archive works too. Original
+`DP_DATA_ROOT` if dp-data is elsewhere; an archive of the pinned commit works too. Original
 URLs and access dates remain in the manifest and upstream source catalog. The
 manuscript requires `latexmk` and a LaTeX installation. `make oos` regenerates
 only the existing numerical results; `make oos-paper` also builds the parallel
@@ -139,9 +140,13 @@ denominator. Missing reference directions are excluded metric by metric.
   frequently missing; H/P retain these respondents and D uses known categories.
 - **Tanzania:** use the released household-to-group join and topic-specific round
   assignments. One assigned participant lacks the deliberation flag; assignment
-  documentation supports retaining that record. Exclude two items with conflicting
-  five-/seven-point documentation. Education coding is not sufficiently defined
-  for a median split, and consumption is not silently substituted for income.
+  documentation supports retaining that record. The central typed export supplies
+  all 22 items, including the approved five-category borrowing item H260/H261,
+  with source missingness and normalization already applied. Generic pre/post
+  slots represent the February 2015 t0 baseline and May–July 2015 t3 telephone follow-up; this
+  contrast includes information, deliberation and the subsequent interval.
+  Education coding is not sufficiently defined for a median split, and
+  consumption is not silently substituted for income.
 - **Hong Kong:** Study 1 has two groups of six. The casual-discussion group's
   initial mean is at the midpoint, so directional P is undefined; absolute P is
   still available. Study 2's video viewers are not discussion participants.

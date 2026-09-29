@@ -69,20 +69,20 @@ hongkong,Hong Kong,Hong Kong: casual,casual_discussion,policy,paired,d_education
 hongkong,Hong Kong,Hong Kong: casual,casual_discussion,policy,paired,d_income,0,NA,NA,NA,NA
 hongkong,Hong Kong,Hong Kong: casual,casual_discussion,policy,paired,d_combined,0,NA,NA,NA,NA
 hongkong,Hong Kong,Hong Kong: casual,casual_discussion,policy,paired,p_absolute,1,0.033333333333333326,1,0,0.033333333333333326
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,h,525,-0.00556495482044937,0.4857142857142857,0.0038095238095238095,0.06643759603008167
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,p,519,-0.036964365114654125,0.371868978805395,0.019267822736030827,0.11323584144393392
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,d_gender,517,-0.00840860085540938,0.4526112185686654,0.019342359767891684,0.11339002604960051
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,h,550,-0.00800589999374999,0.4709090909090909,0.0036363636363636364,0.06678150428231497
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,p,542,-0.03733421867185705,0.3726937269372694,0.01845018450184502,0.11431931434698962
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,d_gender,541,-0.010090937507758222,0.4510166358595194,0.018484288354898338,0.11450471022097639
 tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,d_education,0,NA,NA,NA,NA
 tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,d_income,0,NA,NA,NA,NA
 tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,d_combined,0,NA,NA,NA,NA
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,p_absolute,525,-0.005957962672248376,0.4419047619047619,0.01904761904761905,0.10163354846211987
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,h,525,-0.005110639111677843,0.4780952380952381,0.007619047619047619,0.06690218057937412
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,p,520,-0.03830942401615479,0.37115384615384617,0.025,0.1148059958204189
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,d_gender,517,-0.005371478403393306,0.46034816247582205,0.025145067698259187,0.11388262446773087
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,available,p_absolute,550,-0.0033462370962370883,0.4490909090909091,0.02,0.10143700188700189
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,h,550,-0.007462469288624986,0.4636363636363636,0.007272727272727273,0.06727612564576646
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,p,542,-0.03940030705252107,0.36900369003690037,0.023985239852398525,0.11564047934435388
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,d_gender,541,-0.007219525186253467,0.4584103512014787,0.024029574861367836,0.11509986932352924
 tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,d_education,0,NA,NA,NA,NA
 tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,d_income,0,NA,NA,NA,NA
 tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,d_combined,0,NA,NA,NA,NA
-tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,p_absolute,525,-0.007626856212570503,0.43047619047619046,0.02666666666666667,0.10158876097447525
+tanzania,Tanzania,Tanzania,deliberative_poll,policy,paired,p_absolute,550,-0.00508445998445998,0.43636363636363634,0.02909090909090909,0.10133997113997115
 a1r_climate,A1R Climate,A1R Climate,deliberative_poll,climate_belief,available,h,419,0.04373518205327465,0.7374701670644391,0.00954653937947494,0.06634547639364546
 a1r_climate,A1R Climate,A1R Climate,deliberative_poll,climate_belief,available,p,418,0.04355242239934754,0.7272727272727273,0.03588516746411483,0.07259657281065245
 a1r_climate,A1R Climate,A1R Climate,deliberative_poll,climate_belief,available,d_gender,405,0.001565487788254662,0.4419753086419753,0.03209876543209877,0.07147854072418343

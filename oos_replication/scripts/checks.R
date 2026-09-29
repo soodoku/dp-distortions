@@ -4,6 +4,10 @@ testthat::test_file("oos_replication/tests/test_metrics.R",
   reporter = "summary", stop_on_failure = TRUE
 )
 
+testthat::test_file("oos_replication/tests/test_tanzania.R",
+  reporter = "summary", stop_on_failure = TRUE
+)
+
 ratings <- readRDS("oos_replication/data/ratings.rds")
 scores <- readRDS("oos_replication/data/group_results.rds")
 stopifnot(

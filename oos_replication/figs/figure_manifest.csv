@@ -8,9 +8,9 @@ A1R Climate,A1R Climate,Domination: gender,6531,dp_distributions.pdf,NA
 A1R Climate,A1R Climate,Domination: education,5950,dp_distributions.pdf,NA
 A1R Climate,A1R Climate,Domination: income,6405,dp_distributions.pdf,NA
 A1R Climate,A1R Climate,Domination: combined,3682,dp_distributions.pdf,NA
-Tanzania,Tanzania,Homogenization,525,dp_distributions.pdf,NA
-Tanzania,Tanzania,Directional polarization,519,dp_distributions.pdf,NA
-Tanzania,Tanzania,Domination: gender,517,dp_distributions.pdf,NA
+Tanzania,Tanzania,Homogenization,550,dp_distributions.pdf,NA
+Tanzania,Tanzania,Directional polarization,542,dp_distributions.pdf,NA
+Tanzania,Tanzania,Domination: gender,541,dp_distributions.pdf,NA
 Celaya,Celaya,Homogenization,56,extension_distributions.pdf,NA
 Celaya,Celaya,Directional polarization,53,extension_distributions.pdf,NA
 Celaya,Celaya,Domination: gender,54,extension_distributions.pdf,NA
@@ -159,8 +159,8 @@ NA,"Our Budget, Our Economy",p_absolute,1986,polarization_definitions.pdf,NA
 NA,Hong Kong: facilitated,p,1,polarization_definitions.pdf,NA
 NA,Hong Kong: facilitated,p_absolute,1,polarization_definitions.pdf,NA
 NA,Hong Kong: casual,p_absolute,1,polarization_definitions.pdf,NA
-NA,Tanzania,p,520,polarization_definitions.pdf,NA
-NA,Tanzania,p_absolute,525,polarization_definitions.pdf,NA
+NA,Tanzania,p,542,polarization_definitions.pdf,NA
+NA,Tanzania,p_absolute,550,polarization_definitions.pdf,NA
 NA,A1R Climate,p,6726,polarization_definitions.pdf,NA
 NA,A1R Climate,p_absolute,6825,polarization_definitions.pdf,NA
 NA,Celaya,p,53,polarization_definitions.pdf,NA
@@ -177,9 +177,9 @@ NA,Diplomacy: unstructured,p,22,polarization_definitions.pdf,NA
 NA,Diplomacy: unstructured,p_absolute,28,polarization_definitions.pdf,NA
 NA,Shizuoka,p,78,polarization_definitions.pdf,NA
 NA,Shizuoka,p_absolute,80,polarization_definitions.pdf,NA
-NA,NA,Homogenization,4673,distributions_mode.pdf,Face-to-face
-NA,NA,Directional polarization,4451,distributions_mode.pdf,Face-to-face
-NA,NA,Domination: gender,3549,distributions_mode.pdf,Face-to-face
+NA,NA,Homogenization,4698,distributions_mode.pdf,Face-to-face
+NA,NA,Directional polarization,4473,distributions_mode.pdf,Face-to-face
+NA,NA,Domination: gender,3573,distributions_mode.pdf,Face-to-face
 NA,NA,Domination: education,1620,distributions_mode.pdf,Face-to-face
 NA,NA,Domination: income,1539,distributions_mode.pdf,Face-to-face
 NA,NA,Domination: combined,427,distributions_mode.pdf,Face-to-face
@@ -189,9 +189,9 @@ NA,NA,Domination: gender,6820,distributions_mode.pdf,Online
 NA,NA,Domination: education,5913,distributions_mode.pdf,Online
 NA,NA,Domination: income,6379,distributions_mode.pdf,Online
 NA,NA,Domination: combined,3659,distributions_mode.pdf,Online
-NA,NA,Homogenization,800,distributions_region.pdf,Other countries
-NA,NA,Directional polarization,717,distributions_region.pdf,Other countries
-NA,NA,Domination: gender,673,distributions_region.pdf,Other countries
+NA,NA,Homogenization,825,distributions_region.pdf,Other countries
+NA,NA,Directional polarization,739,distributions_region.pdf,Other countries
+NA,NA,Domination: gender,697,distributions_region.pdf,Other countries
 NA,NA,Domination: education,75,distributions_region.pdf,Other countries
 NA,NA,Homogenization,11005,distributions_region.pdf,US / UK
 NA,NA,Directional polarization,10797,distributions_region.pdf,US / UK
