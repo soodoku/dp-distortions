@@ -17,10 +17,12 @@ there is one set of current scripts and outputs.
 ### Analysis
 
 The current analysis implements Equation 3 consistently, uses valid group-issue
-pairs in aggregation, and removes 217 duplicated participant records. It analyzes
-5,867 retained records, 397 groups, 129 policy indices, and 2,480 group-issue pairs.
-[AUDIT.md](AUDIT.md) reports numerical changes, their interpretation, and the
-consequences of alternative sample and weighting choices.
+pairs in aggregation, and adopts corrected upstream source definitions. It analyzes
+5,824 eligible participants, 396 groups, 129 policy indices, and 2,476 group-issue pairs.
+The [source comparison](provenance/upstream_comparison/estimates.csv) separates
+source corrections, eligibility, and plain attitude definitions.
+[AUDIT.md](AUDIT.md) preserves the preceding audit of historical inputs; its
+numerical tables describe that earlier analysis.
 
 Poll-clustered CR2 with Satterthwaite inference is primary. Available responses at
 each wave remain the primary sample. The
@@ -35,17 +37,28 @@ Dependencies are declared in [DESCRIPTION](DESCRIPTION) and pinned in
 
 ```sh
 git clone --filter=blob:none --no-checkout https://github.com/soodoku/dp-data.git ../dp-data
-git -C ../dp-data checkout 3e7673bfbde9ba1bda03681dff5ad981be8edfba
+git -C ../dp-data checkout 555b29d8dbd364c7f5048d3f32748fdb87e97bdb
 make restore
 make ci
 ```
 
-The two historical inputs now come from dp-data. An archive of the pinned commit
-extracted to `../dp-data` also works; set `DP_DATA_ROOT` for another location.
-[data/sources.csv](data/sources.csv) pins their commit and SHA-256 checksums.
-Missing or changed inputs stop the build. This migration preserves the historical
-values and current analysis rules; reconstructed respondent measures are not yet
-substituted.
+The main analysis reads corrected respondent measures and the canonical participant
+and discussion-group definitions from dp-data. It uses the 129 existing paired
+attitude definitions across 21 polls, selecting their plain, missing-preserving
+versions. Education and income subgroups use dp-data's within-poll median flags.
+The model formulas, weighting, and inference procedures are unchanged.
+
+Set `DP_DATA_ROOT` to the pinned checkout or extracted archive;
+[data/sources.csv](data/sources.csv) records exact revisions and SHA-256 hashes.
+Missing or changed inputs stop the build. The current source pin is an upstream
+release candidate and must be published before this branch is merged.
+
+`Rscript scripts/compare_upstream.R` reproduces the same-model comparison between
+the frozen historical inputs, corrected sources, participant eligibility, and
+plain attitude definitions. It writes stage-specific estimates and cohort counts
+to `provenance/upstream_comparison/`. The historical correction audit in
+`scripts/checks.R` explicitly reads its original results from commit `3303249`;
+it does not treat those historical results as the current primary analysis.
 
 `make ci` runs local linting, the analysis, audit checks, and tests.
 GitHub Actions runs these checks and the OOS manuscript build. To regenerate only the analysis, run
@@ -84,7 +97,7 @@ exclusions, access gaps, and candidates still being screened.
 - [tabs/02_table_2.csv](tabs/02_table_2.csv) and
   [tabs/03_table_3.csv](tabs/03_table_3.csv): current main results.
 - [figs/figure_manifest.csv](figs/figure_manifest.csv): figure sources and outputs.
-- [data/sources.csv](data/sources.csv): upstream historical responses and index dictionary pins.
+- [data/sources.csv](data/sources.csv): upstream corrected sources and historical comparison pins.
 - [provenance/](provenance/): claims, numerical values, sources, and checks.
 
 The session information below records the historical published run.

@@ -10,7 +10,7 @@ test_that("all permanent validation gates pass", {
 
 test_that("canonical outputs use unique explicit keys", {
   hp <- read.csv(project_path("tabs", "03_hom_pol_by_group_issue.csv"))
-  expect_equal(nrow(hp), 2480)
+  expect_equal(nrow(hp), 2476)
   expect_equal(anyDuplicated(hp[c("poll_id", "group_key", "issue_id")]), 0)
 
   for (dimension in c("educ", "gender", "income", "triple")) {

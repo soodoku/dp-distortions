@@ -1,10 +1,21 @@
-# Conditional comparisons for the corrigendum. Run from the repository root:
+# Historical correction comparisons, frozen before corrected-source adoption.
+# Current-input comparisons are produced by scripts/compare_upstream.R.
+# Run from the repository root:
 # Rscript scripts/checks.R
 # Standalone runs write the two audit summaries; sourcing only computes and checks.
 
 source("scripts/00_functions.R", local = TRUE)
+
+historical_revision <- "33032492435fcf3d4059e52a969a4860e4dfbafd"
+read_check_table <- function(path) {
+  utils::read.csv(text = system2("git",
+    c("show", shQuote(paste0(historical_revision, ":", path))),
+    stdout = TRUE
+  ))
+}
+
 domination_pairs <- map(c("gender", "educ", "income", "triple"), \(dimension) {
-  read.csv(sprintf("tabs/03_dom_%s_by_group_issue.csv", dimension))
+  read_check_table(sprintf("tabs/03_dom_%s_by_group_issue.csv", dimension))
 }) |>
   list_rbind()
 recomputed <- domination_pairs |>
@@ -52,7 +63,7 @@ missing_results <- scenarios |>
   })) |>
   select(-data) |>
   unnest(result)
-released_subgroups <- read.csv("tabs/03_table_3.csv") |>
+released_subgroups <- read_check_table("tabs/03_table_3.csv") |>
   mutate(dimension = recode(dimension,
     Gender = "gender", Education = "educ",
     Income = "income", "Gender, education, and income" = "triple"
@@ -117,7 +128,7 @@ stopifnot(
 )
 
 # Uniform duplication in US Primaries.
-hp <- read.csv("tabs/03_hom_pol_by_group_issue.csv")
+hp <- read_check_table("tabs/03_hom_pol_by_group_issue.csv")
 raw <- read_dp_source("participant_data")
 indices <- read_dp_source("index_dictionary") |> filter(dpnum == 16)
 primaries <- raw |> filter(dpnum == 16)
@@ -208,7 +219,8 @@ archived_files <- c(
 archived_tables <- set_names(archived_files) |>
   map(\(path) {
     read.csv(text = system2(
-      "git", c("show", paste0("paper-2022:", path)), stdout = TRUE
+      "git", c("show", paste0("paper-2022:", path)),
+      stdout = TRUE
     ))
   })
 
@@ -319,7 +331,7 @@ predictor_impact <- combined_pairs |>
   })) |>
   select(-data) |>
   unnest(result)
-released_parsing <- read.csv("tabs/07_parsing_domination.csv") |>
+released_parsing <- read_check_table("tabs/07_parsing_domination.csv") |>
   filter(dimension == "triple", outcome == "ext_grp")
 predictor_baseline <- predictor_impact |> filter(predictor == "any_disadvantage")
 stopifnot(
@@ -346,8 +358,8 @@ audit_checks <- list(
   predictor_impact = predictor_impact
 )
 
-# Published-to-current comparisons and coverage of the existing claim ledger.
-published_comparison <- read.csv("provenance/values.csv") |>
+# Published-to-historical-corrected comparisons and coverage of the existing claim ledger.
+published_comparison <- read_check_table("provenance/values.csv") |>
   filter(claim_id == "C007", version %in% c("published", "fully_corrected")) |>
   select(construct, dimension, measure, version, estimate) |>
   pivot_wider(names_from = version, values_from = estimate) |>
@@ -365,10 +377,10 @@ stopifnot(
 )
 
 
-claims <- read.csv("provenance/claims.csv")
-values <- read.csv("provenance/values.csv")
-artifacts <- read.csv("provenance/artifacts.csv")
-checks <- read.csv("provenance/checks.csv")
+claims <- read_check_table("provenance/claims.csv")
+values <- read_check_table("provenance/values.csv")
+artifacts <- read_check_table("provenance/artifacts.csv")
+checks <- read_check_table("provenance/checks.csv")
 
 claim_audit <- claims |>
   left_join(
@@ -392,12 +404,26 @@ claim_audit <- claims |>
 stopifnot(
   all(artifacts$exists), all(checks$passed), all(claim_audit$artifact_exists),
   all(file.exists(artifacts$path)),
-  all(map_chr(artifacts$path, \(path) digest::digest(path, algo = "sha256", file = TRUE)) ==
-        artifacts$sha256)
+  all(map_chr(artifacts$path, function(path) {
+    file <- tempfile()
+    on.exit(unlink(file))
+    status <- system2("git",
+      c("show", shQuote(paste0(historical_revision, ":", path))),
+      stdout = file
+    )
+    stopifnot(status == 0L)
+    digest::digest(file, algo = "sha256", file = TRUE)
+  }) == artifacts$sha256)
 )
 if (sys.nframe() == 0L) {
-  write.csv(published_comparison, "tabs/91_audit_comparison.csv", row.names = FALSE)
-  write.csv(claim_audit, "tabs/92_full_audit.csv", row.names = FALSE)
+  write.csv(
+    mutate(published_comparison, input_revision = historical_revision),
+    "tabs/91_audit_comparison.csv", row.names = FALSE
+  )
+  write.csv(
+    mutate(claim_audit, input_revision = historical_revision),
+    "tabs/92_full_audit.csv", row.names = FALSE
+  )
   print(published_comparison, n = Inf)
   for (check_name in names(audit_checks)) {
     cat("\n", check_name, "\n", sep = "")

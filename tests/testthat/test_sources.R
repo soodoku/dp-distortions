@@ -1,10 +1,10 @@
 source(testthat::test_path("..", "..", "scripts", "00_functions.R"))
 
 test_that("historical upstream sources are pinned and retain the full sample", {
-  expect_equal(nrow(dp_source_manifest()), 2L)
+  expect_equal(nrow(dp_source_manifest()), 10L)
   expect_equal(nrow(read_dp_source("participant_data")), 6084L)
   expect_equal(nrow(read_dp_source("index_dictionary")), 129L)
-  data <- load_dp_data()
+  data <- load_dp_data("historical")
   expect_equal(data$analysis_n, 5867L)
   expect_equal(nrow(data$duplicate_rows), 217L)
   expect_equal(n_distinct(data$dpdat$dpnum), 21L)

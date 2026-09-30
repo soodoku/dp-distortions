@@ -25,11 +25,11 @@ poll_inventory <- dpdat |>
 
 inventory <- tribble(
   ~quantity, ~value, ~definition,
-  "raw_rows", dat$raw_n, "Rows in upstream historical polardata",
+  "raw_rows", dat$raw_n, "Rows in upstream reconstructed polardata",
   "exact_duplicate_rows", nrow(dat$duplicate_rows),
   "Rows identical on every column except the import row number X",
   "analysis_participants", dat$analysis_n,
-  "Distinct participants after exact-record deduplication",
+  "Canonical participants with known discussion groups",
   "polls", n_distinct(dpdat$dpnum), "Deliberative polls in the analysis data",
   "groups", n_distinct(dpdat$group_key), "Small groups across all polls",
   "indices", nrow(att_indices), "Rows in the validated attitude-index dictionary",

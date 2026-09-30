@@ -111,10 +111,15 @@ dp_source_path <- function(
 }
 
 read_dp_source <- function(name) {
-  read.delim(dp_source_path(name), check.names = FALSE)
+  path <- dp_source_path(name)
+  switch(tools::file_ext(path),
+    parquet = arrow::read_parquet(path),
+    csv = read.csv(path, check.names = FALSE),
+    read.delim(path, check.names = FALSE)
+  )
 }
 
-load_dp_data <- function() {
+load_historical_data <- function() {
   raw <- read_dp_source("participant_data")
   substantive <- setdiff(names(raw), "X")
   duplicate <- duplicated(raw[substantive])
@@ -157,3 +162,5 @@ oos_source_manifest <- function() {
 oos_source_path <- function(name) {
   dp_source_path(name, manifest = oos_source_manifest())
 }
+
+source(file.path(dp_project_root(), "scripts", "upstream_inputs.R"))

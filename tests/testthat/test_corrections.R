@@ -1,7 +1,7 @@
 source(testthat::test_path("..", "..", "scripts", "00_functions.R"))
 
 test_that("source poll IDs retain the raw dictionary mapping", {
-  dictionary <- read_dp_source("index_dictionary") |>
+  dictionary <- read_dp_source("corrected_index_dictionary") |>
     distinct(dpnum, poll_id)
   files <- c(
     "03_hom_pol_by_group_issue.csv", "05_attitude_change_by_group_issue.csv",
@@ -15,8 +15,7 @@ test_that("source poll IDs retain the raw dictionary mapping", {
 })
 
 test_that("combined-share regression uses the outcome's eligible respondents", {
-  participants <- read_dp_source("participant_data") |>
-    distinct(across(-X), .keep_all = TRUE) |>
+  participants <- load_dp_data()$dpdat |>
     mutate(advantaged = highinc == 1 & bettered == 1 & female == 0) |>
     filter(!is.na(hhincome), !is.na(advantaged)) |>
     summarise(disadvantaged_share = mean(!advantaged), .by = c(dpnum, pollgroup))
@@ -24,6 +23,7 @@ test_that("combined-share regression uses the outcome's eligible respondents", {
     "..", "..", "tabs", "03_dom_triple_by_group_issue.csv"
   )) |>
     select(poll_id, group_id, ext_grp) |>
+    mutate(group_id = as.character(group_id)) |>
     left_join(participants, by = c("poll_id" = "dpnum", "group_id" = "pollgroup"))
   expected <- lm(ext_grp ~ disadvantaged_share, data = pairs)
   actual <- read.csv(testthat::test_path(
@@ -54,13 +54,13 @@ test_that("paired and frequency sensitivities retain their stated samples", {
   )) |>
     filter(sample == "paired")
   measures <- c("D_gender", "D_educ", "D_income", "D_triple")
-  expect_equal(paired$n_pairs[match(measures, paired$measure)], c(2433, 2383, 1135, 972))
+  expect_equal(paired$n_pairs[match(measures, paired$measure)], c(2396, 2373, 1144, 810))
   frequencies <- read.csv(testthat::test_path(
     "..", "..", "tabs", "09_frequency_comparison.csv"
   ))
   expect_equal(with(frequencies, positive + unchanged + negative), rep(1, nrow(frequencies)))
   expect_equal(frequencies$positive_minus_negative, frequencies$positive - frequencies$negative)
   education <- filter(frequencies, measure == "D_educ")
-  expect_equal(education$p_majority, .196173370360819, tolerance = 1e-10)
-  expect_equal(education$p_parity, .005451218, tolerance = 1e-8)
+  expect_equal(education$p_majority, .00694901752939243, tolerance = 1e-10)
+  expect_equal(education$p_parity, .00199699840138198, tolerance = 1e-8)
 })
