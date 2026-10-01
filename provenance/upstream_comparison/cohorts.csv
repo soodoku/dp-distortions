@@ -1,0 +1,106 @@
+"stage","dpnum","pollname","participants","groups"
+"historical",1,"UK EU",238,16
+"historical",2,"UK Health",230,15
+"historical",3,"UK Monarchy",258,15
+"historical",4,"UK General Election",275,15
+"historical",5,"Australia Republic Referendum",347,24
+"historical",6,"UK Crime",299,20
+"historical",7,"Tomorrow's Europe (EU)",344,18
+"historical",8,"Central Power & Light",216,16
+"historical",9,"Zeguo Township",233,16
+"historical",10,"Bulgarian National",278,17
+"historical",11,"Europolis",348,25
+"historical",12,"New Haven, CT",132,16
+"historical",13,"National Issues Convention 2",340,24
+"historical",14,"By the People: National",245,15
+"historical",15,"By the People 2004 US General Election",246,15
+"historical",16,"By the People 2004 US Presidential Primaries",217,16
+"historical",17,"San Mateo, CA",239,26
+"historical",18,"By the People: Health and Education",454,30
+"historical",19,"West Texas Utilities",230,14
+"historical",20,"National Issues Convention",466,30
+"historical",21,"Southwestern Electric Power",232,14
+"corrected",1,"UK EU",234,15
+"corrected",2,"UK Health",230,15
+"corrected",3,"UK Monarchy",258,15
+"corrected",4,"UK General Election",275,15
+"corrected",5,"Australia Republic Referendum",347,24
+"corrected",6,"UK Crime",299,20
+"corrected",7,"Tomorrow's Europe (EU)",344,18
+"corrected",8,"Central Power & Light",216,16
+"corrected",9,"Zeguo Township",233,16
+"corrected",10,"Bulgarian National",278,17
+"corrected",11,"Europolis",348,25
+"corrected",12,"New Haven, CT",132,16
+"corrected",13,"National Issues Convention 2",340,24
+"corrected",14,"By the People: National",245,15
+"corrected",15,"By the People 2004 US General Election",248,15
+"corrected",16,"By the People 2004 US Presidential Primaries",217,16
+"corrected",17,"San Mateo, CA",239,26
+"corrected",18,"By the People: Health and Education",454,30
+"corrected",19,"West Texas Utilities",230,14
+"corrected",20,"National Issues Convention",466,30
+"corrected",21,"Southwestern Electric Power",232,14
+"participants",1,"UK EU",220,15
+"participants",2,"UK Health",228,15
+"participants",3,"UK Monarchy",258,15
+"participants",4,"UK General Election",275,15
+"participants",5,"Australia Republic Referendum",347,24
+"participants",6,"UK Crime",299,20
+"participants",7,"Tomorrow's Europe (EU)",332,18
+"participants",8,"Central Power & Light",216,16
+"participants",9,"Zeguo Township",233,16
+"participants",10,"Bulgarian National",278,17
+"participants",11,"Europolis",348,25
+"participants",12,"New Haven, CT",131,16
+"participants",13,"National Issues Convention 2",340,24
+"participants",14,"By the People: National",244,15
+"participants",15,"By the People 2004 US General Election",248,15
+"participants",16,"By the People 2004 US Presidential Primaries",217,16
+"participants",17,"San Mateo, CA",238,26
+"participants",18,"By the People: Health and Education",454,30
+"participants",19,"West Texas Utilities",230,14
+"participants",20,"National Issues Convention",456,30
+"participants",21,"Southwestern Electric Power",232,14
+"plain",1,"UK EU",220,15
+"plain",2,"UK Health",228,15
+"plain",3,"UK Monarchy",258,15
+"plain",4,"UK General Election",275,15
+"plain",5,"Australia Republic Referendum",347,24
+"plain",6,"UK Crime",299,20
+"plain",7,"Tomorrow's Europe (EU)",332,18
+"plain",8,"Central Power & Light",216,16
+"plain",9,"Zeguo Township",233,16
+"plain",10,"Bulgarian National",278,17
+"plain",11,"Europolis",348,25
+"plain",12,"New Haven, CT",131,16
+"plain",13,"National Issues Convention 2",340,24
+"plain",14,"By the People: National",244,15
+"plain",15,"By the People 2004 US General Election",248,15
+"plain",16,"By the People 2004 US Presidential Primaries",217,16
+"plain",17,"San Mateo, CA",238,26
+"plain",18,"By the People: Health and Education",454,30
+"plain",19,"West Texas Utilities",230,14
+"plain",20,"National Issues Convention",456,30
+"plain",21,"Southwestern Electric Power",232,14
+"primary",1,"UK EU",220,15
+"primary",2,"UK Health",228,15
+"primary",3,"UK Monarchy",258,15
+"primary",4,"UK General Election",275,15
+"primary",5,"Australia Republic Referendum",347,24
+"primary",6,"UK Crime",299,20
+"primary",7,"Tomorrow's Europe (EU)",332,18
+"primary",8,"Central Power & Light",216,16
+"primary",9,"Zeguo Township",233,16
+"primary",10,"Bulgarian National",278,17
+"primary",11,"Europolis",348,25
+"primary",12,"New Haven, CT",131,16
+"primary",13,"National Issues Convention 2",340,24
+"primary",14,"By the People: National",244,15
+"primary",15,"By the People 2004 US General Election",248,15
+"primary",16,"By the People 2004 US Presidential Primaries",217,16
+"primary",17,"San Mateo, CA",238,26
+"primary",18,"By the People: Health and Education",454,30
+"primary",19,"West Texas Utilities",230,14
+"primary",20,"National Issues Convention",456,30
+"primary",21,"Southwestern Electric Power",232,14

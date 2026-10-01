@@ -1,5 +1,11 @@
 # Correction and validation report
 
+This audit records the analysis at commit `3303249`, before the corrected-source
+adoption. Its numerical results and checks are preserved as historical evidence.
+Current results are in `tabs/`; the staged comparison is in
+[provenance/upstream_comparison/estimates.csv](provenance/upstream_comparison/estimates.csv).
+
+
 ## Verdict
 
 Across the observed deliberative polls, average signed homogenization,

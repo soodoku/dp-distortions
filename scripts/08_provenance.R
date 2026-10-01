@@ -56,17 +56,17 @@ paper_path <- paste0(
   "in-small-group-discussions.pdf"
 )
 upstream <- dp_source_manifest()
-upstream <- upstream[match(c("participant_data", "index_dictionary"), upstream$source), ]
-source_paths <- c(
-  paper_path, dp_source_path("participant_data"), dp_source_path("index_dictionary"), "renv.lock"
-)
+source_paths <- c(paper_path, map_chr(upstream$source, dp_source_path), "renv.lock")
 sources <- tibble(
-  source_id = c("paper_vor", "participant_data", "index_dictionary", "package_lock"),
+  source_id = c("paper_vor", upstream$source, "package_lock"),
   repository = c("soodoku/dp-distortions", upstream$repository, "soodoku/dp-distortions"),
   revision = c(NA_character_, upstream$revision, NA_character_),
   path = c(paper_path, upstream$path, "renv.lock"),
-  official_url = c("https://doi.org/10.1017/S0007123421000168", NA, NA, NA),
-  editable = c(FALSE, FALSE, FALSE, TRUE),
+  official_url = c(
+    "https://doi.org/10.1017/S0007123421000168",
+    rep(NA_character_, nrow(upstream) + 1L)
+  ),
+  editable = c(rep(FALSE, nrow(upstream) + 1L), TRUE),
   sha256 = map_chr(source_paths, \(p) digest::digest(p, algo = "sha256", file = TRUE))
 )
 write.csv(sources, "provenance/sources.csv", row.names = FALSE)
@@ -107,7 +107,10 @@ values_table2 <- bind_rows(
       claim_id = "C007", version = "fully_corrected",
       estimand = "Mean over actual valid group-index pairs",
       weighting = "One unit per valid group-index pair",
-      sample_rule = "Exact-record deduplication; undefined reference directions excluded"
+      sample_rule = paste(
+        "Canonical participants; plain upstream attitudes;",
+        "undefined reference directions excluded"
+      )
     )
 )
 
@@ -157,7 +160,7 @@ table3_values <- read.csv("tabs/03_table_3.csv") |>
     n_pairs,
     estimand = "Mean over actual valid group-index pairs",
     weighting = "One unit per valid group-index pair",
-    sample_rule = "Exact-record deduplication; undefined directions excluded"
+    sample_rule = "Canonical participants; plain upstream attitudes; undefined directions excluded"
   )
 
 parsing_values <- read.csv("tabs/07_parsing_domination.csv") |>

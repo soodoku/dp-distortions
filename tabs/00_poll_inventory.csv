@@ -1,22 +1,22 @@
 "dpnum","pollname","participants","groups","indices","possible_group_index_pairs"
-1,"UK EU",238,16,4,64
-2,"UK Health",230,15,9,135
+1,"UK EU",220,15,4,60
+2,"UK Health",228,15,9,135
 3,"UK Monarchy",258,15,4,60
 4,"UK General Election",275,15,4,60
 5,"Australia Republic Referendum",347,24,2,48
 6,"UK Crime",299,20,5,100
-7,"Tomorrow's Europe (EU)",344,18,7,126
+7,"Tomorrow's Europe (EU)",332,18,7,126
 8,"Central Power & Light",216,16,6,96
 9,"Zeguo Township",233,16,9,144
 10,"Bulgarian National",278,17,12,204
 11,"Europolis",348,25,2,50
-12,"New Haven, CT",132,16,2,32
+12,"New Haven, CT",131,16,2,32
 13,"National Issues Convention 2",340,24,9,216
-14,"By the People: National",245,15,9,135
-15,"By the People 2004 US General Election",246,15,6,90
+14,"By the People: National",244,15,9,135
+15,"By the People 2004 US General Election",248,15,6,90
 16,"By the People 2004 US Presidential Primaries",217,16,3,48
-17,"San Mateo, CA",239,26,4,104
+17,"San Mateo, CA",238,26,4,104
 18,"By the People: Health and Education",454,30,11,330
 19,"West Texas Utilities",230,14,6,84
-20,"National Issues Convention",466,30,9,270
+20,"National Issues Convention",456,30,9,270
 21,"Southwestern Electric Power",232,14,6,84

@@ -1,0 +1,41 @@
+{
+  "baseline_revision": "555b29d8dbd364c7f5048d3f32748fdb87e97bdb",
+  "candidate_revision": "896154a0a0b58e51a600075b76e0bbe60cc42e33",
+  "downstream_configuration_commit": "39c79284074fffb5ef101bd6d605b67b352832a0",
+  "primary_people": 5824,
+  "primary_groups": 396,
+  "polls": 21,
+  "paired_attitude_definitions": 129,
+  "group_issue_pairs": 2476,
+  "import_stages_exact": 5,
+  "model_designs_exact": 36,
+  "bootstrap_configurations_exact": 12,
+  "result_tables_byte_identical": 30,
+  "original_benchmark_pins_unchanged": true,
+  "oos_source_pins_unchanged": true,
+  "source_survey_weights_preserved_unapplied": true,
+  "wild_bootstrap_draws_repeated": false,
+  "bootstrap_saved_results": "Retained after exact effective X, y, poll-cluster, null, seed, and complete bootstrap-setting equivalence. All analytic inference fields recomputed exactly; recomputing multiple-test corrections from CSV-rounded wild p-values introduces only <=1e-15 differences, so original full-precision result tables retained.",
+  "proof_files": [
+    "final_pin_imports.csv",
+    "final_pin_models.csv",
+    "final_pin_bootstrap.csv",
+    "final_pin_tables.csv",
+    "final_pin_weights.csv"
+  ],
+  "validation": {
+    "tests": {
+      "passed": 613,
+      "failed": 0,
+      "error": 0,
+      "warning": 0,
+      "skipped": 0
+    },
+    "test_cases": 16,
+    "lint_findings": 0,
+    "validation_gates": 29,
+    "frozen_historical_audit": "passed",
+    "upstream_staged_comparison": "regenerated exactly",
+    "subgroup_flag_sensitivity": "regenerated exactly"
+  }
+}

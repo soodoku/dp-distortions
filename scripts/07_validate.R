@@ -21,14 +21,14 @@ dpdat <- dat$dpdat
 att_indices <- dat$att_indices
 hp <- read.csv("tabs/03_hom_pol_by_group_issue.csv")
 
-record_check("raw participant rows", dat$raw_n, 6084, dat$raw_n == 6084)
+record_check("raw participant rows", dat$raw_n, 5869, dat$raw_n == 5869)
 record_check(
-  "exact duplicate rows", nrow(dat$duplicate_rows), 217,
-  nrow(dat$duplicate_rows) == 217
+  "exact duplicate rows", nrow(dat$duplicate_rows), 0,
+  nrow(dat$duplicate_rows) == 0
 )
 record_check(
-  "analysis participants", dat$analysis_n, 5867,
-  dat$analysis_n == 5867
+  "analysis participants", dat$analysis_n, 5824,
+  dat$analysis_n == 5824
 )
 record_check(
   "unique participant keys", anyDuplicated(dpdat$participant_id), 0,
@@ -39,12 +39,12 @@ record_check(
   nrow(att_indices) == 129 && !anyDuplicated(att_indices$issue_id)
 )
 record_check(
-  "canonical pair rows", nrow(hp), 2480,
-  nrow(hp) == 2480 && !anyDuplicated(hp$pair_id)
+  "canonical pair rows", nrow(hp), 2476,
+  nrow(hp) == 2476 && !anyDuplicated(hp$pair_id)
 )
 
 expected_poll_pairs <- c(
-  64, 135, 60, 60, 48, 100, 126, 96, 144, 204, 50,
+  60, 135, 60, 60, 48, 100, 126, 96, 144, 204, 50,
   32, 216, 135, 90, 48, 104, 330, 84, 270, 84
 )
 observed_poll_pairs <- as.integer(table(factor(hp$poll_id, levels = 1:21)))
@@ -54,59 +54,45 @@ record_check(
   identical(observed_poll_pairs, as.integer(expected_poll_pairs))
 )
 record_check(
-  "valid H pairs", sum(!is.na(hp$homoex)), 2480,
-  sum(!is.na(hp$homoex)) == 2480
+  "valid H pairs", sum(!is.na(hp$homoex)), 2476,
+  sum(!is.na(hp$homoex)) == 2476
 )
 record_check(
-  "valid P pairs", sum(!is.na(hp$polarex)), 2431,
-  sum(!is.na(hp$polarex)) == 2431
+  "valid P pairs", sum(!is.na(hp$polarex)), 2429,
+  sum(!is.na(hp$polarex)) == 2429
 )
 
-raw <- read_dp_source("participant_data") |>
-  mutate(group_key = paste(dpnum, pollgroup, sep = ":"))
-attitude_columns <- unique(c(att_indices$t1var, att_indices$t2_t3var))
-raw_means <- raw |>
-  summarise(across(all_of(attitude_columns), \(x) mean(x, na.rm = TRUE)),
-    .by = group_key
-  )
-dedup_means <- dpdat |>
-  summarise(across(all_of(attitude_columns), \(x) mean(x, na.rm = TRUE)),
-    .by = group_key
-  )
-mean_difference <- raw_means |>
-  inner_join(dedup_means, by = "group_key", suffix = c("_raw", "_dedup")) |>
-  select(-group_key) |>
-  as.matrix()
-half <- ncol(mean_difference) / 2
-raw_matrix <- mean_difference[, seq_len(half)]
-dedup_matrix <- mean_difference[, half + seq_len(half)]
-max_mean_change <- max(abs(raw_matrix - dedup_matrix), na.rm = TRUE)
 record_check(
-  "deduplication preserves group means", max_mean_change, "<=1e-15",
-  max_mean_change <= 1e-15
+  "only eligible canonical participants", sum(dpdat$participant), nrow(dpdat),
+  all(dpdat$participant) && !anyNA(dpdat$pollgroup)
+)
+record_check(
+  "upstream subgroup definitions", nrow(dpdat), nrow(dpdat),
+  identical(dpdat$bettered, as.numeric(dpdat$education_above_median)) &&
+    identical(dpdat$highinc, as.numeric(dpdat$income_above_median))
 )
 
 expected_domination <- tribble(
   ~dimension, ~rows, ~other_missing, ~reference_undefined, ~valid, ~genuine_zero,
-  "educ", 2437, 1, 51, 2385, 72,
-  "gender", 2476, 0, 40, 2436, 73,
-  "income", 1162, 1, 17, 1144, 13,
-  "triple", 1000, 6, 11, 983, 11
+  "educ", 2429, 9, 35, 2385, 30,
+  "gender", 2472, 0, 44, 2428, 35,
+  "income", 1162, 1, 17, 1144, 12,
+  "triple", 837, 9, 6, 822, 7
 )
 
 headline_expected <- c(
-  H = 0.012849354,
-  Hb = 0.585887097,
-  P = -0.022210726,
-  Pb = 0.439736734,
-  gender_D = 0.001754300,
-  gender_Db = 0.471264368,
-  educ_D = 0.010042516,
-  educ_Db = 0.523270440,
-  income_D = 0.001506264,
-  income_Db = 0.505244755,
-  triple_D = 0.012851850,
-  triple_Db = 0.518819939
+  H = 0.0157576260528742,
+  Hb = 0.59248788368336,
+  P = -0.0126755571925563,
+  Pb = 0.481268011527378,
+  gender_D = 0.00121358372642609,
+  gender_Db = 0.481878088962109,
+  educ_D = 0.0136104676822423,
+  educ_Db = 0.546750524109015,
+  income_D = 0.00309926230291138,
+  income_Db = 0.502622377622378,
+  triple_D = 0.0143886566753808,
+  triple_Db = 0.543795620437956
 )
 headline_observed <- c(
   H = mean(hp$homoex, na.rm = TRUE),
@@ -184,8 +170,8 @@ record_check(
 record_check(
   "attitude-change estimates",
   paste(round(attitude_change$estimate, 9), collapse = ","),
-  "0.089414382,0.202664408",
-  max(abs(attitude_change$estimate - c(0.089414382, 0.202664408))) <= 5e-10
+  "0.086968037,0.199907625",
+  max(abs(attitude_change$estimate - c(0.08696803667474171, 0.19990762469791401))) <= 5e-10
 )
 
 analytical_scripts <- c(
