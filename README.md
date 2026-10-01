@@ -37,7 +37,7 @@ Dependencies are declared in [DESCRIPTION](DESCRIPTION) and pinned in
 
 ```sh
 git clone --filter=blob:none --no-checkout https://github.com/soodoku/dp-data.git ../dp-data
-git -C ../dp-data checkout 555b29d8dbd364c7f5048d3f32748fdb87e97bdb
+git -C ../dp-data checkout 896154a0a0b58e51a600075b76e0bbe60cc42e33
 make restore
 make ci
 ```
@@ -47,6 +47,13 @@ and discussion-group definitions from dp-data. It uses the 129 existing paired
 attitude definitions across 21 polls, selecting their plain, missing-preserving
 versions. Education and income subgroups use dp-data's within-poll median flags.
 The model formulas, weighting, and inference procedures are unchanged.
+The final source pin also corrects Australia’s knowledge checklist and its six
+baseline, joint, and gain definitions. Those fields do not enter these attitude
+models. Exact effective-input comparisons confirm the same 5,824-person cohort,
+36 model designs, 12 wild-bootstrap configurations, and all 30 result tables
+([equivalence proof](provenance/upstream_comparison/final_pin_equivalence.json)).
+The saved 99,999-draw bootstrap results remain valid. Source survey weights remain
+available upstream and are not applied here.
 
 Set `DP_DATA_ROOT` to the pinned checkout or extracted archive;
 [data/sources.csv](data/sources.csv) records exact revisions and SHA-256 hashes.
